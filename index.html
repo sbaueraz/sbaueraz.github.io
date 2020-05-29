@@ -8,7 +8,7 @@
           box-sizing: border-box;
           font-family: 'Open Sans', sans-serif;
           font-weight: 300;
-          background-color:#ddd;
+          background-color:white;
         }
         a {
           text-decoration: none;
@@ -22,20 +22,21 @@
           margin: 1em auto 2.25em;
         }
         body {
-          width: 40%;
-          min-width: 300px;
-          max-width: 400px;
-          margin: 1.5em auto;
           color: #333;
         }
         h1 {
+          margin: 1.5em auto;
           font-family: 'Pacifico', cursive;
           font-weight: 400;
           font-size: 2.5em;
         }
         ul {
+          width: 40%;
+          min-width: 300px;
+          max-width: 400px;
           list-style: none;
           padding: 0;
+
         }
         ul .inner {
           padding-left: 1em;
@@ -108,11 +109,13 @@
                 $this.next().toggleClass('show');
                 $this.next().slideToggle(350);
             }
+            $("#windsofchaos").hide();
         });
     });
 </script>
 
 <body>
+    <img src='CriticalHitChart.png'></img>
     <ul id="chart" class="accordian"></ul>
     <div id='windsofchaos'>
         <a href='https://www.windsofchaos.com/?page_id=19'>Based on the work of Chuck Morrison</a>
