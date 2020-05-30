@@ -130,8 +130,7 @@
                     let txt=$(this).html();
                     if (txt.includes('#')) {
                         $(this).html('# (' + d100 + ')');
-                    }
-                    if (txt.includes('-')) {
+                    } else if (txt.includes('-')) {
                         if (d100 >= parseInt(txt.split('-')[0]) &&
                             d100 <= parseInt(txt.split('-')[1])) {
                             rowVal = $(this).attr('id').split('_')[1];
