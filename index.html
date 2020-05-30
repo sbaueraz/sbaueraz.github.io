@@ -59,9 +59,19 @@
           background: rgba(0, 0, 0, 0.9);
         }
         #windsofchaos {
-            position: absolute;
-            bottom: 0;
-            left: 0;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+        #critchart {
+          display: grid;
+          grid-template-columns: 70px repeat(10,60px);
+        }
+        #critchart div {
+          text-align: center;
+          font-weight: bold;
+          line-height: 1.5;
+          box-shadow: 0 0 1px 2px grey;
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -75,16 +85,11 @@
             html += '<li><a class="toggle">' + chart[dt].chartName + "</a>";
             html +=     '<ul class="inner">';
             for (var loc = 0;loc < chart[dt].chartData.length;loc ++) {
-                console.log("data",chart[dt].chartData[loc]);
                 html += '<li>';
                 html += '<a class="toggle">' + chart[dt].chartData[loc].location + "</a>";
                 html += '<ul class="inner">';
                 for (var lvl = 0;lvl < chart[dt].chartData[loc].wounds.length; lvl++) {
                     html += '<li>';
-//                    html += '<a class="toggle">Level ' + chart[dt].chartData[loc].wounds[lvl].level + "</a>";
-//                    html += '<ul class="inner">';
-//                    html += '<p>' + chart[dt].chartData[loc].wounds[lvl].description + "</p></ul></li>";
-
                     html += '<a class="toggle">Level ' + chart[dt].chartData[loc].wounds[lvl].level + "</a>";
                     html += '<ul class="inner">';
                     html += '<p>' + chart[dt].chartData[loc].wounds[lvl].description + "</p></ul></li>";
@@ -112,11 +117,73 @@
             }
             $("#windsofchaos").hide();
         });
+
+        $("#critchart div").click(function () {
+            let txt=$(this).html();
+            if (txt.includes('+')) {
+                let columnVal = $(this).attr('id').substring(4);
+                let rowVal = 0;
+                let d100 = Math.floor(Math.random() * 100) + 1;
+                console.log("column:",columnVal,d100);
+
+                $('#critchart').children('div').each(function() {
+                    let txt=$(this).html();
+                    if (txt.includes('#')) {
+                        $(this).html('# (' + d100 + ')');
+                    }
+                    if (txt.includes('-')) {
+                        if (d100 >= parseInt(txt.split('-')[0]) &&
+                            d100 <= parseInt(txt.split('-')[1])) {
+                            rowVal = $(this).attr('id').split('_')[1];
+                            console.log("found row:",rowVal);
+                        }
+                    } else if (!txt.includes('+')) {
+                        let nbrRow = $(this).attr('id').split('_')[1];
+                        let nbrCol = $(this).attr('id').substring(4).split('_')[0];
+                        console.log(nbrRow,nbrCol);
+                        if (rowVal == nbrRow && columnVal == nbrCol)
+                            $(this).css('background-color','#f88');
+                        else if (parseInt(txt) > 9)
+                            $(this).css('background-color','#ddd');
+                        else 
+                            $(this).css('background-color','#fff');
+                      }
+                });
+            }
+        });
+
+        colorGrid();
     });
+    function colorGrid() {
+        $('#critchart').children('div').each(function() {
+            let txt=$(this).html();
+            if (txt.includes('-') || txt.includes('+') || txt == '#')
+                $(this).css('background-color','#aaa');
+            else if (parseInt(txt) > 9)
+                $(this).css('background-color','#ddd');
+        });
+    }
 </script>
 
 <body>
-    <img src='CriticalHitChart.png'></img>
+    <div id="critchart">
+      <div id="cell0">#</div>        <div id="cell1">+1</div>   <div id="cell2">+2</div>   <div id="cell3">+3</div>   <div id="cell4">+4</div>   <div id="cell5">+5</div>   <div id="cell6">+6</div>   <div id="cell7">+7</div>   <div id="cell8">+8</div>   <div id="cell9">+9</div>   <div id="cell10">+10</div>
+      <div id="cell0_01">01-07</div> <div id="cell1_01">1</div> <div id="cell2_01">1</div> <div id="cell3_01">1</div> <div id="cell4_01">2</div> <div id="cell5_01">3</div> <div id="cell6_01">4</div> <div id="cell7_01">5</div> <div id="cell8_01">6</div> <div id="cell9_01">7</div> <div id="cell10_01">8</div>
+      <div id="cell0_02">08-14</div> <div id="cell1_02">1</div> <div id="cell2_02">1</div> <div id="cell3_02">2</div> <div id="cell4_02">3</div> <div id="cell5_02">4</div> <div id="cell6_02">5</div> <div id="cell7_02">6</div> <div id="cell8_02">7</div> <div id="cell9_02">8</div> <div id="cell10_02">9</div>
+      <div id="cell0_03">15-21</div> <div id="cell1_03">1</div> <div id="cell2_03">2</div> <div id="cell3_03">3</div> <div id="cell4_03">4</div> <div id="cell5_03">5</div> <div id="cell6_03">6</div> <div id="cell7_03">7</div> <div id="cell8_03">8</div> <div id="cell9_03">9</div> <div id="cell10_03">10</div>
+      <div id="cell0_04">22-28</div> <div id="cell1_04">2</div> <div id="cell2_04">3</div> <div id="cell3_04">4</div> <div id="cell4_04">5</div> <div id="cell5_04">6</div> <div id="cell6_04">7</div> <div id="cell7_04">8</div> <div id="cell8_04">9</div> <div id="cell9_04">10</div><div id="cell10_04">11</div>
+      <div id="cell0_05">29-35</div> <div id="cell1_05">3</div> <div id="cell2_05">4</div> <div id="cell3_05">5</div> <div id="cell4_05">6</div> <div id="cell5_05">7</div> <div id="cell6_05">8</div> <div id="cell7_05">9</div> <div id="cell8_05">10</div><div id="cell9_05">11</div><div id="cell10_05">12</div>
+      <div id="cell0_06">36-42</div> <div id="cell1_06">4</div> <div id="cell2_06">5</div> <div id="cell3_06">6</div> <div id="cell4_06">7</div> <div id="cell5_06">8</div> <div id="cell6_06">9</div> <div id="cell7_06">10</div><div id="cell8_06">11</div><div id="cell9_06">12</div><div id="cell10_06">13</div>
+      <div id="cell0_07">43-49</div> <div id="cell1_07">5</div> <div id="cell2_07">6</div> <div id="cell3_07">7</div> <div id="cell4_07">8</div> <div id="cell5_07">9</div> <div id="cell6_07">10</div><div id="cell7_07">11</div><div id="cell8_07">12</div><div id="cell9_07">13</div><div id="cell10_07">13</div>
+      <div id="cell0_08">50-56</div> <div id="cell1_08">6</div> <div id="cell2_08">7</div> <div id="cell3_08">8</div> <div id="cell4_08">9</div> <div id="cell5_08">10</div><div id="cell6_08">11</div><div id="cell7_08">12</div><div id="cell8_08">13</div><div id="cell9_08">13</div><div id="cell10_08">14</div>
+      <div id="cell0_09">57-63</div> <div id="cell1_09">7</div> <div id="cell2_09">8</div> <div id="cell3_09">9</div> <div id="cell4_09">10</div><div id="cell5_09">11</div><div id="cell6_09">12</div><div id="cell7_09">13</div><div id="cell8_09">13</div><div id="cell9_09">14</div><div id="cell10_09">14</div>
+      <div id="cell0_10">64-70</div> <div id="cell1_10">8</div> <div id="cell2_10">9</div> <div id="cell3_10">10</div><div id="cell4_10">11</div><div id="cell5_10">12</div><div id="cell6_10">13</div><div id="cell7_10">13</div><div id="cell8_10">14</div><div id="cell9_10">14</div><div id="cell10_10">15</div>
+      <div id="cell0_11">71-76</div> <div id="cell1_11">9</div> <div id="cell2_11">10</div><div id="cell3_11">11</div><div id="cell4_11">12</div><div id="cell5_11">13</div><div id="cell6_11">13</div><div id="cell7_11">14</div><div id="cell8_11">14</div><div id="cell9_11">15</div><div id="cell10_11">15</div>
+      <div id="cell0_12">77-82</div> <div id="cell1_12">10</div><div id="cell2_12">11</div><div id="cell3_12">12</div><div id="cell4_12">13</div><div id="cell5_12">13</div><div id="cell6_12">14</div><div id="cell7_12">14</div><div id="cell8_12">15</div><div id="cell9_12">15</div><div id="cell10_12">15</div>
+      <div id="cell0_13">83-88</div> <div id="cell1_13">11</div><div id="cell2_13">12</div><div id="cell3_13">13</div><div id="cell4_13">14</div><div id="cell5_13">14</div><div id="cell6_13">14</div><div id="cell7_13">15</div><div id="cell8_13">15</div><div id="cell9_13">15</div><div id="cell10_13">15</div>
+      <div id="cell0_14">89-94</div> <div id="cell1_14">12</div><div id="cell2_14">13</div><div id="cell3_14">14</div><div id="cell4_14">14</div><div id="cell5_14">14</div><div id="cell6_14">15</div><div id="cell7_14">15</div><div id="cell8_14">15</div><div id="cell9_14">15</div><div id="cell10_14">15</div>
+      <div id="cell0_15">95-100</div><div id="cell1_15">13</div><div id="cell2_15">14</div><div id="cell3_15">15</div><div id="cell4_15">15</div><div id="cell5_15">15</div><div id="cell6_15">15</div><div id="cell7_15">15</div><div id="cell8_15">15</div><div id="cell9_15">15</div><div id="cell10_15">15</div>
+    </div>
     <ul id="chart" class="accordian"></ul>
     <div id='windsofchaos'>
         <a href='https://www.windsofchaos.com/?page_id=19'>Based on the work of Chuck Morrison</a>
