@@ -17,12 +17,12 @@
         p {
           font-size: 1.1em;
           margin: 1em 0;
+          text-align: justify;
         }
         .description {
           margin: 1em auto 2.25em;
         }
         body {
-          color: #333;
         }
         h1 {
           margin: 1.5em auto;
@@ -31,16 +31,13 @@
           font-size: 2.5em;
         }
         ul {
-          width: 40%;
-          min-width: 300px;
-          max-width: 400px;
+          width: 400px;
           list-style: none;
           padding: 0;
 
         }
         ul .inner {
           padding-left: 1em;
-          overflow: hidden;
           display: none;
         }
         ul .inner.show {
@@ -2509,7 +2506,77 @@ var chart =
         ]
       }
     ]
-  }
-]    
+  },
+  {
+    "chartName": "Winged",
+    "chartData":
+    [
+    {
+      "location": "Wing",
+      "wounds": [
+        {
+          "level": 1,
+          "description": "Wing is buffeted. The creature may not perform any attack actions on its next turn as it stumbles backward or, if airborne, staggers in the air."
+        },
+        {
+          "level": 2,
+          "description": "Wing takes a glancing blow. The creature suffers a penalty of –10% to all tests until the end of its next turn."
+        },
+        {
+          "level": 3,
+          "description": "Wing-muscles are bruised. The creature suffers a penalty of –20% to all tests until the end of its next turn."
+        },
+        {
+          "level": 4,
+          "description": "Wing is badly buffeted. If airborne, the creature loses one half-action and must pass a Routine (+10%) Ag test or lose one level of altitude as it flaps its wings madly to regain lost air. If on the ground, count as #3 instead, plus it cannot take off during its next turn."
+        },
+        {
+          "level": 5,
+          "description": "Feathers are torn off or a wing membrane ripped. Flying speed is reduced by ¼. The creature must pass a Challenging (-10%) Ag test or lose one level of altitude. If on the ground, it cannot take off during its next turn. The damage will heal naturally in three weeks, whereupon full flying speed is restored."
+        },
+        {
+          "level": 6,
+          "description": "As #5 except flying speed is halved and Ag test is Hard (-20%)."
+        },
+        {
+          "level": 7,
+          "description": "A large blood vessel in the wing has been nicked. The creature will suffer a cumulative penalty of –5% to WS, BS, Ag and S every second turn, falling unconscious when any of those characteristics reaches zero. Fortunately, the bleeding will then stop spontaneously, preventing the creature from bleeding out completely."
+        },
+        {
+          "level": 8,
+          "description": "Wing badly torn. If on the ground, creature counts as stunned. The creature will lose one level of altitude per turn until it reaches the ground, whereupon it must pass an Average Ag test or take falling damage as if falling from 3 yards up, possibly resulting in another Critical Hit to a random location. Since no Falling Damage chart exists yet, it is suggested the GM counts any 1-5 result as stunning for that number of turns regardless of location; any 6-10 result to a limb as a broken limb rendering the limb useless and requiring four weeks to heal; any 6-10 result to body or head as immediate unconsciousness; any 11-15 result to a limb as a really bad fracture requiring either magical or surgical healing to avoid amputation; and any 11-15 result to head or body as instant death. Regardless, flying speed is reduced to 0 for three weeks, and then halved for another three weeks, whereupon full flying speed is restored."
+        },
+        {
+          "level": 9,
+          "description": "As #8 except creature will lose two levels of altitude per turn, Ag test will count as Hard (-20%) and failure will count as falling from 9 yards up. If on the ground, creature will also count as stunned for d10/2 turns."
+        },
+        {
+          "level": 10,
+          "description": "Wing incapacitated and several of its bones broken. If airborne, the creature will fall out of the air, taking falling damage as appropriate. Flying speed is reduced to 0. Unless set with either a successful Challenging (-10%) Heal test or a successful Very Hard (-30%) Animal Care test, the wing is permanently useless. Otherwise it’ll regain half its flying speed in three weeks, and full speed in another three. If on the ground, creature counts as stunned for d10/2 turns."
+        },
+        {
+          "level": 11,
+          "description": "As #10 except wing is permanently useless due to damage to nerves and major tendons."
+        },
+        {
+          "level": 12,
+          "description": "As #11 except large blood vessels have been severed, causing bleeding that will make the creature suffer a cumulative penalty of –5% to WS, BS, Ag and S each turn, falling unconscious when any of those characteristics reaches zero. Unless the bleeding is stopped with a successful Heal test, which will take two turns and also require a successful Animal Care test to calm it down (if the creature is intelligent and cooperative, no such test is required) before the attempt can be made, the creature will die from loss of blood in another 2d10 turns."
+        },
+        {
+          "level": 13,
+          "description": "Wing severed completely at the middle joint. If airborne, creature will fall out of the air, taking falling damage as appropriate. Due to bleeding, it will suffer bleeding as per #12 except at a rate of –10% per turn, dying within d10 turns after falling unconscious."
+        },
+        {
+          "level": 14,
+          "description": "Wing severed near the body. If airborne, creature will fall out of the air, taking falling damage as appropriate. It falls immediately unconscious from shock and loss of blood, dying inevitably within d10 turns."
+        },
+        {
+          "level": 15,
+          "description": "The attack drives into the wing joint and on into the torso, piercing lung and heart, killing the creature immediately."
+        }
+      ]
+    }
+]}
+]
 </script>
 </html>
