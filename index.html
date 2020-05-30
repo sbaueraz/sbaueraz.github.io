@@ -81,6 +81,10 @@
                 html += '<ul class="inner">';
                 for (var lvl = 0;lvl < chart[dt].chartData[loc].wounds.length; lvl++) {
                     html += '<li>';
+//                    html += '<a class="toggle">Level ' + chart[dt].chartData[loc].wounds[lvl].level + "</a>";
+//                    html += '<ul class="inner">';
+//                    html += '<p>' + chart[dt].chartData[loc].wounds[lvl].description + "</p></ul></li>";
+
                     html += '<a class="toggle">Level ' + chart[dt].chartData[loc].wounds[lvl].level + "</a>";
                     html += '<ul class="inner">';
                     html += '<p>' + chart[dt].chartData[loc].wounds[lvl].description + "</p></ul></li>";
@@ -2646,7 +2650,274 @@ var chart =
         }
       ]
     }
-]}
+]},
+
+{
+    "chartName": "Large Monster",
+    "chartData":
+    [
+    {
+      "location": "Arm",
+      "wounds": [
+        {
+          "level": 1,
+          "description": "You barely scratch the thick hide of the monster; no effect."
+        },
+        {
+          "level": 2,
+          "description": "You open up a painful furrow in the monster’s thick hide, causing it to suffer a penalty of –10% to its WS until the end of its next turn."
+        },
+        {
+          "level": 3,
+          "description": "Your blow sinks into the monster’s flesh at its shoulder. It roars with fury at the pain, losing one Attack on its next turn."
+        },
+        {
+          "level": 4,
+          "description": "Your strike bites into the monster’s huge paw, discomforting and angering it. If your blow was struck in close combat, your weapon sticks and you may not perform any further attacks or parries with it until it is dislodged. On its next turn, the monster yanks its limb away, dislodging the weapon but losing one halfaction while doing so. If the weapon was of Poor craftsmanship it breaks."
+        },
+        {
+          "level": 5,
+          "description": "Your weapon sinks into the soft flesh of the monster’s palm, the intense pain causing it to suffer a penalty of –20% to its WS until the end of its next turn."
+        },
+        {
+          "level": 6,
+          "description": "The monster loses the last joint of one of its fingers, causing it to lose one half-action as it waves it huge paw in the air, screaming with rage."
+        },
+        {
+          "level": 7,
+          "description": "You gash open the monster’s forearm, causing hot, dark, steaming blood to spurt from the wound. The monster loses two Attacks on its next turn as it howls with pain."
+        },
+        {
+          "level": 8,
+          "description": "You pierce the monster’s shoulder, causing your weapon to become stuck as per #4 above. The strike has severed enough corded muscle and huge tendons to make the monster lose one attack until the injury has healed in six minus TB months (a minimum of one month). If the monster only had a single Attack it can still use it but must halve its WS until healed."
+        },
+        {
+          "level": 9,
+          "description": "The monster staggers from the blow. If needs to pass an Average Ag test or be knocked down. Otherwise it loses one half-action as it struggles to keep its feet."
+        },
+        {
+          "level": 10,
+          "description": "Your attack pierces a large joint. The monster is stunned until the end of its next turn and loses one Attack permanently. If the monster only had a single Attack it can still use it but must halve (rounding up) its WS and SB permanently."
+        },
+        {
+          "level": 11,
+          "description": "Your blow almost severs the monster’s hand, with results as per #10 above. In addition, due to loss of blood, it must pass an Easy (+20%) T test next turn or halve its SB (rounding up). If successful, it merely loses one point of SB. Any lost points of SB will be regained at a rate of one point per week if the monster survives the battle."
+        },
+        {
+          "level": 12,
+          "description": "Your weapon becomes stuck, deeply embedded in the monster’s shoulder. Withdrawing it requires a half-action and a successful Hard (-20%) S test by either you or the monster. Until removed, the monster suffers a penalty of –20% to all tests and loses two Attacks (although only one Attack will be lost if the monster had an A characteristic of only 1 or 2) from the intense pain and discomfort. Once withdrawn, the penalty is reduced to –10% to WS and –1 to A until the shoulder has healed in six minus TB months (although a minimum of one month). If your attack was performed with a projectile weapon, simply count the weapon as dislodged from the very start."
+        },
+        {
+          "level": 13,
+          "description": "You manage to practically sever the monster’s arm at the elbow, making it lose two Attacks for the duration of the battle (although only one Attack will be lost if the monster had an A characteristic of only 1 or 2), one of the lost Attacks being permanent as per #10 above. In addition, due to loss of blood, it suffers a 20% risk of falling unconscious each turn. If it passes five turns without passing out, the bleeding stops and it is no longer in risk of falling unconscious but must halve its SB (rounding up), regaining it at one point per week if it survives the battle."
+        },
+        {
+          "level": 14,
+          "description": "Your attack has deeply penetrated the monster’s shoulder, driving on into its chest, piercing vital organs. The monster suffers a cumulative penalty of –10% to its WS and S each turn, falling unconscious when either of those characteristics reaches zero. It will then die in another d10 turns."
+        },
+        {
+          "level": 15,
+          "description": "The monster’s arm is practically entirely torn from its body at the shoulder. Blood gushes out and the monster staggers backwards before collapsing unconscious, dying inevitably within d10/2 turns."
+        }
+      ]
+    },
+    {
+      "location": "Head",
+      "wounds": [
+        {
+          "level": 1,
+          "description": "Your attack barely scratches the thick hide of the monster; no effect."
+        },
+        {
+          "level": 2,
+          "description": "You open up a painful furrow in the monster’s thick hide, causing it to suffer a penalty of –10% to its WS until the end of its next turn."
+        },
+        {
+          "level": 3,
+          "description": "Your attack grazes the monster’s eye, causing it to flinch and lose one Attack on its next turn."
+        },
+        {
+          "level": 4,
+          "description": "A tooth is knocked out of the monster’s mouth, causing it to lose one half-action as it spits blood and roars in fury. If your attack was made in close combat and the monster can pass an Average Ag test, it snaps at your weapon, preventing you from making any further attacks this turn. If the weapon is of Poor craftsmanship, it breaks."
+        },
+        {
+          "level": 5,
+          "description": "One of the monster’s ears is largely torn off or severed by your attack. The pain makes it suffer a penalty of –20% to its WS until the end of its next turn."
+        },
+        {
+          "level": 6,
+          "description": "You open up a long but shallow gash in the monster’s neck. It loses one half-action as it shakes its large head, sending droplets of blood flying."
+        },
+        {
+          "level": 7,
+          "description": "Your attack hits smack dab in the centre of the monster’s forehead, making its eyes cross and causing it to stagger drunkenly, losing two Attacks on its next turn."
+        },
+        {
+          "level": 8,
+          "description": "Your weapon sinks into the monster’s mighty neck but misses any large blood vessels and then becomes stuck. If the blow was struck in close combat, you must pass an Average S test or lose your grip on it as the beast shakes its head to dislodge the stinging weapon. If you manage to hold on to it you must pass another Average S test on your next turn to dislodge it, allowing you to take actions normally, but until you do you may not use it for parrying or attacking. Regardless, the monster has had its large windpipe gashed, making it cough blood and wheeze hideously at it breathes. Its number of Attacks is halved for the duration of the combat, due to the distraction and pain."
+        },
+        {
+          "level": 9,
+          "description": "A mighty blow smashes into the side of the monster’s head, severing any protruding horns, antennas or ears on that side as the GM sees fit. It must pass a Hard (-20%) T test or be stunned until the end of its next turn."
+        },
+        {
+          "level": 10,
+          "description": "Your strike fractures the monster’s jaw, stunning it until the end of its next turn. The pain also causes it to suffer a penalty of – 20% to all tests for the duration of the combat. It will also probably need to learn the joys of soft fare for a few weeks."
+        },
+        {
+          "level": 11,
+          "description": "Your weapon deeply pierces the monster’s eye, blinding it on that side. It permanently loses one Attack due to lack of coordination. In addition, it is stunned until the end of its next turn and will suffer a penalty of –20% to all tests for the duration of the combat. It must also permanently reduce any BS or sight-based Perception test by half."
+        },
+        {
+          "level": 12,
+          "description": "Your blow smashes into the monster’s skull with a resounding crack of fracturing bone, causing blood to flow from its ears and nostrils. It is stunned until the end of its next turn and must halve its number of Attacks (rounding up) for the duration of the combat. In addition, due to brain damage, one Attack will be lost permanently and it will have to pass a Hard (-20%) T test or sufCritical Hits – Large Monsters Critical Hit Effects by Josef Tham, v2.0. After tables by Chuck Morrison at www.windsofchaos.com fer a permanent penalty of –10% to all tests based on Ag, Int or WP."
+        },
+        {
+          "level": 13,
+          "description": "Your weapon goes in through the monster’s mouth, lacerating its tongue and knocking out a few teeth before sinking into its palate. Although failing to penetrate all the way to the brain or spinal cord, it is nevertheless a painful and incapacitating blow. The monster counts as stunned for d10/2 turns and will afterward lose one half-action per round and suffer a penalty of –20% to all tests as it chokes on its own blood. These effects will last for the duration of the combat, after which it suffers only the –20% penalty due to pain until it has healed itself back to Lightly Wounded."
+        },
+        {
+          "level": 14,
+          "description": "You open the monster’s throat with a mighty stroke, making steaming blood spurt out in great jets. The monster suffers a cumulative penalty of –20% to its WS and S each turn, falling unconscious when either of those characteristics reaches zero, dying within another d10 turns."
+        },
+        {
+          "level": 15,
+          "description": "Your weapon severs the monster’s neck or pierces its eye or bashes open its skull, killing it in whatever manner the GM sees as most dramatic. If the blow was struck in close combat, there is a 50% risk the monster will fall on you. In that case you must pass an Average Ag test or suffer a hit with a Damage of 1/10 of the monster’s original Wounds characteristic (rounding up). If this causes a critical hit, use the Sudden Death rules, counting a fatal result as a messy death and any No Effect result as you getting helplessly trapped underneath the monster’s bulk, requiring either outside help or a successful Hard (-20%) S test to get out from under it."
+        }
+      ]
+    },
+    {
+      "location": "Body",
+      "wounds": [
+        {
+          "level": 1,
+          "description": "You barely scratch the thick hide of the monster; no effect."
+        },
+        {
+          "level": 2,
+          "description": "You open up a painful furrow in the monster’s thick hide, causing it to suffer a penalty of –10% to its WS until the end of its next turn."
+        },
+        {
+          "level": 3,
+          "description": "Your weapon punches into the monster’s chest, piercing its thick skin but not penetrating to any vital organs. The monster loses one Attack as it flinches from the pain."
+        },
+        {
+          "level": 4,
+          "description": "Your weapon leaves a large flap of skin dangling from the monster’s chest. If you or anyone else specifically aim any further attacks against its Body (taking a –20% to hit penalty for aiming at a specific hit location), then any natural armour counts as having one point of AP less. Hits randomly located to the Body do not benefit in this way. This result can be repeated several times, reducing the effectiveness of any natural armour further."
+        },
+        {
+          "level": 5,
+          "description": "Your strike carves deeply into the monster’s belly, only just failing to tear deeper into its guts, causing it to suffer a penalty of – 20% to its WS until the end of its next turn."
+        },
+        {
+          "level": 6,
+          "description": "A telling hit smashes into the monster’s spine, sending it reeling. It loses a half-action as it regains its balance."
+        },
+        {
+          "level": 7,
+          "description": "Your weapon becomes stuck in the monster’s chest, lodged between thick ribs. You must win a contested S test against the monster, each attempt from either of you requiring a half-action. If you win, you have regained your weapon. If the monster wins, it has torn the weapon from your grasp. As long as the weapon is both stuck and in your hand, the pain of its blade twisting and tearing its flesh causes the monster to lose one half-action each turn. If the attack was made with a projectile weapon or a blunt weapon (like a mace or hammer), simply count the result as a rib fracture, causing the monster to suffer a penalty of –10% to all tests for the duration of the battle."
+        },
+        {
+          "level": 8,
+          "description": "Your blow has broken something within the monster’s mighty torso. The pain causes it to lose one Attack for the duration of the battle. (If it only has a single Attack, it may still use it but at half WS.)"
+        },
+        {
+          "level": 9,
+          "description": "Your weapon bites deeply into the monster’s chest, exposing gleaming ribs. The monster counts as stunned until the end of its next turn."
+        },
+        {
+          "level": 10,
+          "description": "Your weapon exposes yellowish vertebras as it carves into the monster’s back between its huge shoulder-blades. The sharp pain lancing out from the injury halves its number of Attacks (rounding up) for d10/2 turns."
+        },
+        {
+          "level": 11,
+          "description": "Your furious attack sends the monster staggering backwards, coughing up blood, several ribs staved in. It counts as stunned until the end of its next turn, and must then halve its number of Attacks until its mangled chest has healed in six minus TB months (although a minimum of one month)."
+        },
+        {
+          "level": 12,
+          "description": "Your weapon drives into the monster’s chest with great force, embedding itself deeply, piercing one lung. The monster finds itself suddenly short of breath and spewing up frothy blood in great quantities. If the attack was performed in close combat, a weapon of Poor craftsmanship breaks off within your foe’s body, ruining it. Dislodging your weapon requires a half-action and a successful Challenging (-10%) S test. Regardless, the monster loses one half-action per turn. The effect lasts until it has healed in six minus TB months (although a minimum of one month)."
+        },
+        {
+          "level": 13,
+          "description": "You strike hard into your mighty foe’s spine, severing it. The monster’s lower body is permanently paralysed and, apart from being knocked down and unable to move at a faster pace than a crawl, it must halve its number of attacks for the duration of the battle."
+        },
+        {
+          "level": 14,
+          "description": "Your weapon disappears to the hilt in the monster’s body, becoming stuck as per #12 above. Major blood vessels and internal organs have been damaged. The monster suffers a cumulative penalty of –10% to its WS and S each turn, falling unconscious when either of those characteristics reaches zero, dying within another d10 turns."
+        },
+        {
+          "level": 15,
+          "description": "Your weapon pierces your huge adversary’s mighty heart, killing it instantly. If the blow was struck in close combat, there is a 50% risk the monster will fall on you. In that case you must pass an Average Ag test or suffer a hit with a Damage of 1/10 of the monster’s original Wounds characteristic (rounding up). If this causes a critical hit, use the Sudden Death rules, counting a fatal result as a messy death and any No Effect result as you getting helplessly trapped underneath the monster’s bulk, requiring either outside help or a successful Hard (-20%) S test to get out from under it."
+        }
+      ]
+    },
+    {
+      "location": "Leg",
+      "wounds": [
+        {
+          "level": 1,
+          "description": "You barely scratch the thick hide of the monster; no effect."
+        },
+        {
+          "level": 2,
+          "description": "You open up a painful furrow in the monster’s thick hide, causing it to suffer a penalty of –10% to its WS until the end of its next turn."
+        },
+        {
+          "level": 3,
+          "description": "A blow to a joint causes the monster to stumble, losing one Attack on its next turn."
+        },
+        {
+          "level": 4,
+          "description": "Your weapon sinks into a mighty foot, making your huge foe roar with pain. This causes a penalty of –20% to its WS until the end of its next turn."
+        },
+        {
+          "level": 5,
+          "description": "Your weapon slams into the monster’s lower leg as it strides forward, rebounding forcefully off the bone, unbalancing you as your weapon is almost torn from your grasp. You are unable to perform any further attacks or parries with that weapon until your next turn. The monster loses one half-action."
+        },
+        {
+          "level": 6,
+          "description": "A huge toe goes flying through the air as your blow slams home. Your roaring foe is so upset by this he loses one half-action."
+        },
+        {
+          "level": 7,
+          "description": "A well-aimed blow sends the monster crashing to the ground, counting as knocked down."
+        },
+        {
+          "level": 8,
+          "description": "You almost manage to slash through the large Achilles tendon behind your enormous foe’s huge foot, opening up a gaping wound. The monster’s M is halved (although only reduced by ¼ if it has four or more legs) and any Dodge Blow tests (if it possesses this skill) count as Hard (-20%). In addition, it loses two Attacks on its next turn."
+        },
+        {
+          "level": 9,
+          "description": "A joint in the monster’s leg has been badly damaged by your fierce attack. The monster loses one Attack due to poor balance Critical Hits – Large Monsters Critical Hit Effects by Josef Tham, v2.0. After tables by Chuck Morrison at www.windsofchaos.com (if it only has a single Attack it can still use it but at half WS) and also halves its M (although only reduced by ¼ if it has four or more legs). The effects last until the leg has healed in six minus TB months (although a minimum of one month)."
+        },
+        {
+          "level": 10,
+          "description": "A wicked blow to the knee sends an electric shock of pain through the monster’s leg, staggering it and causing it to count as stunned until the end of its next turn."
+        },
+        {
+          "level": 11,
+          "description": "Your blow has snapped a bone in your foe’s leg, leaving it dangling. If bipedal, the monster is knocked down and can only move with a crawl, also suffering a penalty of –10% to all tests for the duration of the battle due to the pain. The leg is useless until healed in six minus TB months (although a minimum of one month), but will heal crookedly, permanently reducing M by –2. If the monster has four or more legs, its M will be halved and it will also lose one Attack due to poor balance, these effects lasting until the leg has healed in six minus TB months (although a minimum of one month), but the leg will heal crookedly, permanently reducing M by ¼."
+        },
+        {
+          "level": 12,
+          "description": "Your strike almost severs the monster’s foot from its leg. If bipedal, the monster is knocked down and can only move with a crawl, also suffering a penalty of –20% to all tests for the duration of the battle due to the pain. The leg is permanently useless. If the monster has four or more legs, its M will be halved and it will also lose one Attack due to poor balance, these effects also being permanent."
+        },
+        {
+          "level": 13,
+          "description": "Your attack opens up a gaping wound in the monster’s upper leg, spurting dark blood in huge quantities. The monster is knocked to the ground and suffers a 20% risk each turn of falling unconscious from loss of blood. If bipedal, it can get up next turn, but move at only ¼ of its M, counting all Dodge Blow tests (if it possesses this skill) as Very Hard (-30%), until the leg has healed in one month. If the monster has four or more legs, it can get up and move at half M, counting all Dodge Blow tests (if it possesses this skill) as Hard (-20%), until the leg has healed in one month. If it passes five turns in a row without passing out, the bleeding stops and it is no longer at risk of falling unconscious."
+        },
+        {
+          "level": 14,
+          "description": "You practically sever the monster’s leg, jets of blood shooting from the stump. It is knocked down, unable to get up, and will suffer a cumulative penalty of –10% to its WS and S each turn, falling unconscious from loss of blood when either of those characteristics reaches zero, dying within another d10 turns."
+        },
+        {
+          "level": 15,
+          "description": "Your weapon drives deep into your monstrous adversary’s hip, continuing into its lower body, rupturing inner organs and major blood vessels. The monster falls to the ground, helpless, and dies within d10/2 turns. If the blow was dealt in close combat, your weapon is stuck, requiring a half-action and a successful Routine (+10%) S test to dislodge"
+        }
+      ]
+    }
+]},
+
 ]
 </script>
 </html>
