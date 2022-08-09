@@ -117,6 +117,8 @@
                 }
 
                 switch (event.key) {
+                    case "F5":
+                        return;
                     case "Enter":
                         terminalText = handleEnter(terminalText);
                         break;
@@ -127,6 +129,8 @@
                     default:
                         if (event.key.length == 1)
                             terminalText += event.key;
+                        else
+                            console.log("key",event.key);
                         break;
                 }
 
