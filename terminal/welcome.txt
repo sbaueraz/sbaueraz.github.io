@@ -1,2 +1,10 @@
 
-Welcome!
+INITIATING BOOTUP.DLL
+................
+
+SCANNING COGNOMEN FOR VERIFICATION
+................
+
+COGNOMEN READ AUTHENTICATED: USER ACCESS GRANTED\\ADMIN
+
+Welcome citizen to your Model 75.RT-EI.41K Imperium Data Slate. With this tool you will be able to interface with many of the God Emperors holy machines. Please input a, "load" or, "Execute" command followed by the Alpha Numerical signature with which to interface.
