@@ -39,7 +39,7 @@
                     .then((data) => {
                         console.log(data)
                         let span = document.getElementById('typer');
-                        span.innerHTML = span.innerHTML + "\n" + data + "\n";
+                        span.innerHTML = span.innerHTML + "<br>" + data.replace(/(?:\r\n|\r|\n)/g, '<br>') + "<br>";
                     })
                     .catch (function(error) {
                         console.log("fetch error",error);
@@ -59,7 +59,7 @@
                     console.log("Found load", file);
                     loadFile(file);
                 }
-                terminalText += "\n";
+                terminalText += "<br>";
                 return terminalText;
             }
 
@@ -70,6 +70,7 @@
 
                 let span = document.getElementById('typer');
                 let terminalText = span.innerText;
+                terminalText = terminalText.replace(/(?:\r\n|\r|\n)/g, '<br>');
 
                 switch (event.key) {
                     case "Enter":
