@@ -61,6 +61,11 @@
             }
 
             function loadFile(fileName) {
+                if (fileName.includes("/") || fileName.includes("\\") || fileName.includes(".")) {
+                    showAlert(denied);
+                    return;
+                }
+
                 fetch(fileName)
                   .then(response => response.text())
                     .then((data) => {

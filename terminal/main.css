@@ -147,20 +147,14 @@ html, body {
   }
   
   .hidden_text {
-    border: none;
     outline: none;
     position: absolute;
-    top: 100%;
-    width: 0;
-    height: 0;
+    top: 30%;
+    width: 1;
+    height: 1;
     background: transparent;
     display: block;
     caret-color: transparent;
-  }
-  .hidden_text.hidden {
-    top: -100000px;
-    width: 0;
-    height: 0;
   }
   
   .blurred {
