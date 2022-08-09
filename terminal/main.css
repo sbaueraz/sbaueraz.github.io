@@ -148,14 +148,14 @@ html, body {
   
   .hidden_text {
     border: none;
-    color: rgba(150, 150, 150, 0.5);
+    outline: none;
     position: absolute;
-    top: 30%;
-    text-align: center;
-    width: 100%;
+    top: 100%;
+    width: 0;
+    height: 0;
     background: transparent;
-    font-size: 2em;
-    display: none;
+    display: block;
+    caret-color: transparent;
   }
   .hidden_text.hidden {
     top: -100000px;
