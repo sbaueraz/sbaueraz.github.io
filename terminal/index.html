@@ -66,14 +66,14 @@
                   .then(response => response.text())
                     .then((data) => {
                         console.log(data)
-                        span.innerHTML = span.innerHTML + "<br>" + data.replace(/(?:\r\n|\r|\n)/g, '<br>') + "<br>";
+                        if (data.includes("<html>") && data.includes("404"))
+                            showAlert(denied);
+                        else
+                            span.innerHTML = span.innerHTML + "<br>" + data.replace(/(?:\r\n|\r|\n)/g, '<br>') + "<br>";
                     })
                     .catch (function(error) {
                         showAlert(denied);
                         console.log("fetch error",error);
-                    }).catch(function(error) {
-                        showAlert(denied);
-                        console.log("catch", error);
                     });
             }
 
