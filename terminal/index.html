@@ -110,8 +110,8 @@
                             displayMsg = "<br>" + data.replace(/(?:\r\n|\r|\n)/g, '<br>') + "<br>";
                     })
                     .catch (function(error) {
-                        //showAlert(denied);
-                        displayMsg = "an<br> error<br> message";
+                        showAlert(denied);
+                        //displayMsg = "an<br> error<br> message";
                         console.log("fetch error",error);
                     });
             }
