@@ -48,12 +48,12 @@
 
             function handleEnter(terminalText) {
                 let command = "";
-                let pos = terminalText.lastIndexOf('\n');
+                let pos = terminalText.lastIndexOf('<br>');
                 if (pos == -1)
                     command = terminalText;
                 else
-                    command = terminalText.slice(pos+1);
-
+                    command = terminalText.slice(pos+4);
+console.log("command",command);
                 if (command.toLowerCase().slice(0,5) == "load ") {
                     file = command.slice(5) + ".txt";
                     console.log("Found load", file);
