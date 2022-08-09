@@ -1,0 +1,32 @@
+﻿Merchantile Cogitator: Authorization Minoris  
+Imperial Date: 815.M41
+- SERVER 80085 - 
+
+
+> Shop Data: S T I M T O W N
+* Calmer (1 Dose): 200 Scabs
+* Countercepts (1 Dose): 80 Scabs
+* De-Tox (1 Dose): 650 Scabs
+* Frenzon (1 Dose): 500 Scabs
+* Cold Fire Frenzon (1 Dose): 2,000 Scabs
+* Halo (1 Dose): 1000 Scabs
+* Kick (1 Dose): 550 Scabs
+* Lho Sticks (Pack of 20): 10 Scabs
+* Stim (1 Dose): 200 Scabs
+* Wideawake (1 Dose): 40 Scabs
+* Panimmune (1 Dose): 300 Scabs
+* Painimmune (1 Dose): 50 Scabs
+* Rainbow (1 Dose): 750 Scabs
+* White Void (Pack of 20): 1,000 Scabs
+* Healers Kit/Medikit/Advanced Medikit (1 Pack): 500/1,000/3,000 Scabs
+* Cast Spray (3 Uses): 600 Scabs
+* Syrette/AutoInjector/Hypo-Spray (Per Unit): 10/100/350 Scabs
+* Synth Skin (5 Uses): 400 Scabs
+* Medispex (Per Unit): 5,250 Scabs
+
+
+
+
+	>Continue
+>Back ⌧ 
+                                                                                                    Adeptus Logos Administatus C7R6

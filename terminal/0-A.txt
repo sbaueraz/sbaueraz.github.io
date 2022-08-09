@@ -1,0 +1,17 @@
+﻿Factory Data Cogitator: Authorization Minoris  
+Imperial Date: 615.M41
+- SERVER 0337 - 
+
+
+> Data Entry: 001 Fabricator Manager Eli Quintor 
+    This is the data entry of Eli Quintor, the Hive Quake has sealed off any hopes of exit from the main pathway up to the streets. There is a vent shaft but I will not fit through it. Me and one of the other factory workers are the only two that I know of that were able to flee for shelter here before the rubble crushed the factory above. I’ve managed to stall the mag-generators but the reactors are quickly flooding with liquid from a leak that must have sprung during the quake. I fear this has made the machine spirit aggravated and unstable. It is unclear whether or not it will remain off, and if the mag locks re-engage then our exit will also be blocked.
+    I’m going to have my cohort stay behind and as a reminder put the code for stalling the generators here. So if you’re reading this Marcus, use 7329 to stall the mag locks in case they are reactivated. Once the generators are stopped the mag lift should rise and create a path for us to the far doors. The far doors should be unlocked as long as the mag locks are stopped. They have to be opened from the inside but I can see the doors from here and it looks like they’re open currently. Once I’m in and in the clear Marcus can make a run for it. But if those locks come back online I’ll be trapped. So remember, 7329 in case they come back on. Pray to the Emperor and Saint Drusus that this works.  
+
+
+	
+
+>Continue
+>Back ⌧ 
+
+
+Adeptus Logos Administatus C7R6
