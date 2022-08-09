@@ -24,6 +24,8 @@
 			<pre><span id="typer" class="typer"></span><span id="cursor">|</span><div id="bottom_padding"
                                                                               class="bottom_padding"></div></pre>
 		</div>
+
+        <div id="overlay" class="overlay">
 			<div id="granted" class="alert granted theme_border_color">
 				<h1>Access Granted</h1>
 			</div>
@@ -33,16 +35,45 @@
 			</div>
 		</div>
 		<script>
+            let overlayShown = 0;
+            let main = document.getElementById('main');
+            let span = document.getElementById('typer');
+            let overlay = document.getElementById('overlay');
+            let denied = document.getElementById('denied');
+
+            function showAlert(a) {
+                showOverlay();
+                a.style.display="block";
+            }
+            function showOverlay()
+            {
+                overlayShown=1;
+                overlay.style.display="grid";
+                main.classList.add("blurred");
+            }
+            function hideOverlay() {
+                overlayShown=0;
+                overlay.style.display="none";
+                main.classList.remove("blurred");
+                for (const a of document.querySelectorAll(".modal"))
+                    a.style.display="none";
+                for(const a of document.querySelectorAll(".alert"))
+                    a.style.display="none";
+            }
+
             function loadFile(fileName) {
                 fetch(fileName)
                   .then(response => response.text())
                     .then((data) => {
                         console.log(data)
-                        let span = document.getElementById('typer');
                         span.innerHTML = span.innerHTML + "<br>" + data.replace(/(?:\r\n|\r|\n)/g, '<br>') + "<br>";
                     })
                     .catch (function(error) {
+                        showAlert(denied);
                         console.log("fetch error",error);
+                    }).catch(function(error) {
+                        showAlert(denied);
+                        console.log("catch", error);
                     });
             }
 
@@ -53,8 +84,9 @@
                     command = terminalText;
                 else
                     command = terminalText.slice(pos+4);
-console.log("command",command);
-                if (command.toLowerCase().slice(0,5) == "load ") {
+
+                if (command.toLowerCase().slice(0,5) == "load " ||
+                    command.toLowerCase().slice(0,8) == "execute ") {
                     file = command.slice(5) + ".txt";
                     console.log("Found load", file);
                     loadFile(file);
@@ -68,9 +100,14 @@ console.log("command",command);
                     return; // Do nothing if the event was already processed
                 }
 
-                let span = document.getElementById('typer');
                 let terminalText = span.innerText;
                 terminalText = terminalText.replace(/(?:\r\n|\r|\n)/g, '<br>');
+
+                if (overlayShown) {
+                    hideOverlay();
+                    event.preventDefault();
+                    return;
+                }
 
                 switch (event.key) {
                     case "Enter":
