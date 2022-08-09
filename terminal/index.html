@@ -76,7 +76,8 @@
                 }
                 let pos = displayMsg.indexOf(" ");
                 let word = "";
-                if (pos > 0) {
+                console.log("pos:", pos);
+                if (pos >= 0) {
                     console.log("displaymsg before", displayMsg);
                     word = displayMsg.slice(0,pos+1);
                     displayMsg = displayMsg.slice(pos+1);
@@ -103,7 +104,6 @@
                 fetch(fileName)
                   .then(response => response.text())
                     .then((data) => {
-                        console.log(data)
                         if (data.includes("<html>") && data.includes("404"))
                             showAlert(denied);
                         else
@@ -111,7 +111,7 @@
                     })
                     .catch (function(error) {
                         //showAlert(denied);
-                        displayMsg = "an<br> error message";
+                        displayMsg = "an<br> error<br> message";
                         console.log("fetch error",error);
                     });
             }
