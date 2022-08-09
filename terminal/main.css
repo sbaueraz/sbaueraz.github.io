@@ -72,6 +72,10 @@ html, body {
     color: #3df7f7;
   }
   
+  .typer {
+    word-wrap:break-word;
+  }
+
   input {
     color: white;
     border: none;

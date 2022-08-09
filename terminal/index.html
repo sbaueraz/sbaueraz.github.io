@@ -41,6 +41,9 @@
                         let span = document.getElementById('typer');
                         span.innerHTML = span.innerHTML + "\n" + data + "\n";
                     })
+                    .catch (function(error) {
+                        console.log("fetch error",error);
+                    });
             }
 
             function handleEnter(terminalText) {
