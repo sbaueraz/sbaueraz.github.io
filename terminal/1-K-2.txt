@@ -1,0 +1,35 @@
+﻿Mercantile Datapad: Authorization Majoris  
+Imperial Date: 815.M41
+- SERVER 10051991 - 
+
+
+> Personal Data:
+        \RUN: CMD:\\
+C:\Users\MrHouse\Personal
+Directory of C:\Users\MrHouse\Personal
+
+
+815.M41 12:45        HiddenStash.doc        
+1 File(s)                13,342 bytes
+C:\>CD C:\MrHouse\Personal
+C:\MrHouse\Personal>”HiddenStash.doc”
+DisplayContents>”HiddenStash.doc”
+
+
+Contents\”HiddenStash.doc”
+Find: 1030402035050430 20460348; Floor: 69; Passphrase: House always wins;
+
+
+
+
+
+
+
+
+ 
+
+
+>Back to Shop Data ⌧
+                                                                                                                            
+                                                                                                                          Adeptus Logos Administatus C7R6 
+
