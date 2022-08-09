@@ -92,11 +92,13 @@ html, body {
   
   .alert {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
     display: none;
     border-width: 1px;
     border-style: solid;
     width: 300px;
+    height: 150px;
+    margin-top: 50px;
     text-align: center;
   }
   .alert h1 {
