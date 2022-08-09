@@ -17,7 +17,6 @@
 		<title>Terminal</title>
 	</head>
 	<body>
-		<div id="font_div"></div>
 		<div id="main" class="main theme_color">
 			<noscript>You need to enable JavaScript to run this app.</noscript>
 			<textarea id="hidden_text" class="hidden_text">Click here to begin</textarea>
@@ -100,6 +99,8 @@
                     return; // Do nothing if the event was already processed
                 }
 
+                document.getElementById("hidden_text").focus();
+
                 let terminalText = span.innerText;
                 terminalText = terminalText.replace(/(?:\r\n|\r|\n)/g, '<br>');
 
@@ -130,6 +131,8 @@
             }, true);
 
             loadFile('welcome.txt');
+
+            document.getElementById("hidden_text").focus();
 		</script>
 	</body>
 </html>
