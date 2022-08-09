@@ -12,28 +12,39 @@ PersonnelAccounts\HelziePalebrand\CompanyLog
 EXPORTING DATA................
 
 1%
+
 2%
+                      
 3%
+                 
 4%
+                 
 50%
+                           
 73%
+                         
 99%
+                     
 99%
+                             
 99%
+                           
 99%
+                             
 99%
+                          
 99%
+                       
 99%
+                          
 99%
+                     
 99%
+                        
 99%
+                           
 100%
 
 FACTORY DATA SUCCESSFULLY COPIED
 
-
-
-
-
-
-                                                                                                                          Adeptus Logos Administatus C7R6 
+Adeptus Logos Administatus C7R6 
