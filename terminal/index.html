@@ -87,7 +87,7 @@
 
                 if (command.toLowerCase().slice(0,5) == "load " ||
                     command.toLowerCase().slice(0,8) == "execute ") {
-                    file = command.slice(command.lastIndexOf(' ')+1) + ".txt";
+                    file = command.slice(command.indexOf(' ')+1) + ".txt";
                     console.log("Found load", file);
                     loadFile(file);
                 }
