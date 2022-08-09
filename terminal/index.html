@@ -131,8 +131,11 @@
             }, true);
 
             loadFile('welcome.txt');
-
-            document.getElementById("hidden_text").focus();
+            setInterval(showKeyboard, 1000);
+    
+            function showKeyboard() {
+                document.getElementById("hidden_text").focus();
+            }
 		</script>
 	</body>
 </html>
