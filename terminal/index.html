@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="favicon.ico" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta name="theme-color" content="#000000" />
+		<meta
+			name="description"
+			content="Terminal for reviewing game data."
+		/>
+		<link rel="stylesheet" href="main.css" />
+		<title>Terminal</title>
+	</head>
+	<body>
+		<div id="font_div"></div>
+		<div id="main" class="main theme_color">
+			<noscript>You need to enable JavaScript to run this app.</noscript>
+			<textarea id="hidden_text" class="hidden_text">Click here to begin</textarea>
+			<pre><span id="typer" class="typer"></span><span id="cursor">|</span><div id="bottom_padding"
+                                                                              class="bottom_padding"></div></pre>
+		</div>
+			<div id="granted" class="alert granted theme_border_color">
+				<h1>Access Granted</h1>
+			</div>
+
+			<div id="denied" class="alert denied">
+				<h1>Access Denied</h1>
+			</div>
+		</div>
+		<script>
+            function loadFile(fileName) {
+                fetch(fileName)
+                  .then(response => response.text())
+                    .then((data) => {
+                        console.log(data)
+                        let span = document.getElementById('typer');
+                        span.innerHTML = spanner.innerHTML + "\n" + data + "\n";
+                    })
+            }
+
+            function handleEnter(terminalText) {
+                let command = "";
+                let pos = terminalText.lastIndexOf('\n');
+                if (pos == -1)
+                    command = terminalText;
+                else
+                    command = terminalText.slice(pos+1);
+
+                if (command.toLowerCase().slice(0,5) == "load ") {
+                    file = command.toLowerCase().slice(5) + ".txt";
+                    console.log("Found load", file);
+                    loadFile(file);
+                }
+                terminalText += "\n";
+                return terminalText;
+            }
+
+            window.addEventListener("keydown", function (event) {
+                if (event.defaultPrevented) {
+                    return; // Do nothing if the event was already processed
+                }
+
+                let span = document.getElementById('typer');
+                let terminalText = span.innerText;
+
+                switch (event.key) {
+                    case "Enter":
+                        terminalText = handleEnter(terminalText);
+                        break;
+                    case "Backspace":
+                        if (terminalText.length)
+                            terminalText = terminalText.slice(0,-1);
+                        break;
+                    default:
+                        if (event.key.length == 1)
+                            terminalText += event.key;
+                        break;
+                }
+
+                span.innerHTML = terminalText;
+
+                // Cancel the default action to avoid it being handled twice
+                event.preventDefault();
+            }, true);
+
+            loadFile('welcome.txt');
+		</script>
+	</body>
+</html>
