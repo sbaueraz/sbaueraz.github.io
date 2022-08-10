@@ -4,26 +4,47 @@ Imperial Date: 815.M41
 
 
 > Shop Data: I M M O R T A L _ J O E ‘ S
+ 
 * Flak Gauntlets: 500 Scabs
+ 
 * Flak Helmet: 250 Scabs
+ 
 * Light Flak Jacket: 800 Scabs
+ 
 * Flakweave Cloak: 800 Scabs
+ 
 * Flak Jacket: 1,000 Scabs
+ 
 * Flak Vest: 500 Scabs
+ 
 * Flak Greatcoat: 1,500 Scabs
+ 
 * Guard Flak Armour: 3,000 Scabs
+ 
 * Mesh Cowl: 1,000 Scabs
+ 
 * Mesh Gloves: 1,200 Scabs
+ 
 * Mesh Combat Cloak: 3,500 Scabs
+ 
 * Mesh Vest: 1,500 Scabs
+ 
 * Shield Robes: 50,000 Scabs
+ 
 * Carapace Helm: 2,500 Scabs
+ 
 * Carapace Greaves: 3,750 Scabs
+ 
 * Carapace Vambraces: 3,000 Scabs
+ 
 * Carapace Chestplate: 6,000 Scabs
+ 
 * Arbitrator Carapace: 13,500 Scabs
+ 
 * Enforcer Carapace: 5,750 Scabs
+ 
 * Magistratum Carapace: 11,000 Scabs
+ 
 	>Continue
 >Back ⌧ 
                                                                                                     Adeptus Logos Administatus C7R6
