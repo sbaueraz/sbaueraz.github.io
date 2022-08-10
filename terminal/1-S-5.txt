@@ -1,0 +1,26 @@
+﻿Factory Data Cogitator: Authorization Minoris  
+Imperial Date: 615.M41
+- SERVER 1991 - 
+
+
+Loading Bay Door Controls:
+ 
+⌧ Open Loading Bay Doors
+⌧ Close Loading Bay Doors
+ 
+Macrohauler Loading Controls:
+ 
+⌧ Load Cargo
+⌧ Unload Cargo
+  
+Emergency Alarm:
+ 
+⌧ Enable Alarm Sequence
+⌧ Disable Alarms
+ 
+ 
+>Continue
+>Back
+
+
+Adeptus Logos Administatus C7R6

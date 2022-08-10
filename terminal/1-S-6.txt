@@ -1,0 +1,26 @@
+﻿Factory Data Cogitator: Authorization Minoris  
+Imperial Date: 615.M41
+- SERVER 1991 - 
+
+
+Security Controls:
+ 
+⌧ Engage Lockdown Procedure
+⌧ Lift Lockdown Procedure (Locked)
+ 
+Vid-Recorder Feeds:
+ 
+⌧ Disable Recorders (Locked)
+⌧ Wipe Camera Footage (Locked)
+  
+Automated Defense Controls:
+ 
+⌧ Initiate
+⌧ Deactivate
+ 
+ 
+>Continue
+>Back
+
+
+Adeptus Logos Administatus C7R6
