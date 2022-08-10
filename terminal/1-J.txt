@@ -4,24 +4,43 @@ Imperial Date: 815.M41
 
 
 > Shop Data: T H E _ D R E A M _ L O U N G E
+ 
 * De-Tox (1 Dose): 55 Throne Gelts OR 600 Scabs
+ 
 * Frenzon (1 Dose): 40 Throne Gelts OR 500 Scabs
+ 
 * Ghostfire Pollen Extract (1 Dose): 250 Throne Gelts OR 3,000 Scabs
+ 
 * Kick (1 Dose): 45 Throne Gelts OR 500 Scabs
+ 
 * Cut Obscura (1 Dose): 20 Throne Gelts OR 250 Scabs
+ 
 * Pure Obscura (1 Dose): 150 Throne Gelts OR 1,800 Scabs
+ 
 * Slaught (1 Dose): 55 Throne Gelts OR 600 Scabs
+ 
 * Spur (1 Dose): 60 Throne Gelts OR 600 Scabs
+ 
 * Rainbow (1 Dose): 75 Throne Gelts OR 800 Scabs
+ 
 * Diluted Slam (1 Dose): 50 Throne Gelts OR 600 Scabs
+ 
 * Pure Slam (1 Dose): 175 Throne Gelts OR 2,000 Scabs
+ 
 * Somna (1 Dose): 350 Throne Gelts OR 4,000 Scabs
+ 
 * Verita (1 Dose): 300 Throne Gelts OR 3,000 Scabs
+ 
 * Medikit/Advanced Medikit (1 Kit): 90/265 Throne Gelts OR 900/2,600 Scabs
+ 
 * Syrette (1 Needle): 1 Throne Gelt OR 10 Scabs
+ 
 * Autoinjector (1 Injector): 10 Throne Gelts OR 100 Scabs
+ 
 * Hypo-Spray (Per Device): 35 Throne Gelts OR 350 Scabs
+ 
 SPECIAL: Obscura Chamber Session: 20 Throne Gelts or 250 Scabs
+ 
 	>Continue
 >Back ⌧ 
                                                                                                     Adeptus Logos Administatus C7R6
