@@ -4,21 +4,37 @@ Imperial Date: 815.M41
 
 
 > Shop Data: T H E _ N O D E
+ 
 * Halo Wafer: 50 Scabs
+ 
 * Vox Bug: 4,500 Scabs
+ 
 * Vox Tracker: 4,000 Scabs
+ 
 * Data Pad: 200 Scabs
+ 
 * Gene-Printer: 13,000
+ 
 * Glide-Wing: 70,000 Scabs
+ 
 * Line Ascender: 1,000 Scabs
+ 
 * Pict-Fly: 10,000 Scabs
+ 
 * Sky-Eye: 15,000 Scabs
+ 
 * Tracking Device: 1,800 Scabs
+ 
 * Mag-Harness: 5,000 Scabs
+ 
 * Data-Slate: 150 Scabs
+ 
 * Vox Caster: 2,800 Scabs
+ 
 * Screamer: 1,100 Scabs
+ 
 * Steam Drill: 1,000 Scabs
+ 
 	>Pict Feed (Encrypted)
 >Back ⌧ 
                                                                                                     Adeptus Logos Administatus C7R6
