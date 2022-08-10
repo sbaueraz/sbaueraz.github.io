@@ -20,8 +20,7 @@
 		<div id="main" class="main theme_color">
 			<noscript>You need to enable JavaScript to run this app.</noscript>
 			<textarea id="hidden_text" class="hidden_text"></textarea>
-			<pre><span id="typer" class="typer"></span><span id="cursor">|</span><div id="bottom_padding"
-                                                                              class="bottom_padding"></div></pre>
+			<pre><span id="typer" class="typer">|</span></pre>
 		</div>
 
         <div id="overlay" class="overlay" onclick="hideOverlay()">
@@ -72,26 +71,32 @@
 
             function showSlow() {
                 if (!displayMsg) {
+//                    span.scrollTop = span.scrollHeight;
                     return;
                 }
-                let pos = displayMsg.indexOf(" ");
+
                 let word = "";
-                console.log("pos:", pos);
-                if (pos >= 0) {
-                    console.log("displaymsg before", displayMsg);
-                    word = displayMsg.slice(0,pos+1);
-                    displayMsg = displayMsg.slice(pos+1);
-                    console.log("word", word);
-                    console.log("displaymsg after", displayMsg);
-                } else {
-                    word = displayMsg;
-                    displayMsg = 0;
-                }
+                do {
+                    let pos = displayMsg.indexOf(" ");
+
+                    if (pos >= 0) {
+                        word += displayMsg.slice(0,pos+1);
+                        displayMsg = displayMsg.slice(pos+1);
+                    } else {
+                        word += displayMsg;
+                        displayMsg = "";
+                    }
+                } while (displayMsg.length > 0 && word.charAt(0) == '<' && word.charAt(word.length-2) != '>')
+
                 if (word.includes("<br>")) {
                     beep();
                 }
+                let terminalText = span.innerHTML;
+                if (terminalText.charAt(terminalText.length - 1) == '|')
+                    terminalText = terminalText.substr(0, terminalText.length - 1);
 
-                span.innerHTML = span.innerHTML + word;
+                span.innerHTML = terminalText + word + "|";
+                span.scrollTop = span.scrollHeight;
             }
 
             function loadFile(fileName) {
@@ -111,7 +116,7 @@
                     })
                     .catch (function(error) {
                         showAlert(denied);
-                        //displayMsg = "an<br> error<br> message";
+                        displayMsg = "an<br> error&nbsp;&nbsp;message<br> <img src='imperial_120.png'><br>";
                         console.log("fetch error",error);
                     });
             }
@@ -141,8 +146,10 @@
 
                 document.getElementById("hidden_text").focus();
 
-                let terminalText = span.innerText;
+                let terminalText = span.innerHTML;
                 terminalText = terminalText.replace(/(?:\r\n|\r|\n)/g, '<br>');
+                if (terminalText.charAt(terminalText.length - 1) == '|')
+                    terminalText = terminalText.substr(0, terminalText.length - 1);
 
                 if (overlayShown) {
                     hideOverlay();
@@ -166,7 +173,8 @@
                         break;
                 }
 
-                span.innerHTML = terminalText;
+                span.innerHTML = terminalText + "|";
+                span.scrollTop = span.scrollHeight;
 
                 // Cancel the default action to avoid it being handled twice
                 event.preventDefault();
