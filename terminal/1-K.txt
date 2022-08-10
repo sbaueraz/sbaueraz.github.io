@@ -4,29 +4,54 @@ Imperial Date: 815.M41
 
 
 > Shop Data: B L A C K M A R T
+ 
 * Drusian Pattern Chainsword: 250 Throne Gelts
+ 
 * Chain Knife: 80 Throne Gelts
+ 
 * Merovech Assault Lasgun: 250 Throne Gelts
+ 
 * D’Laku Crusade Helgun: 500 Throne Gelts
+ 
 * Locke Lascarbine: 100 Throne Gelts
+ 
 * Minerva-Aegis Lascarbine: 150 Throne Gelts
+ 
 * Drusus Prime Lasgun: 50 Throne Gelts
+ 
 * Mark III Lasgun: 75 Throne Gelts
+ 
 * Shotlas: 90 Throne Gelts
+ 
 * Twin Lasgun: 220 Throne Gelts
+ 
 * Absolution Sniper Rifle: 250 Throne Gelts
+ 
 * Alcher Mark IV Autogun: 85 Throne Gelts
+ 
 * Armageddon Pattern Autogun: 100 Throne Gelts
+ 
 * Creed-9 Autogun: 115 Throne Gelts
+  
 * Ironclaw Combat Shotgun: 80 Throne Gelts
+ 
 * Vanaheim Combat Shotgun: 300 Throne Gelts
+ 
 * Meat Hammer Shotgun: 80 Throne Gelts
+ 
 * Heavy Stubber: 750 Throne Gelts
+ 
 * Perinetus “Solo” Boltgun: 500 Throne Gelts
+ 
 * Salamander Flamer: 250 Throne Gelts
+ 
 * Det Tape: 50 Throne Gelts
+ 
 * Demo Charge: 180 Throne Gelts
+ 
 * Forgery Kit: 400 Throne Gelts
+ 
 * Multikey: 150 Throne Gelts
+ 
 	>Access Hidden Database (Encrypted) ⌧ 
                                                                                                     Adeptus Logos Administatus C7R6
