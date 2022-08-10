@@ -4,28 +4,51 @@ Imperial Date: 815.M41
 
 
 > Shop Data: I R O N _ C A N A R Y
+ 
 * Civitas Pattern Las-Pistol: 350 Scabs
+ 
 * Fury Assault Las-Pistol: 1,000 Scabs
+ 
 * The Belasco Dueling Las: 2,500 Scabs
+ 
 * Sulymann Encarmine Service Pistol: 900 Scabs
+ 
 * Hecutor 9/5 Combat Auto-Pistol: 1,750 Scabs
+ 
 * Orthlack Mark IV Thallos: 750 Scabs
+ 
 * Sulymann “Salvation” Holdout Pistol: 800 Scabs
+ 
 * Sulymann Talon III Auto-Pistol: 850 Scabs
+ 
 * Westingkrup “Carnodon” Precision Pistol: 2,000 Scabs
+ 
 * Stormchild Hand Cannon: 650 Scabs
+ 
 * Volg “Ripper Clip” Pistol: 400 Scabs
+ 
 * Shotgun Pistol: 600 Scabs
+ 
 * Hax-Orthlack Armsman-10 Service Pistol: 750 Scabs
+ 
 * Phobos Stubber: 500 Scabs
+ 
 * Westingkrup Model 20 “Scalptaker”: 400 Scabs
+ 
 * Electro-Flail: 3,750 Scabs
+ 
 * Neural Whip: 5,000 Scabs
+ 
 * Shock Glove (Poor/Common/Good/Best): 500/1,000/3,000/6,000 Scabs
+ 
 * Shock Maul: 1,500 Scabs
+ 
 * Shock Staff: 1,000 Scabs
+ 
 * Combat Knife: 300 Scabs
+ 
 * Punisher Baton: 500 Scabs
+ 
 	>Continue
 >Back ⌧ 
                                                                                                     Adeptus Logos Administatus C7R6
