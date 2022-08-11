@@ -4,8 +4,8 @@ Imperial Date: 815.M41
 
 
 > Factory Data Log: Lelt Ragrim
-
-
+ 
+ 
 PersonnelAccounts\LeltRagrim>PersonalEntry:
         Hey Helzie! 
 I’m new here and was told you’d be the best person to ask for some tips. Is it true that the Palebrands have worked here for 6 generations? Ralph Peregrinus and Son must be a great place to work! They told me I’d be reporting to the corpse vats. Hopefully it’s more pleasant than that sounds. 
@@ -18,13 +18,9 @@ Anyways, I just wanted to reach out and make a friend here, so if you get this p
 *One player may roll Perception to add 1 Fortune Point to the pool.*
 
 
-
-
-
-
  
 >Continue
 >Back ⌧
                                                                                                                             
-                                                                                                                          Adeptus Logos Administatus C7R6 
+Adeptus Logos Administatus C7R6 
 
