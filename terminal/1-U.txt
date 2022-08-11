@@ -6,19 +6,13 @@ Imperial Date: 815.M41
 > Shop Data: T H E  I N S T I T U T E
   
 ADMECH GENERAL'S WARNING: The Institute of Technology is not responsible for any surgical failures that may result in maiming, horrible death, and/or loss of humanity. The flesh is weak and it is not our fault.
+  
+Welcome to the Institute of Technology, please be ready to present your employer and reason for implantation if this is to be a covered installation. Otherwise be aware all prices are listed in Scabs but the Institute does deal in Throne Gelts as well. 
  
-* Bionic Arm (Poor, Good, Best): 5,000 / 10,000 / 20,000 Scabs
+Allow up to 2 weeks for recovery following any intense bionic replacements, failure to comply could lead to complications, damage, or death.
+  
+
+>Bionics Catalogue (1-U-3)
+>Implant Catalogue ⌧ (1-U-2)
  
-* Bionic Cardiac System (Poor, Good): 13,500 / 27,000 Scabs
- 
-*  
-
- 
-
-
-
-
-
-	>Continue
->Back ⌧ 
-                                                                                                    Adeptus Logos Administatus C7R6
+ Adeptus Logos Administatus C7R6
