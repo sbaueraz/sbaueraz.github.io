@@ -13,24 +13,24 @@ PersonnelAccounts\HectorDominon>CompanyLog:
 \UserID://JeseraiPeregrinus
 
 Jeserai Peregrinus: Hello Hector, how did your first day as Shift Supervisor go? We are responding to Report 4362 which you filed this afternoon. It sounds like you had some thoughts on improving workflow?
-
+ 
 Hector Dominom: Yes, we lost nearly two dozen workers today following the guidelines that are in place. These work conditions are not acceptable. I advise we put in place railings along all corpse vats and along any walkways leading over grinders.
-
+ 
 Jeserai Peregrinus: Were all bodies properly disposed of in the corpse vats?
-
+ 
 Hector Dominom: Yes, but there wouldn’t have been half as many bodies with proper safety guards in place. When I tell my wife about how things are going around here she will likely have doubts about me coming back to work.
 
 Jeserai Peregrinus: Please stay where you are, and we will send somebody to come get your official review in person so we can address this immediately. Is there anyone else you spoke about your thoughts with?
-
+ 
 Hector Dominom: Just my children and my brother. Thank you for taking this seriously.
-
+ 
 Jeserai Peregrinus: Of course, we will send somebody for him as well.
-
+ 
 \EndLog\
-
+ 
 
 *Make a Will Power Test or take 1 Insanity Point*
 
 >Continue
 >Back ⌧                                                                                                                           
-                                                                                                                          Adeptus Logos Administatus C7R6 
+  Adeptus Logos Administatus C7R6 
