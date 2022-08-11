@@ -37,7 +37,7 @@ ADMECH GENERAL'S WARNING: The Institute of Technology is not responsible for any
  
 * Mind-Weapon Interface: 11,000 Scabs
  
-*Pain Ward: 40,000 Scabs
+* Pain Ward: 40,000 Scabs
  
 * Respiratory Filter Implant: 7,500 Scabs
  
