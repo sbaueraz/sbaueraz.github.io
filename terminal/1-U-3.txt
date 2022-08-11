@@ -1,0 +1,64 @@
+﻿Mercantile Cogitator: Authorization Minoris  
+Imperial Date: 815.M41
+- SERVER 73375 - 
+
+
+> Shop Data: T H E  I N S T I T U T E
+  
+ADMECH GENERAL'S WARNING: The Institute of Technology is not responsible for any surgical failures that may result in maiming, horrible death, and/or loss of humanity. The flesh is weak and it is not our fault.
+ 
+* Auger Implants (Poor, Common, Good): 6,000 / 12,000 / 24,000 Scabs 
+ 
+* Bio-Power Cells: 6,250 Scabs
+ 
+* Calculus Logi Implant: 40,000 Scabs
+ 
+* Chem Gland: 50,000 Scabs
+ 
+* Injector Rig (Poor, Common): 3,500 / 7,000 Scabs
+ 
+* Cranial Reinforcement: 18,000 Scabs
+ 
+* Cortex Implants (Poor, Common, Good): 27,500 / 55,000 / 110,000 Scabs
+ 
+* Exoskeletal Augmetics (Poor, Common, Good): 15,000 / 30,000 / 60,000 Scabs
+ 
+* Internal Blade: 10,000 Scabs
+ 
+* Locator Matrix: 15,550 Scabs
+ 
+* Memorance Unit: 23,000 Scabs
+ 
+* Mind Impulse Unit: 17,500 Scabs
+ 
+* Cerebral Plug: 5,500 Scabs
+ 
+* MIU, Superior: 52,000 Scabs
+ 
+* Mind-Weapon Interface: 11,000 Scabs
+ 
+*Pain Ward: 40,000 Scabs
+ 
+* Respiratory Filter Implant: 7,500 Scabs
+ 
+* Scribe-Tines: 7,500 Scabs
+ 
+* Subdermal Armour: 27,000 Scabs
+ 
+* Synth-Muscle: 25,000 Scabs
+ 
+* Synth-Muscle (Huge): 37,500 Scabs
+ 
+* Vehicle Interface Circuitry: 15,000 Scabs
+ 
+* Vitae Supplaceor: 55,000 Scabs
+ 
+* Voidskin: 20,000 Scabs
+ 
+* Voxplant: 3,000 Scabs
+
+ 
+> Bionics Catalogue (1-U-2)
+>Back ⌧ (1-U)
+ 
+  Adeptus Logos Administatus C7R6
