@@ -1,0 +1,31 @@
+﻿Imperial Dataslate:
+ 
+Owner: Sapik Ti-Gwik
+Model: 75.RT-E1.41K
+STC#: 08112011
+ 
+Primary Console/UserAccounts/Sapik
+Primary Console/UserAccounts/Sapik/Upsilon
+ 
+ 
+Vox Transmission Logs <PRIVATE>
+ 
+To: Upsilon 0-Phauss
+ 
+     -Call Log: Begin-
+   
+Upsilon: "Receiving call, responding with preprogrammed call screening. "Hello, this is Tech-Priest Upsilon how may we help you?"
+  
+Sapik: "Authorization: IoT Lex-1 requesting patch through to Magos Beta."
+      
+Upsilon: "Answering call manually. Welcome Lexmechanic Sapik Ti-Gwik, feeding vox information through now. Inquiry, what is call regarding?"
+    
+Sapik: "Testing clearance..... Tech Prist Upsilon all you need to know is it is in regards to Project 12-Beta-14."
+   
+Upsilon: "Affirmative."
+    
+    -END LOG-  
+ 
+ 
+ 
+>Back (1-V)
