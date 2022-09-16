@@ -10,7 +10,7 @@ Primary Console/UserAccounts/Sapik/MagosBeta
  
 Vox Transmission Logs <PRIVATE>
  
-From: Magos Beta 5-Xux 
+To: Magos Beta 5-Xux 
  
      -Call Log: Begin-
    
