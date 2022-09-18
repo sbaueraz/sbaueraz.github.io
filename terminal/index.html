@@ -100,7 +100,7 @@
             }
 
             function loadFile(fileName) {
-                if (fileName.includes("/") || fileName.includes("\\") || fileName.includes("..")) {
+                if (fileName.startsWith ("/") || fileName.startsWith ("\\") || fileName.includes("..")) {
                     console.log("invalid file name",fileName);
                     showAlert(denied);
                     return;
