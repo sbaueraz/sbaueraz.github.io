@@ -1,29 +1,3 @@
 ﻿Halo (Drug)
  
-This drug induces a mild state of psychosis in
-the user - the effects are similar to a highly
-diluted dose of frenzon, though the stuff takes
-far longer to break down once in the
-bloodstream. Most believe that halo was
-originally developed for use in penal legions of
-the Imperial Guard, but its use is surprisingly
-widespread among a variety of worlds and social
-classes - the only constant is that the user desires
-a bit of fortification against a particularly
-unpleasant stimulus. A character under the
-effects of halo finds long vertical drops, narrow
-passages full of skittering vermin, enemy
-bunkers, and possibly even ominous stacks of
-paper- and slatework to be somewhat less
-frightening than before, though this suppression
-of natural repulsive emotions does tend to make
-the user somewhat less alert as a result.
-A dose of halo becomes effective in about 20
-minutes once ingested. It can also be used in an
-injector instead, in which case the effects begin
-after one minute. The drug remains active for
-2d5 hours, during which time the user gains a
-+10 bonus on all Tests to resist Fear and
-Pinning, but also suffers a -10 penalty on
-Perception-based Tests as a result of their new
-found self-confidence.
+This drug induces a mild state of psychosis in the user - the effects are similar to a highly diluted dose of frenzon, though the stuff takes far longer to break down once in the bloodstream. Most believe that halo was originally developed for use in penal legions of the Imperial Guard, but its use is surprisingly widespread among a variety of worlds and social classes - the only constant is that the user desires a bit of fortification against a particularly unpleasant stimulus. A character under the effects of halo finds long vertical drops, narrow passages full of skittering vermin, enemy bunkers, and possibly even ominous stacks of paper- and slatework to be somewhat less frightening than before, though this suppression of natural repulsive emotions does tend to make the user somewhat less alert as a result. A dose of halo becomes effective in about 20 minutes once ingested. It can also be used in an injector instead, in which case the effects begin after one minute. The drug remains active for 2d5 hours, during which time the user gains a +10 bonus on all Tests to resist Fear and Pinning, but also suffers a -10 penalty on Perception-based Tests as a result of their new found self-confidence.
