@@ -1,0 +1,8 @@
+﻿Neural Whip:
+
+This nasty weapon resembled a conventional whip with a thicker length that delivers a powerful electrical shock from a heavy power pack in the grip. Neural whips can’t be rightly considered a “non-lethal” weapon; the whip’s terrible lacerations alone could kill, never mind the shock discharge that is sufficient to stop the heart and lungs of those with weaker constitutions. The electrostatic charge in the whip seems to help it fly further, and a labour foreman or press-gang captain of sufficient skill can send its painful touch over the heads of wellbehaved mendicants to savage a miscreant in their midst. A neural whip can be used against a target up to three metres away, but loses the Flexible and Tearing qualities against adjacent opponents as the whip cannot build up the high speed or twisting movements that cause its frightening effects when used on foes further away.
+
+Class: Melee (3m)
+Dam: 1d10+1 E
+Pen: 0
+Special: Flexible, Shocking, Special, Tearing

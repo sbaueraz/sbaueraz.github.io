@@ -1,0 +1,12 @@
+﻿Westingkrup “Carnodon” Precision Pistol:
+
+No mere blunt tool, the Carnodon is finely made and well-balanced, with some claiming it fits in the hand better than many lighter autopistols. This hand cannon is intentionally designed to resemble a bolt pistol, bulky yet elegant, and is an accurate and powerful weapon when placed in skilled hands. Carnodon pistols fetch a high price in arms markets, so wearing one is a sign of status among underhive gangs in Scintilla’s Hive Sibellus, while more than a few troopers of the Adeptus Arbites have spent their own wages to pick up a Carnodon of their own thanks to its many positive qualities (not the least of which being the intimidation factor of blowing a ganger’s head clean off). A few have also been picked up by Acolytes of the Calixian Conclave and enforcers of Calixis’ great houses.
+
+Class: Pistol
+Range: 35m
+RoF: S/3/-
+Dam: 1d10+4 I
+Pen: 2
+Clip: 6
+Reload: 3 Action Points
+Special: Accurate

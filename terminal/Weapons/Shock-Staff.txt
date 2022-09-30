@@ -1,0 +1,9 @@
+﻿Shock-Staff:
+
+Shock-staffs are basic and somewhat oversized shock weapons that are primarily intended for use in herding pressganged crews aboard ships, though they can be found in similar planetary applications as well. Formed in the main from a long haft of metal or plasteel, a shockstaff has a simple single-power shock emitter mounted at one end with the generator installed in the other. Most use a flat shock-plate, either a plain surface or one decorated with the ship’s insignia or naval badge, but some varieties instead feature a nasty-looking spike on the end that is designed to pierce the insulated suits worn by reactor and engine crews, and are typically the favoured type used by scummers and other dregs due to the more fearsome appearance.
+
+
+Class: Melee
+Dam: 1d5+3 I
+Pen: 0
+Special: Shocking

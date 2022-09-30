@@ -1,0 +1,13 @@
+﻿Volg “Ripper Clip” Pistol:
+
+
+Known locally as the “zip gun” or “chopper”, this bulky pistol is purposely designed to be as cheap as possible to manufacture and maintain. The Ripper Clip is made from industrial spares and crude pressed metal parts, and might pass for a construction tool such as a nailer or riveter at first glance. The riveter appearance is further compounded by the sheet metal strip, holding a line of stubber bullets, which is forcibly wrenched through the pistol as it fires, clattering to the ground along with the hot bullet casings when the weapon is expended. Despite the gun’s many shortcomings, there’s no shortage of buyers, as any extra firepower can keep your corpse from the meatsumps for a while longer.
+
+Class: Pistol
+Range: 20m
+RoF: -/-/6
+Dam: 1d10+2 I
+Pen: 0
+Clip: 12
+Reload: 3 Action Points
+Special: Inaccurate, Unreliable

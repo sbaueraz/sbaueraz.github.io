@@ -1,0 +1,9 @@
+﻿Magistratum “Punisher” Baton:
+
+A byword for brutality on Scintilla, this heavy baton is intended to smash limbs, crack skulls and wantonly crush any resistance with overwhelming force. The baton is a polymer sheathed, metre-long rod of strengthened plasteel with a hollow core part-filled with a dense liquid metal alloy that augments the force of struck blows. These weapons are most closely associated with Lord Hax’s Magistratum in Hive Sibellus, but they are carried by enforcer cadres and other heavies across the sector as a cheap and effective alternative to shock weapons.
+
+
+Class: Melee
+Dam: 1d10 I
+Pen: 0
+Special: Primitive

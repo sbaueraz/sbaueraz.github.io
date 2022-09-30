@@ -1,0 +1,9 @@
+﻿Shock Maul:
+
+Standard equipment for Adeptus Arbites troopers, shock mauls are carried by other enforcers and a wide variety of authority-types throughout the Imperium, and the sound of a shock maul being powered up is often sufficient to persuade a ruffian to cease misbehaving. Because of their use by Arbitrators, shock mauls are commonly associated with the Emperor’s Law and its swift retaliation for misdeeds. Hive riots are often met by a line of suppression shields and shock mauls; hivers returning to their toils the next day can be immediately be identified by obvious burns from being clobbered by a shock maul, which may single them out for ridicule or more official persecution depending on the world and the nature of the riot. Shock mauls are nominally non-lethal weapons, though an “enthusiastic” user can make them perfectly deadly by aiming for vulnerable areas and generally just administering an excessive beating.
+
+
+Class: Melee
+Dam: 1d10 I
+Pen: 0
+Special: Shocking

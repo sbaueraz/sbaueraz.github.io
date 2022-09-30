@@ -1,0 +1,8 @@
+﻿Electro-Flail:
+
+Electro-flails are groups of tendril-like lashes, attached to a short staff or handle and swung in sharp, quick snaps. These flails have a short incapacitating a foe. Electro-flails are common sights at manufactorums that use forced labour as they make an intimidating, whip-like crack as they strike an obstinate worker, and there are many types of servitors with electro-flails implanted in their limbs specifically to assist forge overseers in quelling any potential unrest.
+
+Class: Melee
+Dam: 1d10+2 I
+Pen: 0
+Special: Flexible, Shocking

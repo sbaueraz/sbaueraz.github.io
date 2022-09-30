@@ -1,0 +1,17 @@
+﻿Shock Glove:
+
+Shock gloves are designed to deliver an electrical jolt as part of a punch, and are most commonly used by gangers and low-life enforcers as a cheap but effective way to inflict pain and terrorize victims, but they can be devastatingly in brawls and other situations where an opponent might not know exactly what’s on his attacker’s hands until far too late. Higher quality shock gloves do exist, however, often looking simply like ordinary gloves for keeping the hands warm or even light elegant mitts worn by nobles and dilettantes at formal functions and other gatherings. A shock glove can be used as a melee weapon with the listed profile, but can also deliver the effects of the Shocking quality as part of an Unarmed attack, benefitting from any talents or abilities the wearer may have. They can also be used to shock a victim any time the wearer is in direct contact with the victim’s skin, whether grappling an unarmoured opponent or dancing at a ball. The bulk and appearance of a shock glove are factors of their quality. The attributes listed below are in addition to the regular modifiers for Craftsmanship as described previously:
+
+Poor: Overly-large and covered in a mess of wires, these look intimidating but are hard to use in an actual fight due to their bulk. Any attempt to conceal their true nature suffers a -20 penalty.
+
+Common: These have an appearance similar to sturdy armoured gauntlets with some extraneous cabling that occasionally cracks or pops with electricity.
+
+Good: No more bulky than any sort of reinforced gloves, these can pass for regular armour or equipment for handling hot items. The wearer gains a +10 bonus for attempts to hide the weapon’s purpose.
+
+Best: Finely crafted and well-fitting, these can be perfectly disguised as mesh or leather gloves, and could even pass for stylish clothing worn by naval officers or hive nobles. The wearer gains a +20 bonus to conceal the nature of these gloves, and they do not show up as weapons on an auspex and other scanners.
+
+
+Class: Melee
+Dam: 1d5 E
+Pen: 0
+Special: Shocking, Special

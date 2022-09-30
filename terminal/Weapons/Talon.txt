@@ -1,0 +1,12 @@
+﻿Sulymann Talon III Autopistol:
+
+The Talon is a fully-automatic, medium-calibre pistol that offers a good combination of firepower and clip capacity in a package that is modestly easier to wield than more common autopistol types. It is easily maintained and uses a lot of commonly available parts, and Talon shooters have been known to replace broken components with those borrowed from machines or hab equipment with no loss of function. This pistol enjoys widespread appeal among gangers and enforcers alike and many street battles in Gunmetal City and Hive Sibellus’ lower levels have been fought with both parties using the Talon III. This pistol can be used with common military autogun clips, increasing its Clip size to 30 at the expense of making it harder to manoeuvre. The added bulk imposes a -10 penalty to Ballistic Skill Tests made to attack with it unless the shooter uses two hands to hold it.
+
+Class: Pistol
+Range: 30m
+RoF: S/2/6
+Dam: 1d10+2 I
+Pen: 0
+Clip: 18
+Reload: 3 Action Points
+Special:

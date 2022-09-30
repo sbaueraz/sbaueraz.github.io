@@ -1,0 +1,13 @@
+﻿Westingkrup Model 20 “Scalptaker”:
+
+An enviable example of robust and utilitarian design, the Scalptaker is a fantastically reliable pistol, firing true after almost any amount of abuse or mistreatment. This fact is not lost on professional fighters, frightened hivers and frontier colonists alike, who often choose the Scalptaker as a backup sidearm over more powerful pistols for this very reason. However, in the depths of Infernis in Gunmetal City where Westingkrup’s forges turn out many of these pistols every day, the average ganger seeks to carry almost anything else. This scorn is entirely unfounded; those who live fast and die young in the underhive view its ubiquity as a “hab-prole’s” gun and cannot see past that to any of its finer features. Scalptakers are the most common individual pattern of stub revolver in the Calixis Sector, and almost any accomplished shooter has handled one at least
+once, with some still swearing by its humble efficiency in the face of countless more expensive and “superior” makes. The Scalptaker’s swing-out cylinder is somewhat uncommon among stub revolvers and gives shooters the ability to load single rounds at a time. The firer may load one round as a Half Action, useful for loading specialty ammunition. The weapon’s size and weight allow it to be used as a club in melee combat.
+
+Class: Pistol
+Range: 35m
+RoF: S/-/-
+Dam: 1d10+3 I
+Pen: 0
+Clip: 6
+Reload: 6 Action Points
+Special: Reliable

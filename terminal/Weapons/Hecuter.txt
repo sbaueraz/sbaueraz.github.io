@@ -1,0 +1,12 @@
+﻿Hecuter 9/5 Combat Autopistol:
+
+Often pistol meant to impress with killing power rather regarded on Scintilla as the “prince among than looks. The area ahead of the pistol’s grip is pistols”, this exceptionally well-made autopistol occupied by a muzzle-loading shotgun chamber,is one of Hax-Orthlack’s most famous products, giving the weapon a very boxy and, according to and for centuries Hecuters have flown off the gangers, “business-like” look. This pistol is forges of Gunmetal City into waiting holsters as produced explicitly for Lord Hax’s Magistratum fast as the workers can make them. It is a firm enforcers, and is the standard sidearm of the favourite among Metallican gunslingers and elite “Crimson Sashes” unit. Many have also Malfian bloodsworn alike, showing that even the turned up in the hands of Adeptus Arbites feuding parties of the Scintilla-Malfi dispute can troopers who share the Magistratum’s approval put aside their differences if only to agree on the of brutally efficient weapons, and there are more superiority of the Hecuter’s design.
+
+Class: Pistol
+Range: 30m
+RoF: S/3/6
+Dam: 1d10+3 I
+Pen: 0
+Clip: 15
+Reload: 3 Action Points
+Special: Reliable

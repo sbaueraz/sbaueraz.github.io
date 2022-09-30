@@ -1,0 +1,12 @@
+﻿Shotgun Pistol:
+
+A Shotgun Pistol is a compact weapon holding a single shotgun shell and using a tip-up barrel to facilitate reloading. Simple and reliable, shotgun pistols have a variety of applications in close-range destruction, but are perhaps best known in naval circles where they are often carried by petty officers and bosuns to discourage mutiny among press-ganged crews. Shotgun pistols are known as “Persuaders” among ratings and anyone else with a nautical background, and may be referred to by any number of more colourful titles (“Foehammer”, “Castigator”, “Justicar”, and so forth) by terrestrial users. A shotgun pistol's fierce recoil imposes a -10 penalty on Ballistic Skill Tests made to attack unless the shooter holds the weapon with two hands or has a Strength Bonus of 4 or more.
+
+Class: Pistol
+Range: 10m
+RoF: S/-/-
+Dam: 1d10+4 I
+Pen: 0
+Clip: 1
+Reload: 3 Action Points
+Special: Reliable, Scatter

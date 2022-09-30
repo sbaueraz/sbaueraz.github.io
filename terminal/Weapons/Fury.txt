@@ -1,0 +1,13 @@
+﻿“Fury” Assault Pistol:
+
+A quick-firing laspistol suitable for use by shock troops and capable of laying down a barrage of las-bolts. The Fury’s range is inferior to most laspistols due to its rapid discharging cells, but it is an ideal weapon to use against large numbers of foes. It is often paired with a close combat weapon, such as a chainsword, and many of its users only shoot it until they’ve closed into hand-to-hand combat with the enemy
+
+
+Class: Pistol
+Range: 20m
+RoF: S/2/5
+Dam: 1d10+2 E
+Pen: 0
+Clip: 30
+Reload: 3 Action Points
+Special: Reliable

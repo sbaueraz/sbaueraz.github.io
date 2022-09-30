@@ -1,0 +1,12 @@
+﻿Civitas-Pattern:
+
+This is a simple utility weapon of extremely ancient design, and can commonly be found as a self-defence pistol carried by hab-workers or serving as a backup weapon to gangers wielding powerful if less reliable autoguns. It is bulkier and less efficient than common military patterns due to its cheap manufacture, but even if left in a drawer or stuck to the bottom of a desk for decades, a Civitas’ owner can rest assured that his weapon will always shoot.
+
+Class: Pistol
+Range: 25m
+RoF: S/2/-
+Dam: 1d10+1 E
+Pen: 0
+Clip: 25
+Reload: 3 Action Points
+Special: Reliable

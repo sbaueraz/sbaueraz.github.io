@@ -1,0 +1,12 @@
+﻿Phobos Stubber: 
+
+The Phobos is one of the most widespread single patterns of stub automatic and can be found in almost every corner of the Imperium. It is cheap to manufacture and a functional, if unimpressive, design that is unique among stubbers in that its specific pattern has demonstrably been in production since prehistory. Its long association with Terra has resulted in it being an exceptionally common sidearm among Administratum adepts who refer to it as the “Sigma-9” after the opening code-line of the relevant requisition form needed to obtain one. The Fane of Doru in Gunmetal City and the Belasco Deathworks on Malfi (where it is known as a “rake” in local parlance) notably produce this pattern and export it throughout the sector.
+
+Class: Pistol
+Range: 30m
+RoF: S/3/-
+Dam: 1d10+3 I
+Pen: 0
+Clip: 9
+Reload: 3 Action Points
+Special:

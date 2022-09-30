@@ -1,0 +1,12 @@
+﻿Belasco Duelling Las
+
+The Belasco Duelling Pistol is a product of the famed Belasco Deathworks on Malfi, engineered for a much longer effective range than most laspistols and featuring an intricate housing that looks impressive when tucked into a belt or sash. In spite of its potency, it is capable of using standard laspistol power packs, though it drains them entirely with a single shot. It can be used with an overcharge pack to the detriment of the weapon's reliability; if loaded with one, it gains the Overheats quality.
+
+Class: Pistol
+Range: 45m
+RoF: S/-/-
+Dam: 1d10+5 E
+Pen: 5
+Clip: 1
+Reload: 3 Action Points
+Special: Accurate

@@ -1,0 +1,12 @@
+﻿Hax-Orthlack Armsman-10 Service Pistol:
+
+This bulky and intimidating high-capacity stubber is a common sidearm for enforcers, household troops and mercenaries throughout the Calixis Sector. The design is copied from the traditional Scorpio-pattern naval pistol popular throughout Segmentum Obscurus, and HaxOrthlack has been mass producing this stubber for almost as long as its forges on Scintilla have been operating. The Armsman-10 has been contracted to Lord Hax’s Magistratum cadres as their standard sidearm since that organization’s inception, though it can be found on many other worlds in the employ of a variety of owners. Armsman pistols are machine-stamped with the insignia of the contracting organization at the time of manufacture, and the more rare examples lacking this sigil or cipher are considered unlucky by the more superstitious shooters. Perhaps due to its association with the heavies of various establishments, the Armsman is encountered much less frequently in the hands of underhive gangs and other scummers.
+
+Class: Pistol
+Range: 35m
+RoF: S/3/-
+Dam: 1d10+3 I
+Pen: 0
+Clip: 13
+Reload: 3 Action Points
+Special:

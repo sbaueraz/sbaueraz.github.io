@@ -1,0 +1,13 @@
+﻿Sulymann “Salvation” Holdout Pistol:
+
+The Salvation is an extremely compact pistol no larger than a thick deck of cards and intended for use by merchants, adepts, and common citizens who are untrained in weapons. It is entirely self-contained and easy to use with no extraneous levers or knobs, but is also ill-suited for anything but emergency self-defence use since it must be partially dismantled to reload its internal ammunition supply. The Salvation’s small size grants a +10 bonus to Sleight of Hand Tests made to conceal it, and the firer suffers no penalties for shooting it without the appropriate Talent.
+
+
+Class: Pistol
+Range: 10m
+RoF: S/3/-
+Dam: 1d10 I
+Pen: 0
+Clip: 7
+Reload: -
+Special:

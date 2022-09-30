@@ -1,0 +1,13 @@
+﻿Orthlack Mark IV Thollos: 
+
+This large-calibre autopistol has a strong following among junior officers of many Calixian Guard regiments as well as Planetary Defence Forces who favour its superior stopping power when compared to regulation sidearms. As an Orthlack weapon it is also considered to have the tacit approval of Lord Sector Hax, and it has become a tradition among old military families for sons and daughters to receive a commemoratively inscribed and personalized Thollos to mark their first commission.
+
+
+Class: Pistol
+Range: 20m
+RoF: S/-/6
+Dam: 1d10+4 I
+Pen: 0
+Clip: 12
+Reload: 3 Action Points
+Special:

@@ -1,0 +1,12 @@
+﻿Sulymann Encarmine Service  Pistol
+
+This is a fairly advanced autopistol that crams a large number of bullets into its small frame. This combination of small size and high capacity makes it a commmon sidearm by "second liners" such as plainclothes enforcers, hauler rig crews, and construction foremen. It also enjoys widespread popularity as a self-defence weapon for hab-workers who don't trust shaky, panicked hands to reloading a fresh clip (or taking steady aim for that matter).
+
+Class: Pistol
+Range: 20m
+RoF: S/3/8
+Dam: 1d10 I
+Pen: 0
+Clip: 24
+Reload: 3 Action Points
+Special: -
