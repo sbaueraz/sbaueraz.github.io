@@ -1,0 +1,30 @@
+﻿Skin Patch:
+ 
+Unlike most injectors, skin
+patches appear to be completely innocuous items
+whose true purpose may be lost on the average
+Imperial citizen. A skin patch takes the form of a
+square of thin transparent film about 10
+centimetres on a side, and are most often stored in a disposable wrapper. Once removed, a skin
+patch is applied to an area of bare skin where it
+sticks in place - the drug is actually contained
+within the patch itself and leaches into the user's
+bloodstream by infiltrating through their skin.
+Very basic skin patches begin administering the
+drug immediately, but most are bio-attuned to
+retain their dose until activated by the user. This
+is typically done by applying a firm pressure to
+the entire patch - if applied properly, skin
+patches can be worn under most types of
+armour, with the user simply compressing the
+area in a prescribed fashion to activate the patch.
+Skin patches are especially useful for those
+wearing heavy armour or void suits - an
+autojector is typically out of the question - but
+can also be appreciated by men with a particular
+distaste for needles. A character may apply a skin
+patch as a Full Action - once applied, a skin
+patch retains the drug for 1d5-2 days (minimum
+1), after which it dries out and begins to peel off.
+As a Half Action, the user can activate the skin
+patch at any time during this period.

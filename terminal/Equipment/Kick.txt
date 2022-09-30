@@ -1,0 +1,38 @@
+﻿Kick (Drug)
+
+Kick is the common name for a variety of
+drugs that give the user a sharp burst of short-
+lived energy. Though not nearly as potent as
+slaught or most types of stimms there are also
+fairly few consequences to its use besides a
+profound feeling of tiredness once the drug
+wears off. Unlike many drugs, kick includes a
+biological "warning" to the user when its effects
+are about to expire. When the user begins to see
+unusual colours around the edges of their vision
+he knows that he'll soon be plunged into
+profound listlessness and lethargy. Kick is
+commonly used in military situations where an
+urgent manoeuvre must be executed no matter
+what condition the troops are in, but it can also
+be found in the pockets of warring hive-gangers
+and enforcer kill teams who believe a little extra
+"kick" might be the margin of victory. Kick's low
+cost and ease of manufacture makes it available
+to just about anyone who can find a seller,
+though it typically has few users outside of those
+who make their living through violence.
+A dose of kick becomes effective one Round
+after it is injected and remains active for 1d5+10
+Rounds. During this time the user can
+completely ignore the effects of any Fatigue he
+already has as well as additional levels he may
+gain while the drug is effective. Once the drug
+wears off the user falls back under the effects of
+any accumulated Fatigue he already has plus an
+additional two levels, which may be enough to
+render him unconscious. If the user had no
+Fatigue when he injected kick, he instead gains
+1d5 levels when it wears off. A character who has
+used kick is aware that the drug will wear off one
+Round before it actually does.

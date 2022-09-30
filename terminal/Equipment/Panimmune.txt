@@ -1,0 +1,44 @@
+﻿Panimmune (Drug)
+ 
+Panimmune is a powerful medicinal
+compound that gives the user a massive boost to
+their natural resistance against toxins,
+contamination, parasites, and other infectious
+agents, making it a highly sought-after item for
+explorers and travellers as well as enforcers and
+agents pursuing targets into foetid hiding spots.
+The drug takes the form of a disposable
+hypospray tube that administers the panimmune
+via a tiny high-pressure jet into the user's neck.
+The strong mixture of counterseptics and inert
+toxin-absorbing compounds can be a literal life-
+saver in situations where even light injuries or
+switching re-breather canisters can be fatal, but
+it is extremely dangerous to use over a long term
+period as the potent mixture can upset the user's
+bodily humours - possibly with fatal results.
+Panimmune should never be confused with
+painimmune - though similar in name, the
+effects are wholly different, and a mistake in
+dosage between the two could be catastrophic.
+Once injected a dose of panimmune
+immediately provides a +30 bonus on
+Toughness Tests made to withstand most
+poisons, diseases, toxins and infections. An
+unintended side effect, this bonus also applies to
+Carouse Tests as well. The effect lasts for 1d5+5
+hours. Once the drug wears off, the user takes a -
+10 penalty on the same Toughness Tests as their
+body's natural defences are somewhat weakened
+by the loss of the drug's fortifying effect. The
+user can re-dose immediately, but taking more
+than one dose without first having a full night's
+rest (about 8 hours) to allow their humours to
+"reset" can be perilous. In this case, the user must
+pass a Challenging (+0) Toughness Test or
+permanently lose 1 point of Toughness and
+Willpower. Characters that do not sleep, such as
+heavily augmented Tech-Priests, may be active
+during this period as normal, though taking a
+second dose in any 8 hour period still has the
+same consequences.

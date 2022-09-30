@@ -1,0 +1,31 @@
+﻿Calmer (Drug)
+These sedative capsules are thought of as being 
+the purview of voidsick pilgrims and shell-
+shocked Guardsmen, but anyone suffering from
+the after-effects of severe trauma can benefit
+from their soothing effect. Therapeutic in
+nature, calmers can be especially helpful in
+preventing a mental breakdown or psychotic
+episode in those that have had horrifying
+experiences, such as witnessing a hive blackout,
+being trapped in a manufactorum fire, or
+encountering a ravenous beast that's crawled up
+from the underhive - even members of the
+Inquisition have taken up the habit of
+suppressing unpleasant encounters, though few
+would admit it. Calmers are affordably priced
+but are still beyond the reach of especially poor
+and destitute citizens who must try and make
+due with their personal hauntings, sometimes
+with very unfortunate effects.
+A dose of calmers takes about 20 minutes
+before it becomes effective. Once ingested,
+calmers impose a -20 penalty to the character's
+Perception and a -5 penalty to their Initiative
+(minimum 1) for 1d10+5 hours due to the drug's
+highly allaying qualities. The character may
+ignore the effects of any Minor mental disorders
+during this time. Further, if the character is
+suffering from any Mental Traumas, reduce the
+result on Table 6-8: Mental Traumas by 30 for
+the duration of the drug's effect.
