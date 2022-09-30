@@ -1,0 +1,3 @@
+﻿Recoil Glove
+
+Interlocking plates connected by bundles of memory wire enable these curious-looking gloves to form a rigid strut around the wearer’s hand and forearm, allowing for much more efficient dissipation of recoil forces when shooting guns. More costly versions may be able to conceal their functioning parts somewhat better, but regardless of their make or pattern, a recoil glove is a sure sign that the wearer is a serious gunfighter. Characters wearing a recoil glove can fire a Basic weapon with only the gloved hand and do not take the usual -20 penalty for firing onehanded. Likewise, Pistol-class weapons that usually require two hands to be fired (such as handcannons) can be fired one-handed by a recoil glove as well. 

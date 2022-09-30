@@ -1,0 +1,7 @@
+﻿Infrared Goggles
+
+Commonly referred to as IR goggles, this piece of gear allows the wearer to look into the infrared spectrum and is most commonly used for identifying sources of heat.
+In industrial applications they can be crucial for determining points of failure or friction in machinery and piping, but they are also imminently useful for
+spotting hiding enemies at night, making them favoured items among crack military troops and high-rent mercenaries. A character wearing IR goggles can see in
+darkness without penalty and gains a +20 bonus to vision-based Perception Tests in such situations, though very hot environments and
+thermally shielded enemies may counteract this or give the wearer “false positive” readings. 
