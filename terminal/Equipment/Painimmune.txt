@@ -1,54 +1,5 @@
 ﻿Painimmune (Drug)
  
-While many of the more steely Imperial
-servants might grimly recant that "pain is
-weakness leaving the body", or perhaps more
-jovially, "pain lets you know you're still alive",
-most men find these catechisms to be of little
-comfort when suffering from a terrible injury or
-sickness. Painimmune, as the name suggests, is a
-long-acting analgesic that suppresses physical
-pain (along with just about every other sense) for
-therapeutic purposes. Painimmune is widely
-used as a post-surgical recovery aid, especially
-when a patient has received a cybernetic implant
-or some other major procedure that can cause
-systemic shock, and is typically administered in a
-slow-drip infusion to spread a dose out over
-time. Acolytes of the Imperial Inquisition are
-more likely to encounter single-use injector-
-ampoules that are commonly used in combat situations. In this format, a single ampoule is
-typically used by a medic to help stabilize a
-wounded comrade until more thorough
-treatment can be administered. Alternatively, a
-victim that is too grievously wounded might be
-given two doses and then simply left to meet the
-God-Emperor in peace, a manoeuvre known
-commonly as a "medicae mercy killing". Though
-designed to help heal, or at least soothe physical
-languishment, painimmune's powerful effects on
-the nervous system can also be extremely
-dangerous, with overdoses being almost
-invariably fatal. The drug can also be addictive -
-patients who have been under a heavy regimen
-during convalescence may find themselves
-dangerously dosing themselves long after their
-original injuries have healed.
-A dose of painimmune becomes effective in
-one Round and completely suppresses feelings of
-pain or discomfort for 1d5+1 hours. During this
-time the user gains a number of levels of Fatigue
-equal to their Toughness Bonus. If a second dose
-is taken during this time the duration is
-increased by another 1d5+1 hours and the user is
-knocked unconscious as their various biological
-processes begin to shut down. The user takes 1
-point of Toughness Damage every 5 minutes
-until the drug wears off or their Toughness
-becomes 0, at which point they die peacefully.
-The rules described above refer to individual
-doses of painimmune meant to be used in the
-field - therapeutic dosages used as part of long-
-term recovery and treatment are considered to
-fall under the Medicae skill when used in a
-hospice or similarly-outfitted environment.
+While many of the more steely Imperial servants might grimly recant that "pain is weakness leaving the body", or perhaps more jovially, "pain lets you know you're still alive", most men find these catechisms to be of little comfort when suffering from a terrible injury or sickness. Painimmune, as the name suggests, is a long-acting analgesic that suppresses physical pain (along with just about every other sense) for therapeutic purposes. Painimmune is widely used as a post-surgical recovery aid, especially when a patient has received a cybernetic implant or some other major procedure that can cause systemic shock, and is typically administered in a slow-drip infusion to spread a dose out over time. Acolytes of the Imperial Inquisition are more likely to encounter single-use injector- ampoules that are commonly used in combat situations. In this format, a single ampoule is  typically used by a medic to help stabilize a wounded comrade until more thorough treatment can be administered. Alternatively, a victim that is too grievously wounded might be given two doses and then simply left to meet the God-Emperor in peace, a manoeuvre known commonly as a "medicae mercy killing". Though designed to help heal, or at least soothe physical languishment, painimmune's powerful effects on
+the nervous system can also be extremely dangerous, with overdoses being almost invariably fatal. The drug can also be addictive - patients who have been under a heavy regimen during convalescence may find themselves dangerously dosing themselves long after their original injuries have healed. A dose of painimmune becomes effective in one Round and completely suppresses feelings of pain or discomfort for 1d5+1 hours. During this time the user gains a number of levels of Fatigue
+equal to their Toughness Bonus. If a second dose is taken during this time the duration is increased by another 1d5+1 hours and the user is knocked unconscious as their various biological processes begin to shut down. The user takes 1 point of Toughness Damage every 5 minutes until the drug wears off or their Toughness becomes 0, at which point they die peacefully. The rules described above refer to individual doses of painimmune meant to be used in the field - therapeutic dosages used as part of long-term recovery and treatment are considered to fall under the Medicae skill when used in a hospice or similarly-outfitted environment.
