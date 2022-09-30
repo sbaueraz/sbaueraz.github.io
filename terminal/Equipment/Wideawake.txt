@@ -1,28 +1,3 @@
 ﻿Wideawake
  
-Wideawake, as the name implies, is intended
-to ward of feelings of sleepiness in those who
-keep long hours. This drug is composed of long-
-acting psychostimulants compressed into small
-tablets that break down slowly once ingested,
-providing a feeling of alertness and focus that is
-normally lost once the wearer begins to suffer
-from sleep deprivation. Though effective, it is a
-cheap substance designed for the masses, so its
-effects are limited in situations more stressful
-than running an all-night watch or heavy
-cogitator manipulation. The tablets themselves
-are typically found in small sealed packets that
-can be easily stuffed into a pocket or bag, and are
-so ubiquitous in certain lines of work that
-automat machines which usually stock cheap
-foodstuffs and refreshments can dispense the little plastek packets too.
-A dose of wideawake takes 20 minutes to
-become effective and lasts for 2d5 hours. During
-this time the character can ignore the effects of
-Fatigue on his mental Characteristics
-(Intelligence, Perception, Willpower, and
-Fellowship), though taking too many levels of
-Fatigue will still result in unconsciousness.
-When the drug wears off the character gains an
-additional level of Fatigue as the over-worked portions of his mind begin to demand rest.
+Wideawake, as the name implies, is intended to ward of feelings of sleepiness in those who keep long hours. This drug is composed of long- acting psychostimulants compressed into small tablets that break down slowly once ingested, providing a feeling of alertness and focus that is normally lost once the wearer begins to suffer from sleep deprivation. Though effective, it is a cheap substance designed for the masses, so its effects are limited in situations more stressful than running an all-night watch or heavy cogitator manipulation. The tablets themselves are typically found in small sealed packets that can be easily stuffed into a pocket or bag, and are so ubiquitous in certain lines of work that automat machines which usually stock cheap foodstuffs and refreshments can dispense the little plastek packets too. A dose of wideawake takes 20 minutes to become effective and lasts for 2d5 hours. During this time the character can ignore the effects of Fatigue on his mental Characteristics (Intelligence, Perception, Willpower, and Fellowship), though taking too many levels of Fatigue will still result in unconsciousness. When the drug wears off the character gains an additional level of Fatigue as the over-worked portions of his mind begin to demand rest.
