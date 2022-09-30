@@ -38,13 +38,7 @@ Imperial Date: 815.M41
 * Carapace Vambraces: 3,000 Scabs
  
 * Carapace Chestplate: 6,000 Scabs
- 
-* Arbitrator Carapace: 13,500 Scabs
- 
-* Enforcer Carapace: 5,750 Scabs
- 
-* Magistratum Carapace: 11,000 Scabs
- 
+   
 	>Continue
 >Back ⌧ 
     Adeptus Logos Administatus C7R6
