@@ -1,22 +1,4 @@
 ﻿
 Hypo-Spray:
  
-Though somewhat bulkier than
-other injection methods, hypo-sprays are a novel
-and efficient way to quickly administer drugs to
-a recipient. The small gun-like device uses a
-pressurized gas canister to atomize and then
-jettison the drug into the user. The hypo-spray's
-holder simply presses the device against the
-recipient's skin and pulls a trigger - the high
-speed of the spray penetrates the skin while
-leaving only an irritated circle instead of a tiny
-wound, which can be an crucial consideration if
-the user is operating in a foetid or contaminated
-environment. A hypo-spray can be loaded with
-up to six doses of the same drug; Good
-Craftsmanship versions can take up to six
-different drugs and make use of a rotary feed
-mechanism to select between the loaded
-capsules. Using a drug with a hypo-spray is a
-Half Action.
+Though somewhat bulkier than other injection methods, hypo-sprays are a novel and efficient way to quickly administer drugs to a recipient. The small gun-like device uses a pressurized gas canister to atomize and then jettison the drug into the user. The hypo-spray's holder simply presses the device against the recipient's skin and pulls a trigger - the high speed of the spray penetrates the skin while leaving only an irritated circle instead of a tiny wound, which can be an crucial consideration if the user is operating in a foetid or contaminated environment. A hypo-spray can be loaded with up to six doses of the same drug; Good Craftsmanship versions can take up to six different drugs and make use of a rotary feed mechanism to select between the loaded capsules. Using a drug with a hypo-spray is a Half Action.
