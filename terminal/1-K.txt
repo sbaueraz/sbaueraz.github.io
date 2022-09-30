@@ -48,10 +48,16 @@ Imperial Date: 815.M41
 * Det Tape: 50 Throne Gelts
  
 * Demo Charge: 180 Throne Gelts
- 
+  
 * Forgery Kit: 400 Throne Gelts
- 
+  
 * Multikey: 150 Throne Gelts
+ 
+* Arbitrator Carapace: 13,500 Scabs
+   
+* Enforcer Carapace: 5,750 Scabs
+  
+* Magistratum Carapace: 11,000 Scabs
  
 	>Access Hidden Database (Encrypted) ⌧ 
                                                                                                     Adeptus Logos Administatus C7R6
