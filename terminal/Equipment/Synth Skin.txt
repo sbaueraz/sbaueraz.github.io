@@ -1,30 +1,4 @@
 ﻿Synth-Skin
  
-As the name suggests, this can contains an
-aerosol spray of binding enzymes and proteins
-mixed with powerful procoagulant agents and a
-topical pain/inflammation relief compound.
-Shaken and then sprayed onto an injury, synth-
-skin leaves a thin foam that sticks to the victim's
-wound, causing rapid coagulation and
-promoting the regeneration of new skin. Timely
-application of synth-skin can be a saviour to a
-victim at risk of death by exsanguination, and its
-very simple use - point the nozzle at the wound
-and depress - means that average citizens or
-soldiers can provide potentially lifesaving
-intervention when a trained medic or skilled
-medicae is not available. While not its primary
-purpose, synth-skin is also an effective field
-treatment for burn injuries and preventing
-secondary infection. Some wounds also tend to
-heal better when quickly treated with synth-skin,
-producing smaller and more orderly scars.
-Using a can of synth-skin is a Full Action that
-automatically ends Blood Loss - no Tests are
-necessary. Synth-skin can be used as part of a
-Medicae Test to administer First Aid. If used on
-a character that has suffered Energy Damage
-resulting in burns, the medic gains a +5 bonus to
-his Test. One can of synth-skin is sufficient for
-five applications before it runs out.
+As the name suggests, this can contains an aerosol spray of binding enzymes and proteins mixed with powerful procoagulant agents and a topical pain/inflammation relief compound. Shaken and then sprayed onto an injury, synth- skin leaves a thin foam that sticks to the victim's
+wound, causing rapid coagulation and promoting the regeneration of new skin. Timely application of synth-skin can be a saviour to a victim at risk of death by exsanguination, and its very simple use - point the nozzle at the wound and depress - means that average citizens or soldiers can provide potentially lifesaving intervention when a trained medic or skilled medicae is not available. While not its primary purpose, synth-skin is also an effective field treatment for burn injuries and preventing secondary infection. Some wounds also tend to heal better when quickly treated with synth-skin, producing smaller and more orderly scars. Using a can of synth-skin is a Full Action that automatically ends Blood Loss - no Tests are necessary. Synth-skin can be used as part of a Medicae Test to administer First Aid. If used on a character that has suffered Energy Damage resulting in burns, the medic gains a +5 bonus to his Test. One can of synth-skin is sufficient for five applications before it runs out.
