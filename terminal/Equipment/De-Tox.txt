@@ -1,31 +1,3 @@
 ﻿De-Tox (Drug)
  
-De-Tox is the common term for a biologically
-reactive compound that is intended for
-emergency use in saving the life of a poisoned or
-overdosed victim. Packaged in a small disposable
-injector unit, de-tox causes the consumer to
-violently wretch and cough, expelling whatever
-might currently be inhabiting their stomach,
-lungs, and bowels as well. The experience is
-singularly unpleasant, but is certainly preferable
-(in the eyes of most, anyway) to a painful death
-from tainted food, drug overdose, or noxious
-fumes. De-tox is effective at stopping common
-forms of toxins as well as the life-threatening
-effects of drug overdoses or alcohol poisoning,
-but likely will not be enough to save a victim
-who has inhaled a militarized chemical weapon
-or been hit by a needle rifle's deadly payload.
-A dose of de-tox ends the ongoing effects of
-any drugs and most other ingested substances
-one Round after it has been administered. The
-character is Stunned for 2d5 Rounds as the de-
-tox forces his body to purge out the harmful
-contents (among other things). A conscious
-character can attempt to resist this effect and
-reduce the duration by a number of Rounds
-equal to his Toughness Bonus, but if this
-produces a result of zero or less then the
-character also resists the beneficial effects of the
-de-tox as well!
+De-Tox is the common term for a biologically reactive compound that is intended for emergency use in saving the life of a poisoned or overdosed victim. Packaged in a small disposable injector unit, de-tox causes the consumer to violently wretch and cough, expelling whatever might currently be inhabiting their stomach, lungs, and bowels as well. The experience is singularly unpleasant, but is certainly preferable (in the eyes of most, anyway) to a painful death from tainted food, drug overdose, or noxious fumes. De-tox is effective at stopping common forms of toxins as well as the life-threatening effects of drug overdoses or alcohol poisoning, but likely will not be enough to save a victim who has inhaled a militarized chemical weapon or been hit by a needle rifle's deadly payload.  A dose of de-tox ends the ongoing effects of any drugs and most other ingested substances one Round after it has been administered. The character is Stunned for 2d5 Rounds as the de- tox forces his body to purge out the harmful contents (among other things). A conscious character can attempt to resist this effect and reduce the duration by a number of Rounds equal to his Toughness Bonus, but if this produces a result of zero or less then the character also resists the beneficial effects of the de-tox as well!
