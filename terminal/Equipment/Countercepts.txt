@@ -1,18 +1,3 @@
 ﻿Countersepts (Drug)
  
-Short for "counterseptics", these innocuous
-tablets are a gift from the Emperor Himself to
-soldiers, explorers, pilgrims, and others who find
-themselves in suddenly foetid conditions. Each contain broad-spectrum chemical, mineral, and
-probiotic ingredients that help stave off infection
-or disease, which can often be just as deadly as a
-hot bullet or a long fall. Countersepts are
-standard-issue kit to Guardsmen operating in
-foul environments, and those travelling to
-unknown regions would be well advised to bring
-a few doses in the event of complications.
-Countersepts provide a +20 bonus to any
-Toughness Tests made to resist initial
-contraction of diseases and infections, but have
-no benefit on an already existent condition. One
-dose is good for an entire day.
+Short for "counterseptics", these innocuous tablets are a gift from the Emperor Himself to soldiers, explorers, pilgrims, and others who find themselves in suddenly foetid conditions. Each contain broad-spectrum chemical, mineral, and probiotic ingredients that help stave off infection or disease, which can often be just as deadly as a hot bullet or a long fall. Countersepts are standard-issue kit to Guardsmen operating in foul environments, and those travelling to unknown regions would be well advised to bring a few doses in the event of complications. Countersepts provide a +20 bonus to any Toughness Tests made to resist initial contraction of diseases and infections, but have no benefit on an already existent condition. One dose is good for an entire day.
