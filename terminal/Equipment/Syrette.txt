@@ -1,20 +1,3 @@
 ﻿Syrette:
  
-Simple to a point, this type of injector
-uses a thin needle attached to a tube that
-contains the drug. Pressure, whether by
-squeezing the tube or pressing down on a
-plunger, forces the drug into the recipient's flesh.
-Syrettes are cheap and effective, but have to be
-used on an area of bare skin, making them
-somewhat clumsy in dangerous situations (such
-as combat). A syrette is typically thrown away
-after being used, though some types can be
-refilled and used again. Re-used syrettes are
-commonly seen in the employ of addicts of illicit
-drugs, and can often lead to infections. For the
-same reason, a syrette can be dangerous if used
-in a contaminated environment - most medics,
-given enough time, will sanitise the injection site
-with alcohol or a similar disinfectant first. Using
-a drug with a syrette is a Full Action.
+Simple to a point, this type of injector uses a thin needle attached to a tube that contains the drug. Pressure, whether by squeezing the tube or pressing down on a plunger, forces the drug into the recipient's flesh. Syrettes are cheap and effective, but have to be used on an area of bare skin, making them somewhat clumsy in dangerous situations (such as combat). A syrette is typically thrown away after being used, though some types can be refilled and used again. Re-used syrettes are commonly seen in the employ of addicts of illicit drugs, and can often lead to infections. For the same reason, a syrette can be dangerous if used in a contaminated environment - most medics, given enough time, will sanitise the injection site with alcohol or a similar disinfectant first. Using a drug with a syrette is a Full Action.
