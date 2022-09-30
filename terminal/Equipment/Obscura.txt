@@ -1,42 +1,4 @@
 ﻿Obscura
  
-Though almost universally prescribed and the
-subject of enforcer crackdowns, this drug is
-nearly as widespread as it is potent. Obscura
-induces a peaceful dream-like state in the user
-that can last anywhere from a few hours to all
-day depending on the purity of the substance,
-but tends to leave the user feeling deeply
-depressed or despondent once the drug wears
-off. Whether this is a chemical reaction of the
-drug itself or simply the user suffering from
-being returned to reality is unknown. Obscura
-comes in a variety of forms, all of which have
-strongly addictive qualities. The crystallized
-powder is typically smoked or inhaled into the
-nostrils, but users wanting a more intense effect
-will often use organic acids to distil the powder
-into a condensed liquid and inject it directly into
-the bloodstream. Though relatively inexpensive
-to manufacture, the "street price" tends to have a
-massive mark-up due to its illegality. The
-producers, smugglers, and dealers who supply
-the stuff can make a very comfortable living off
-of their addicted clients, though the risk of an
-enforcer - or worse, Arbitrator - kill team
-cking down the door is a constant companion.
-A dose of obscura sends the user into a
-euphoric trance filled with pleasant visions; cut
-obscura lasts for 1d5 hours, while the pure drug
-lasts for an additional 5 hours. While under its
-effects the character suffers a -20 penalty to any
-Perception, Intelligence, or Willpower-based
-Tests, but is also considered to have the Fearless
-talent as they are unable to actually rationalise
-danger or peril. Once the drug wears off the user
-suffers a -10 penalty to his Willpower and
-Toughness for the next 1d10 hours as he goes
-through a general malaise unless another dose of
-obscura is taken. Using de-tox will end the
-primary effects of obscura but cannot nullify its
-secondary consequences.
+Though almost universally prescribed and the subject of enforcer crackdowns, this drug is nearly as widespread as it is potent. Obscura
+induces a peaceful dream-like state in the user that can last anywhere from a few hours to all day depending on the purity of the substance, but tends to leave the user feeling deeply depressed or despondent once the drug wears off. Whether this is a chemical reaction of the drug itself or simply the user suffering from being returned to reality is unknown. Obscura comes in a variety of forms, all of which have strongly addictive qualities. The crystallized powder is typically smoked or inhaled into the nostrils, but users wanting a more intense effect will often use organic acids to distil the powder into a condensed liquid and inject it directly into the bloodstream. Though relatively inexpensive to manufacture, the "street price" tends to have a massive mark-up due to its illegality. The producers, smugglers, and dealers who supply the stuff can make a very comfortable living off of their addicted clients, though the risk of an enforcer - or worse, Arbitrator - kill team kicking down the door is a constant companion. A dose of obscura sends the user into a euphoric trance filled with pleasant visions; cut obscura lasts for 1d5 hours, while the pure drug lasts for an additional 5 hours. While under its effects the character suffers a -20 penalty to any Perception, Intelligence, or Willpower-based Tests, but is also considered to have the Fearless talent as they are unable to actually rationalise danger or peril. Once the drug wears off the user suffers a -10 penalty to his Willpower and Toughness for the next 1d10 hours as he goes through a general malaise unless another dose of obscura is taken. Using de-tox will end the primary effects of obscura but cannot nullify its secondary consequences.
