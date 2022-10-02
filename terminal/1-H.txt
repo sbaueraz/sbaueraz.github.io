@@ -50,6 +50,12 @@ Imperial Date: 815.M41
 * Bastard Sword: 300 Scabs
     
 * Drive Nailer: 250 Scabs
+
+* Bullets: 10 Scabs per box of 30 rounds
+  
+* Shotgun Shells: 10 Scabs per box of 20 shells
+      
+* Charge Pack: 100 Scabs for each pack
     
        
 >Continue
