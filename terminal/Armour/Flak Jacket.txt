@@ -1,0 +1,6 @@
+﻿Flak Jacket:
+
+Standard combat gear for many militants in the Imperium, a flak jacket covers the entire torso with a flexible fabric tunic that includes rigid plates within. Some models have long sleeves to protect the arms, while others end above the elbow and use separate gauntlets. All will invariably include sturdy boots or leggings, and the outfit has a distinctively military-looking appearance, often riddled with pockets and gearclips to store equipment. Light flak jackets use thinner plates and offer proportionally inferior protection, but unlike the heavier versions they can easily pass for everyday clothing.
+
+Locations Covered: Arms, Body, Legs
+AP: 3

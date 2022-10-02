@@ -1,0 +1,6 @@
+﻿Flak Vest:
+
+This is essentially a reduced flak jacket that is only designed to protect the torso. This makes it lighter and easier to wear while still offering protection to a man’s largest target area Undercover enforcers and investigative agents often make use of armour like this to maintain some personal safety while trying to appear as average hivers or non-militant adeptus.
+
+Locations Covered: Body
+AP: 3

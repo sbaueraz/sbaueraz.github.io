@@ -1,0 +1,6 @@
+﻿Flak Helmet:
+
+Flak helmets variously take the form of rounded ballistic shells or stiff, low-brimmed hats, both invariably formed of rigid flak layers designed to protect the head. Suddenly incapacitating injuries strike the head more than any other area, so even the most backwater PDF troops and low-rent mercenaries will often at least have a flak helmet if nothing else
+
+Locations Covered: Head
+AP: 2

@@ -1,0 +1,6 @@
+﻿Mesh Cowl:
+
+Mesh headgear can take the form of a closefitting cowl or mask, a hood attached to a duster, or a wide-brimmed hat paired with a tall collar. Thanks to mesh’s lightweight properties, no matter what style a cowl takes, it can be donned quickly, which is handy when the wearer is trying to blend in with groups that do not often wear hats.
+
+Locations Covered: Head
+AP: 3

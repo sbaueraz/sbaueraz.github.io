@@ -1,0 +1,6 @@
+﻿Guard Flak Armour:
+
+Guard Flak Armour is the heaviest type of flak armour commonly produced, and is designed purely for combat. It consists of carbon-fibre and thermoplas strips wrapped around a lightweight flexible metal frame, which is given its final shape by a ruggedized outer shell. It is therefore significantly more rigid than other types of flak armour, making it ill-suited for concealment but significantly more robust against bullets and shrapnel. Most patterns consist of a strong breastplate with articulated shrouds for the shoulders, a close-fitting helmet, gauntlets with bracers, and tall boots with knee pads, giving the Guardsman fairly good protection for his entire body. Gear-clips and tac-harnesses are often added to keep handy equipment (grenades, charge packs, and so forth) readily available. Guard Flak Armour of at least Common craftsmanship includes an inbuilt micro-bead in the helmet as well as a removable gas mask.
+
+Locations Covered: All
+AP: 4

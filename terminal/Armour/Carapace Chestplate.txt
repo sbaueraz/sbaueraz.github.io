@@ -1,0 +1,6 @@
+﻿Carapace Chest Plate:
+
+A sturdy carapace breastplate shrouds its wearer’s torso with several armaplas plates, keeping organs and other vitals safely ensconced from blades and bullets alike. Carapace chest plates are usually too large and rigid to conceal; instead, they are typically worn in conjunction with a lighter and more comfortable mesh or flakweave armour on the wearer’s limbs, giving them solid protection for the most essential body parts without sacrificing ease of movement.
+
+Locations Covered: Body
+AP: 6
