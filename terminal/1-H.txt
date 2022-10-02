@@ -48,7 +48,10 @@ Imperial Date: 815.M41
 * Great Hammer: 600 Scabs
  
 * Bastard Sword: 300 Scabs
- 
+    
+* Drive Nailer: 250 Scabs
+    
+       
 >Continue
 >Back ⌧ 
   Adeptus Logos Administatus C7R6
