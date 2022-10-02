@@ -1,0 +1,12 @@
+﻿Drive Nailer:
+
+One of the first weapons to appear in the hands of heretics in a hive uprising, the drive nailer is simply a high-power nail or rivetdriving gun of the type common to the millions who toil in hive construction and reclamation crews across the Imperium. With its power setting turned up to maximum and safety features disabled, drive nailers can make a messy but effective weapon. They have a very short effective range as the nails or rivets lose velocity quickly, but nevertheless are often suficient to give rioting hivers enough firepower to steal better weapons from unlucky enforcers and PDF troops who've found themselves nailed to a wall or bulkhead.
+
+Class: Basic (Primitive)
+Range: 5m
+RoF: -/3/-
+Dam: 1d10+1 R
+Pen: 4
+Clip: 15
+Reload: 9 Action Points
+Special: Primitive

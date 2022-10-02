@@ -1,0 +1,8 @@
+﻿Great Hammer:
+
+This broad-faced hammer is undeniably intended for use as a weapon and features a heavy, sturdy striking face and shaft comprised of modern materials. A great hammer is a step up from the weapons of feudal warriors or salvaged bludgeons of underhive gangers, with a metallic head of dense alloy that can bash a man out of light armour handily. Agents of the Calixian Conclave's Ordo Malleus are common enthusiasts for these cudgels - aside from bearing passing resemblance to a mighty daemonhammer, the massive blows they can unleash can stagger the most intransigent foe, a testament to a simple expression that there is nothing a large piece of metal backed up by a large amount of faith can't subdue. A great hammer adds a +10 bonus to Weapon Skill Tests made to Stun.
+
+Class: Melee
+Dam: 1d10+4 I
+Pen: 2
+Special: Unwieldy

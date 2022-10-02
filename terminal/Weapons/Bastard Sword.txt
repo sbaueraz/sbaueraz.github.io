@@ -1,0 +1,8 @@
+﻿Bastard Sword:
+
+Bastard swords are so named because they are roughly halfway between a traditional onehanded arming or longsword and a much longer two-handed blade, and are sometimes known as “hand-a-half” swords because of it. Specialised blades like this are common on feudal worlds with a love of swordsmithing, and are the featured weapons of Warlord Vervai Skull’s elite Harrowguard on Iocanthos. Most warriors would need both hands to wield a bastard sword, and those of sufficient skill and strength to use just one are immediately set apart from their peers in the realm of swordsmanship. Because of their versatility and size, bastard swords are sometimes used by off-worlders, often upgraded with a mono-edge to cut through armour. A bastard sword may be wielded in one hand if the user has a Strength Bonus of at least 4; otherwise, it requires both hands to use.
+
+Class: Melee
+Dam: 1d10+1 R
+Pen: 1
+Special: Primitive
