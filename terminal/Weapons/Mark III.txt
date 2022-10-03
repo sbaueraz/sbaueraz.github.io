@@ -1,0 +1,12 @@
+﻿Mars-Pattern Mark III Lasgun:
+
+Made in large numbers on the forges of Malfi and Scintilla, this particular pattern of lasgun has been in use since M36 and was chosen as the standard model for most Imperial Guard regiments raised in the Calixis Sector. It is mentioned by name in the Imperia Infantryman’s Uplifting Primer as the “Guardsman’s Friend” and is combination of easy to use sights and ergonomic grips make it one of the more popular lasguns employed by the Imperial Guard.
+
+Class: Basic
+Range: 100m
+RoF: S/3/-
+Dam: 1d10+3 E
+Pen: 0
+Clip: 60
+Reload: 3 Action Points
+Special: Reliable

@@ -1,0 +1,12 @@
+﻿D’laku Crusade Hellgun:
+
+This ancient pattern of Hellgun is closely associated with the Adeptus Mechanicus’ Skitarii Secutors, and was once used by those cohorts during the Angevin Crusade to conquer the Calixis Sector. Out of reverence for that history, this antique Hellgun pattern is still commonly used by the Secutors of the present, and is manufactured in the Mechanicus’ famed Lathe Worlds. The D’laku-pattern differs markedly from newer Hellguns, favouring rapid-fire over beam intensity and lacking the built-in Targeter that is a hallmark of the weapons manufactured Kantrael. It is powered by an capacitor (weight 10kg) typically attached to the Secutor’s back, though it can make use of both standard lasgun charge and overcharge packs (Clip size becomes 12 or 6, respectively) or newer backpack units (weight 25kg, Clip size becomes 150).
+
+Class: Basic
+Range: 100m
+RoF: S/3/5
+Dam: 1d10+3 E
+Pen: 4
+Clip: 40
+Reload: 6 Action Points
+Special:

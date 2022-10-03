@@ -1,0 +1,12 @@
+﻿Twin Lasgun:
+
+Also known as the Lasburst Gun, twin barrelled lasguns of this type were once popular as far back as the Age of Apostasy due to their heavy firepower. With both barrels firing a single intense beam, a Lasburst can inflict savage oblong wounds on those hit by it. However they have always been finicky and tempermental weapons, and with the Imperial Guards emphasis on guns with high relaibility since then this sort of weapon was doomed to obscurity. No major forges have produced twin lasguns for millennia, but many of the old models are still in use by mercenaries and huntesr, and a few lesser munitions facteries are known to product replicas for those who don't mind their tendancy to chew up charge packs. If a twin lasgun jams, there is a 50% chance that its charge pack is ruined.
+
+Class: Basic
+Range: 100m
+RoF: S/2/-
+Dam: 1d10+4 E
+Pen: 0
+Clip: 18
+Reload: 3 Action Points
+Special: Tearing, Unreliable

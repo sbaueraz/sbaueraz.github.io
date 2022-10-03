@@ -1,0 +1,8 @@
+﻿Axe:
+
+An axe sports a brutal blade at the end of asturdy haft, giving it magnificent chopping power. This makes it functional as both a tool and a weapon, and the same axe that splits wood can be just as easily used to cut down an opponent. Axes generally lack the reach as well as the precision of a sword, and are harder to use defensively due to their poor balance, but a strike offers significantly greater ability to maim and kill as it rips through flesh and shatters bone with the same ease as it fells a tree. An axe’s qualities and Damage can also be used to figure a basic weapon equipped with a long bayonet.
+
+Class: Melee
+Dam: 1d10+1 R
+Pen: 0
+Special: Primitive, Unbalanced

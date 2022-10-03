@@ -1,0 +1,13 @@
+﻿Alcher Mark IV Combat Autogun:
+
+A fairly simple weapon among autoguns, this pattern can be widely found in the arsenals of many PDFs throughout the Calixis Sector. The basic controls (one shot or full automatic) are well-suited towards troops in those organizations whose training usually isn’t as good as their counterparts in the Imperial Guard, and the Alcher employs larger-size clips than most autoguns to keep up with the rapid shooting. Armageddon-Pattern Autogun: This pattern of autogun has its origin on the war-torn world of the same name in Segmentum Solar, and many of the Imperium’s foes who have invaded that planet found themselves cut down by its large-calibre bullets. In the Calixis Sector clones of this pattern are manufactured by the Belasco Deathworks as well as lesser forges on Malfi, and after being heavily used during the Tranch Insurrection it is widely distributed in the Malfian Subsector. Uncomplicated, loud, and lethal, the Armageddon is an unapologetic brick of a gun that can make an effective melee weapon simply on the providence of its heavy construction and shrouded barrel (treat as a staff when used in this way), and many examples have stood up to abuse and kept shooting in ways that would make lasguns seem fragile.
+
+
+Class: Basic
+Range: 60m
+RoF: S/-/10
+Dam: 1d10+3 I
+Pen: 0
+Clip: 40
+Reload: 3 Action Points
+Special:

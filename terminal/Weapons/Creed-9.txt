@@ -1,0 +1,13 @@
+﻿Hax-Orthlack Creed-9 Autogun:
+
+There are few autoguns better suited for close-quarters warfare than the Creed-9. This Orthlack gun is based off of an out-sector pattern formerly used by Naval boarding parties, and makes many compromises to improve its handling. Made with lightweight materials and using a collapsing wire stock, the Creed-9 is only slightly larger than military autopistols and is a favoured weapon for numerous kill squads and private troops of noble houses and Chartist Captains. Many of Lord Hax’s Magistratum enforcers in Hive Sibellus carry these compact autoguns under their long green coats to ensure that they are always well-armed against scummers who aren’t deterred by their reputation for excessive force. Because of this association with elites and professional troopers, many Creed-9s sport numerous upgrades such as red dot sights, expanded mag-ports or fire selectors. The Creed-9 is compact enough that it imparts a -10 rather than -20 penalty to Ballistic Skill Tests if wielded with one hand, and can also be fired in melee as if was a pistol.
+
+
+Class: Basic
+Range: 50m
+RoF: S/3/10
+Dam: 1d10+3 I
+Pen: 0
+Clip: 35
+Reload: 3 Action Points
+Special:

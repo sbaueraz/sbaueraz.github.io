@@ -1,0 +1,8 @@
+﻿Chain Knife:
+
+Chain knives work on the same principle as their larger kin, and often take the appearance of a short cleaver or wide dirk with a squat and murderous look to them. Powered by a compact cell in the hilt, the weapon’s buzzing teeth rip through flesh with ease and splatter onlookers with hot gore. Chain knives, also known variously as “buzz blades” or “chain rippers”, are almost entirely a hiver’s weapon and are widespread among gangers of the Sibellian underhive and the fighting cages of Malfi. On Landunder, the buzz blade is infamously the province of the labour gangs that control the docking airlocks of the eight cities, notorious as they are for quelling dissent with a single ragged cut to the belly. In this, Landrians have developed a special killing art whose aim is to leave the victim screaming in agony for as long as possible before death.
+
+Class: Melee
+Dam: 1d5+3 R
+Pen: 2
+Special: Tearing

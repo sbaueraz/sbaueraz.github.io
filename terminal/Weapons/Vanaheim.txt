@@ -1,0 +1,12 @@
+﻿Vanaheim Skitarii Assault Shotgun:
+
+A terrifying weapon made even more so by the Skitarii Tech-Guards often wielding them, Vanaheim shotguns are brutally efficient weapons that form the standard armament of most Skitarii-Provosts charged with enforcing law on forge worlds controlled by the Mechanicus. Skitarii are as uncompromising as the Vanaheims they carry and use these shotguns to violently put down everything from hab-worker crime rings to full scale labour-helot uprisings (with equal force). The Vanaheim includes a built-in red-dot laser sight which does not count against the weapon’s one sight limit as well as retractable saw-bladed bayonet, allowing the Vanaheim to be used as a mono-edge axe in melee.
+
+Class: Basic
+Range: 40m
+RoF: S/3/6
+Dam: 1d10+4 I
+Pen: 0
+Clip: 15
+Reload: 3 Action Points
+Special: Scatter

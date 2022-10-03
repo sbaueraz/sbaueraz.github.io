@@ -1,0 +1,12 @@
+﻿Salamander Assault Flamer: 
+
+The Salamander started out as a field-improvised weapon rigged up by Enginseers at the front during the Tranch War, and was picked up by several forges in the Calixis Sector after many Guardsmen found its performance to be exceptional for the fast-paced open warfare there. Salamander flamers use an inert propellant gas combined with a wide, thin nozzle that forcefully sprays Promethium over a significantly wider area. Troops equipped with Salamander Assault Flamers can burn down a numerically superior force with total ease, and against lightly armoured foes like cult mobs the effect is spectacular to say the least. Salamander flamers project flame over a 45 degree arc rather than a normal 30 degree arc as described in the Flame quality.
+
+Class: Basic
+Range: 10m
+RoF: S/-/-
+Dam: 1d10+4 E
+Pen: 1
+Clip: 3
+Reload: 6 Action Points
+Special: Flame, Unreliable

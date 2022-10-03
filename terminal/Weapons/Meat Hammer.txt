@@ -1,0 +1,12 @@
+﻿Scatheros “Blackhammer” Defence Shotgun: 
+
+Notorious for its sheer destructive power, the Blackhammer comprises of a carefully fitted barrel to an equally well-crafted stock and firing mechanism, all constructed to safely fire an enormous shell nearly twice the size of those used in standard-size shotguns. Each Blackhammer shell is custom-made and filled with dozens of pellets the size of stub rounds, backed by a massive charge; the Blackhammer’s high quality construction is necessary to prevent the gun from coming apart when it fires. Blackhammer shotguns are intended for use as emergency “failure to stop” weapons by hunters and explorers on dangerous feral and death worlds, but examples have turned up in the hands of under-hive gangers who put their massive firepower to good use in obliterating rival scummers and other victims. The Blackhammer’s Scatter quality may score additional hits on targets up to 5 metres away.  Unless the firer has a Strength Bonus of 4 or higher, the weapon's crushingly powerful recoil imposes a -10 penalty to Ballistic Skill Tests made to hit with it. Blackhammer shells have a base cost of 20 Thrones each and are Very Rare.
+
+Class: Basic
+Range: 30m
+RoF: S/-/-
+Dam: 2d5+6 I
+Pen: 0
+Clip: 1
+Reload: 3 Action Points
+Special: Scatter, Tearing

@@ -1,0 +1,13 @@
+﻿Heavy Stubber:
+
+Another ancient weapon that is still in use due to its mechanical simplicity and ease of manufacture, heavy stubbers are one of the few military stub weapons that can commonly be found in the arsenals of many armed forces. Most Imperial Guard regiments have replaced these weapons with bolters, but a few holdouts remain, and there are still quite common among smaller PDFs and as mainstay support weapons on lower-tech worlds. The more professional
+hive gangers also seem to be able to acquire these weapons with alarming frequency, and many gang wars have come to an abrupt end thanks to a grav-car with a heavy stubber pintle-mounted in the rear compartments. A heavy stubber can be equipped with an ammunition drum instead of a belt hopper, reducing its Weight to 30kg, Clip size to 40 and Reload time to a Full Action.
+
+Class: Heavy
+Range: 120m
+RoF: -/-/8
+Dam: 1d10+5 I
+Pen: 3
+Clip: 200
+Reload: 6 Action Points
+Special:

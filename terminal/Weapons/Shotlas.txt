@@ -1,0 +1,12 @@
+﻿Merovech Shotlas:
+
+The shotlas is the broadly unintentional result of efforts to create a fast-firing yet inexpensive lasgun by several minor forges within Calixis. Furnished with three lightweight shrouded barrels and drawing from two separate charge packs at once, the weapon tended to disassemble itself under the effects of fully automatic fire, and moreover lacked any kind of accuracy at distance due to excessive vibration. With the end result more resembling a "las shotgun" than a hellgun, only the Merovech Combine chose to deliver the weapon anyway and market it exactly as that. With the full automatic setting deleted, the shotlas is at least as reliable as common slugthrowers; moreover, there are no shortage of shooters who can appreciate having a weapon with the close range firepower of a shotgun that can still engage an enemy at greater distances. A shotlas increases its Damage by 1 at Short Range and 3 at Point-Blank Range, and requires two charge packs to be fired. Both charge packs are depleted at the same rate and so both must be replaced when reloading. A shotlas may be used with overcharge packs provided they are installed in pairs too.
+
+Class: Basic
+Range: 60m
+RoF: S/3/-
+Dam: 1d10+4 E
+Pen: 1
+Clip: 30
+Reload: 6 Action Points
+Special:

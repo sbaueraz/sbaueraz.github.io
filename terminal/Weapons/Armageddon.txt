@@ -1,0 +1,13 @@
+﻿Armageddon-Pattern Autogun:
+
+This pattern of autogun has its origin on the war-torn world of the same name in Segmentum Solar, and many of the Imperium’s foes who have invaded that planet found themselves cut down by its large-calibre bullets. In the Calixis Sector clones of this pattern are manufactured by the Belasco Deathworks as well as lesser forges on Malfi, and after being heavily used during the Tranch Insurrection it is widely distributed in the Malfian Subsector. Uncomplicated, loud, and lethal, the Armageddon is an unapologetic brick of a gun that can make an effective melee weapon simply on the providence of its heavy construction and shrouded barrel (treat as a staff when used in this way), and many examples have stood up to abuse and kept shooting in ways that would make lasguns seem fragile.
+
+
+Class: Basic
+Range: 100m
+RoF: S/2/6
+Dam: 1d10+4 I
+Pen: 0
+Clip: 15
+Reload: 3 Action Points
+Special: Reliable

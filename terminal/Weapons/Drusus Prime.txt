@@ -1,0 +1,12 @@
+﻿Drusus Prime-Pattern Lasgun:
+
+This simple lasgun was made in large numbers to equip the growing forces of Saint Drusus' followers during the Angevin Crusade, and can still be found in the armouries of various PDFs in the Calixis Sector, and some dusty (though still wholly functional) examples hang on the walls of descendants of warriors from that time. While official production of the Drusus Prime ended centuries ago, many of those extremely robust weapons can still be found in use, and clones are manufactured in smaller forges throughout the sector. According to collectors, “authentic” Crusade-era lasguns can be identified by the more detailed stamping of Saint Drusus’ likeness on the housing, which is crude or absent entirely on reproductions. In all cases, these bulky and blocky weapons are very robust, and can easily be used as a bludgeoning melee weapon (treat this function as a staff).
+
+Class: Basic
+Range: 100m
+RoF: S/2/-
+Dam: 1d10+3 E
+Pen: 0
+Clip: 50
+Reload: 3 Action Points
+Special: Reliable

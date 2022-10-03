@@ -1,0 +1,12 @@
+﻿Minerva-Aegis Lascarbine:
+
+Popular with the more notable mercenary companies and private guild armsmen, the Minerva-Aegis is a very sophisticated lascarbine that features a high cycle-charge chamber that can let off a rapid pulse of las-bolts. This advanced feature is a product of research on the Aegis Data Fragment which the Mechanicus has seen fit to title the Takara Fane of Gunmetal City; in small measure, it is a mass-produced archeotech weapon, and a sign of discerning judgment and ample funds among those who wield them. Its complex design requires the use of much higher quality raw materials than most lasguns which leads to the Minerva-Aegis' expensive cost, and its status as the sign of a successfull soldier of fortune.
+
+Class: Basic
+Range: 60m
+RoF: S/4/8
+Dam: 1d10+2 E
+Pen: 0
+Clip: 40
+Reload: 3 Action Points
+Special: Reliable

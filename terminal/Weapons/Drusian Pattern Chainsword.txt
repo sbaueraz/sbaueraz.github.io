@@ -1,0 +1,7 @@
+﻿Drusian “Crusader” Chainsword:
+Replicas of the weapon carried by Saint Drusus during the Angevin Crusade are quite popular in the Calixis Sector, and the worlds that celebrate Drusus Day often have throngs of faithful gathered in the streets outside his shrines with these weapons thrust into the air in honour of his memory. A Crusader chainsword has finer teeth set into a long and sweeping housing with a basket hilt, making it extremely nimble as well as quite attractive in a spartan fashion, and those who can afford to commission a sword of their own often have them inlaid with intricate patterns or precious stones.
+
+Class: Melee
+Dam: 1d10 R
+Pen: 2
+Special: Balanced, Fast, Tearing

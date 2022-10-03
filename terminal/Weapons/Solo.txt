@@ -1,0 +1,12 @@
+﻿Perinetus “Solo” Boltgun:
+
+Some sects of the Adeptus Mechanicus frown on this weapon as skirting tech-heresy as many of its internal workings have been left out and deliberately simplified as an attempt to make an inexpensive yet reliable boltgun for use by troops who normally would not hope to have access to such superb arms. The artificers of the Perinetus Forge in the Periphery succeeded admirably at this task, but with the opposite of the intended result once it was discovered that the longer barrel and reduced moving parts have resulted in a very accurate bolter. Demand for the “Solo” has constantly exceeded supply as there are many who would benefit greatly from taking down their foes with a single bolt shell, and virtually all of them consider the loss of semiautomatic burst fire a price worth paying
+
+Class: Basic
+Range: 100m
+RoF: S/-/-
+Dam: 1d10+5 X
+Pen: 4
+Clip: 24
+Reload: 3 Action Points
+Special: Accurate, Reliable, Tearing

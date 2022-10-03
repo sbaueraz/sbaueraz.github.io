@@ -1,0 +1,13 @@
+﻿Fykos Forge “Absolution” Sniper Rifle:
+
+The Fykos Forge is best known for its high quality and expensive hunting weapons, and there are many among the Calixian elite who consider a Fykos-made gun as a prerequisite for any kind of serious expedition. The “Absolution” Sniper Rifle is an oddity among weapons manufactured there, being an explicitly military design with a functional and nononsense appearance. While lacking in frills and aesthetic features, the Absolution is built to the same standard of accuracy and quality as any of Fykos’ much more ornate and expensive hunting instruments. Absolution rifles are far less ubiquitous than Guard-favoured long las weapons and simplistic and basic compared to needle rifles used by snipers and assassins alike, but they have the advantage of versatility as they are designed to use cheap, commonly-available autogun ammunition. This sniper rifle is used in limited numbers by Lord Hax’s Magistratum enforcers on Scintilla, and has found some followers among the Adeptus Arbites and other security forces. This weapon has a built-in silencer and includes a telescopic sight, which can be removed and replaced with other types of sights with an Easy (+30) Trade (Armourer) Test or an Ordinary (+10) Tech-Use or Trade (Technomat) Test. It can be used with any type of autogun ammunition.
+
+
+Class: Basic
+Range: 220m
+RoF: S/-/-
+Dam: 1d10+4 I
+Pen: 0
+Clip: 6
+Reload: 3 Action Points
+Special: Accurate

@@ -1,0 +1,12 @@
+﻿Locke-Pattern Lascarbine:
+
+This lascarbine looks similar to a  Galaxy-pattern used by Cadian shock troops but with a significantly enlarged housing around the charge port and a heavier barrel. The Lock's discharge capacitors are grossly oversized, and it fires a wid beam with significantly more punch than common lascarbine models. However, its machine spirit has not taken well to this modification, resulting in frequent jams and misfires. In spire of this, there are many shooters in the Calixis Sector who believe the increased firepower merits the rsik that their weapon will fail at an untimely moment. Locke-Pattern lascarbines can be used with overcharge or hotshot packs but can become dangerously unstable and gains the Overheats rule. If the wepaon overheats, roll 1d10. On a "9" or "10", the Lock's housing violently explodes, ruining hte weapon and infilicting Damage as a Frag Grenade (including blast size).
+
+Class: Basic
+Range: 60m
+RoF: S/2/-
+Dam: 1d10+4 E
+Pen: 0
+Clip: 40
+Reload: 3 Action Points
+Special: Unreliable

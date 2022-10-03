@@ -1,0 +1,12 @@
+﻿Merovech Assault Lasgun:
+
+An unusual lasgun intended for use by Imperial Navy boarding teams and equally popular among pirates and other scummers who deal in up-close work, this sturdy weapon includes two separate receptacles for charge packs. When one is depleted, the user can switch over to the other swiftly, effectively granting an immediate reload. This has obvious utility in a situation where having to stop and fumble for a fresh charge pack can have lethal consequences. It also features an integral bayonet for close quarters encounters. The Assault Lasgun’s range is inferior to that of most others since the second charge port takes up valuable stock space and the barrel had to be shortened to keep its overall length reasonable. This weapon can also be fitted with any combination of standard, overcharge, and hotshot packs, allowing a skilled trooper a lot of flexibility. Switching between charge packs is a Free Action; normally, this is used to switch from a depleted charge pack to the fresh one, but it could just as easily be employed to switch to a different type of charge pack while the first is mid-clip. In melee, the Assault Lasgun is considered a mono-edged spear.
+
+Class: Basic
+Range: 50m
+RoF: S/-/5
+Dam: 1d10+3 E
+Pen: 0
+Clip: 60x2
+Reload: 6 Action Points
+Special: Reliable

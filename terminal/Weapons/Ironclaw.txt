@@ -1,0 +1,12 @@
+﻿Cypra-Mundi “Ironclaw” Shotgun:
+
+Naval combat shotguns such as this one are designed to withstand the rigors of the void and have a reinforced and weighted stock, making it perfectly functional as a close combat weapon (use the weapon profile of a staff). Ironclaw shotguns are common shipboard weapons within Battlefleet Calixis, and numerous merchant vessels, Chartist ships and other voidfaring types have followed suit with large storage lockers that unlock automatically to arm the crew against boarders or to suppress mutinies. Of course, more than a few rating rebellions have succeeded in the capture of a ship specifically because a large volume of Ironclaws were accidentally released into their hands via the same method.
+
+Class: Basic
+Range: 30m
+RoF: S/2/-
+Dam: 1d10+4 I
+Pen: 0
+Clip: 12
+Reload: 3 Action Points
+Special: Reliable, Scatter
