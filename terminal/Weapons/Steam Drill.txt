@@ -1,0 +1,8 @@
+﻿Steam Drill:
+
+These bulky and temperamental devices are crude mining rigs used on worlds such as Sepheris Secundus and Coseflame where more sophisticated tools, like the breacher units a -10 favoured by the Mechanicus, would be impossible to maintain. Powered by a weighty and scolding hot backpack steam compressor that provides pressure to turn a huge boring drill, they are not intended for use as weapons due to their unwieldy size and mass. Of course, such a tool could inflict horrific damage on any unfortunates that manage to get in the way of the drill head. Steam drills require a Strength Bonus of 4 or more to be effectively used as a weapon. Weaker characters suffer a -10 penalty to their Weapon Skill Tests made to attack with it for each point their Strength Bonus is below 4. The bulk of a steam drill and its power rig imposes penalty to the user’s Agility while carrying it.
+
+Class: Melee
+Dam: 2d10 I
+Pen: 3
+Special: Primitive, Unwieldy
