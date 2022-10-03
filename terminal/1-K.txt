@@ -45,7 +45,7 @@ Imperial Date: 815.M41
  
 * Salamander Flamer: 250 Throne Gelts
  
-* Det Tape: 50 Throne Gelts
+* Det-Tape: 50 Throne Gelts
  
 * Demo Charge: 180 Throne Gelts
   
