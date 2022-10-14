@@ -1,0 +1,3 @@
+﻿Welcome to Alexi, your automated information machine spirit. You may input a, "load" or, "execute" command followed by the desired object, or place to locate information on it. 
+
+You may also search items by utilizing the "load /Weapons ____" "load /Armour _____" or "load Equipment _____" commands. For example, "load Equipment/Dataslate".
