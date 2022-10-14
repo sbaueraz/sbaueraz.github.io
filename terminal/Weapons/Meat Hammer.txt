@@ -1,6 +1,6 @@
 ﻿Volg Meat Hammer Scattergun: 
    
-Volg’s violent gangers have created an even more brutal and savage variation on common shotguns to stamp their authority on any who dare cross them. The Meat Hammer, so named for its ability to turn the flesh of its victim into a splatter of unrecognisable bits, is a triple-barrel open-choke shotgun which fires all three shells at once. Though crude and ungainly, its firepower can all but annihilate a living body, and when fired at point-blank range (as Volg gangers are wont to do) can even punch through light personal armour on sheer force alone. The Meat Hammer will violently disassemble itself due to unbalanced recoil forces if attempted to be fired with anything other than three of the same type of shells loaded.
+Violent gangers have created an even more brutal and savage variation on common shotguns to stamp their authority on any who dare cross them. The Meat Hammer, so named for its ability to turn the flesh of its victim into a splatter of unrecognisable bits, is a triple-barrel open-choke shotgun which fires all three shells at once. Though crude and ungainly, its firepower can all but annihilate a living body, and when fired at point-blank range (as Volg gangers are wont to do) can even punch through light personal armour on sheer force alone. The Meat Hammer will violently disassemble itself due to unbalanced recoil forces if attempted to be fired with anything other than three of the same type of shells loaded.
   
 Class: Basic
 Range: 30m
