@@ -1,0 +1,9 @@
+﻿Guard Shield:
+
+Some Imperial Guard regiments make use of shields made of thin but sturdy plasteel plates that can provide protection from incoming projectiles and fragments as well as to turn aside an opponent’s blades. Many include a small glassteel visor so the user can peek out from behind the shield without sacrificing protection.
+A Guard shield can be used as cover against ranged attacks, providing 6 Armour Points to all hit locations as long as they have used the Brace Weapon Action and remains in effect until a move action is taken, though the user must expose at least one arm to attack.
+
+Class: Melee
+Dam: 1d5 I
+Pen: 0
+Special: Defensive, Primitive
