@@ -1,0 +1,9 @@
+﻿Sabre:
+ 
+A favoured weapon of cavalry troops and other mounted warriors, sabres are popular weapons on worlds such as Iocanthos and Volonx that are famed for their horsemen. Sabres possess a curved single-edged blade designed to make downward slashes and have excellent balance t hat allows a rider to keep a hand free to control his mount. The sabre's elegant yet function construction cuases it to persist in many more sophisticated climes, and Imperial Guard Officers and hive nobles often wield mono-edged sabres for their graceful and distinctive appearance (as well as lathality in battle), and there are several patterns of power swords with a blade that specifically resembles that of a sabre's. 
+A sabre increases its damage value by 1 when wielded bya  user who is mounted or has another significant height advantage over his opponent. 
+
+Class: Melee
+Dam: 1d10 R
+Pen: 0
+Special: Balanced, Primitive

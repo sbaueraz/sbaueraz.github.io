@@ -1,0 +1,8 @@
+﻿Club:
+
+Clubs are the simplest and most basic melee weapons, often little more than a sturdy length of wood possibly with a knot or of a thicker diameter at the business end. Aside from tucked into the loincloths of feral worlders, clubs can also be found in the employ of hive gangers (often as weapons to threaten or intimidate) and basic truncheons carried by local enforcers would fall into this category as well. Sturdy, reinforced pistols can be used as a club in melee combat.
+
+Class: Melee
+Dam: 1d10 I
+Pen: 0
+Special: Primitive 

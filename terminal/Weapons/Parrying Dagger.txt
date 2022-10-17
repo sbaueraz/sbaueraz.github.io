@@ -1,0 +1,8 @@
+﻿Parrying Dagger:
+
+Typically formed with an intricate guard or twin, tine-like blade, parrying daggers are a more specialist variety of knife designed principally for defence. A parrying dagger's construction creates a number of wedges or gaps explicitly devised to catch an opponent's blade, and in the hands of a skilled swordsman can actually be more effective at deflecting blows than a shield while being much lighter and easier to carry. Parrying daggers are typically the provenance of duellists due to their specialised nature, and are often wielded in the off-hand by more swashbuckling types. When used to Parry an edged weapon, such as a sword or axe, a parrying dagger grants an additional +5 bonus on the Weapon Skill Test.
+
+Class: Melee
+Dam: 1d5 R
+Pen: 0
+Special: Defensive, Primitive

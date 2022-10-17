@@ -1,0 +1,8 @@
+﻿Staff:
+
+A staff is a very simple weapon formed in the main from a sturdy length of wood about a metre and a half long that is well balanced and easy to wield. Though suitable for use as a walking stick, a trained user can use a staff as an effective bludgeoning instrument, and the art of stick-fighting is popular on many primitive and developed worlds alike. Generally a staff will take the form of a humble wooden rod that is a common sight among pilgrims trekking throughout the galaxy as they retrace the steps of saints, but far more elaborate and decorated versions might be carried as a symbol of office or rulership, and novice sanctioned psykers often use a staff topped with the symbol of the ever-watching eye to indicate their allegiance to the Emperor and the Scholastica Psykana. Basic ranged weapons that are well balanced and constructed for use in clobbering an opponent count as a staff when used in melee.
+
+Class: Melee
+Dam: 1d10 I
+Pen: 0
+Special: Balanced, Primitive 
