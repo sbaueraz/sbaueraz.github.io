@@ -46,6 +46,8 @@ Imperial Date: 815.M41
 * Shock Staff: 1,000 Scabs
          
 * Combat Knife: 300 Scabs
+  
+* Sabre: 150 Scabs
        
 * Punisher Baton: 500 Scabs
     
