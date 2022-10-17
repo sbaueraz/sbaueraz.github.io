@@ -38,6 +38,10 @@ Imperial Date: 815.M41
 * Carapace Vambraces: 3,000 Scabs
  
 * Carapace Chestplate: 6,000 Scabs
+  
+* Parrying Dagger: 500 Scabs
+  
+* Guard Shield: 800 Scabs
    
 	>Continue
 >Back ⌧ 
