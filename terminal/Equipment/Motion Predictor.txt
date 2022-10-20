@@ -1,0 +1,5 @@
+Motion Predictor:
+
+Upgrades: Any ranged weapon with a Full Automatic setting
+
+Motion predictors are something of a “poor man’s targeter”, although that expression is somewhat inaccurate as they are still costly pieces of wargear. A motion predictor uses an onboard cogitator unit to calculate a target’s movements and literally “chases” them with a full auto barrage. Motion predictors are most often employed by mercenaries and the crack troops of noble house militias; elite Imperial Guard Storm Troopers are provided with more advanced targeters instead. A weapon fitted with a motion predictor grants its wielder a +10 bonus to his Ballistic Skill Tests made to attack as part of a Full Auto Burst. This stacks with the Full Auto Burst’s usual +20 bonus for a total bonus of +30. The weapon uses ammunition at the normal rate, but its maximum number of hits are halved (round up) to reflect some wasted shots as the motion predictor tracks the target. A motion predictor does not count towards a gun's one sight limit, but cannot be used in conjunction with a proper targeter - the machine spirits are simply incompatible with one another. 

@@ -1,0 +1,5 @@
+Telescopic Sight:
+
+Upgrades: Any Pistol with the Accurate quality or any Basic ranged weapon
+
+Also known as a sniper scope, a telescopic sight magnifies distant targets, making them easier to shoot than with the naked eye alone. Basic sights will just include a rudimentary but functional set of crosshairs, while more advanced models might include adjustable reticules or range-estimating stadia marks as part of the sight itself. Telescopic sights are usually employed by marksmen and hunters to better pick out a far-away victim, but assassins who prefer to do their work from a healthy distance make use of them as well. There are anecdotal stories of snipers betraying their position when sunlight glints off the lenses of their scopes, and as a result some sharpshooters believe that a true sniper wouldn’t use a telescope, their own eyes being far superior to any mechanical device. When the shooter takes an Aim action, a weapon with a telescopic sight ignores penalties to Ballistic Skill Tests made to attack a target at Long or Extreme range. A telescopic sight counts towards a gun’s one sight limit. 

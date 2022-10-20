@@ -1,0 +1,5 @@
+Silencer:
+
+Upgrades: Pistol and Basic Solid Projectile weapons without the Scatter quality
+
+A silencer is a large can-like device fitted to the muzzle of a compatible weapon. Its internal baffles absorb the sound and flash of gunfire, making it far harder to detect by its victims (and sparing the shooter from future deafness). It is a favourite of snipers, assassins, and other types of operatives who value stealthy approaches. Awareness Tests to hear or spot shots made with a silenced weapon suffer a -20 penalty and can only be attempted within the weapon’s standard range. At the GM’s discretion, the targets of a Suppressing Fire action may receive a bonus on their Tests to resist Pinning as the racket of automatic gunfire greatly enhances the intimidating effect. 

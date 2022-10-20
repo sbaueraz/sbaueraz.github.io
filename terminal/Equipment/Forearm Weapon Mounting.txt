@@ -1,0 +1,8 @@
+Forearm Weapon Mounting:
+
+Upgrades: Any Pistol or Basic weapon (see text)
+
+A heavy bracing replaces the upgraded weapon’s trigger and grip, allowing it to be fixed along the line of the user’s forearm. A special cable-attached glove is provided to control the
+weapon’s functions and triggering. This arrangement keeps the wielder’s hands free, allowing them to use other weapons or perform fine manipulation while keeping their attached
+weapon ready to be used at a moment’s notice. The weapon is usually turned on its axis with the clip positioned straight up or towards the wielder’s body to assist in reloading. It also
+creates a strong visual impression as bolts, flame or plasma blasts seem to erupt from the user’s outstretched arm. A weapon fitted to a forearm weapon mounting’s range is reduced by 30% but otherwise functions normally and is always considered Readied. Pistol class weapons can be used by anyone in a forearm weapon mounting. 

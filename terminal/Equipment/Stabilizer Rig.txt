@@ -1,0 +1,7 @@
+Stabiliser Rig:
+
+Upgrades: Any Heavy weapon
+
+A stabiliser rig makes use of a powered, articulated metal armature attached to a bulky chest harness to support some of the ungainly mass of Heavy weapons. While effective at spreading the weight of the ported weapon out over the wielder's body, the rig on the whole is an awkward and cumbersome affair, making it ill suited for troops that need to move fast or with any degree of stealth. However, a stabiliser rig is greatly less costly and exceptional than a suspensor set, making it available to many of he Imperium's more humble forces that would
+ordinarily be saddled with dragging around tripods and sandbags. Finally, while not an explicit design feature, a stabiliser rig does prevent the attached weapon from leaving the
+wielder's possession (for better or worse). When using a Heavy weapon affixed to a stabiliser rig, the shooter counts as having the Bulging Biceps talent regardless of whether they meet the prerequisites, and cannot lose the weapon as a result of a Disarm attack. The bulk and poor balance of the rig and the weapon attached to it cause the shooter to suffer a -10 penalty to all movement-related Tests. Donning or removing a stabiliser rig is an Extended Action that takes 3 Rounds. 

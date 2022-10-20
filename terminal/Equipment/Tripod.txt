@@ -1,0 +1,8 @@
+Tripod:
+
+Upgrades: Any Heavy weapon
+
+A tripod is a large and sturdy three-legged mount commonly used by Imperial Guard heavy weapon teams. A tripod attaches to a weapon’s centre of gravity and allows the wielder to turn it
+in any direction, a handy feature for use in defensive positions such as dugouts and pillboxes. Because of their bulk and that they do not offer any benefits until the weapon is set
+down, a tripod is usually carried separately by an assistant, with the gunner planting the weapon down via a mag-lock onto the tripod’s central shaft after reaching a suitable point.
+Bracing with a tripod is 3 Action Points. Once Braced, the firer may attack any target within a 180-degree arc of his position. 

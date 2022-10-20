@@ -1,0 +1,5 @@
+Extra Grip:
+ 
+Upgrades: Any Basic weapon
+ 
+Most Basic weapons can be fired with one hand, but the extremely awkward balancing and position of the grip make this an emergency measure at best. For those wielders who must keep a hand free, an extra grip is a valuable upgrade. As the name suggests, this installs a second grip along with a trigger near the weapon’s centre of gravity, allowing it to be held more naturally with one hand. Though functional, some precision is lost as it becomes difficult to aim carefully. A Basic weapon with an extra grip can be fired with one hand without incurring the usual -20 penalty to Ballistic Skill Tests. However, its Range is halved and it gains the Inaccurate quality while being wielded like this. An extra grip does not remove the weapon’s standard grip and trigger, and it can still be held with two hands and used at its normal capabilities. 

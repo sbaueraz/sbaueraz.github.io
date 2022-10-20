@@ -1,0 +1,6 @@
+Mono-Sight:
+
+Upgrades: Any non-Primitive ranged weapon
+
+Typically the purview of well-paid mercenaries and more “tactical” hit-teams, a mono-sight integrates a high-quality pict-thief in a scope mount that provides its visual data to a wired augmetic monocle. This allows the shooter to aim without actually shouldering his weapon simply by focusing on the monocle; the visual is displayed from the gun’s point of view. While
+this may have an interesting appeal on its own, the main application is in allowing the shooter to look around corners or above cover, exposing only the weapon and the arms holding it. With steady hands, firing the weapon while aiming through the mono-sight is possible, making this an exceptional tool for tactical advances and infiltration missions. Its use in battle situations or large-scale combats is significantly less impressive as these environs typically do not feature a large amount of heavy cover, leaving the mono-sight taking up valuable scope space. A character can use a mono-sight to look around corners or over obstacles, and can use the weapon to attack targets he observes through the mono-sight. The shooter must use the Aim action to take advantage of the mono-sight in this way. A mono-sight counts towards a gun’s one sight limit. 

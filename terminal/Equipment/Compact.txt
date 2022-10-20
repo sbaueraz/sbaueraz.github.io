@@ -1,0 +1,5 @@
+Compact:
+
+Upgrades: Any Pistol or Basic Las, Solid Projectile, Flame, Bolt, or Plasma weapon
+
+By reducing the size of the barrel and clip, a weapon can be made significantly smaller. This assists in concealment, handling, as well as the ease of carrying an otherwise heavy gun all day. Compact weapons are favoured by those that believe in subterfuge more than pure firepower. A compact weapon’s Weight, Clip size, and Range are all reduced by half, and its Damage is also decreased by 1 as well. If the weapon has the Accurate quality it loses it, as there is insufficient barrel remaining to adequately stabilize the projectile for pinpoint shots. Pistol class weapons grant a +10 bonus on Sleight of Hand Tests made to conceal the weapon, while Basic class weapons can be used in melee combat as if they were pistols. 

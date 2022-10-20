@@ -1,0 +1,8 @@
+Gene-Lock Circuit:
+
+Upgrades: Any non-Primitive ranged weapon
+
+This upgrade is designed for those who have a special dislike of the idea of being shot with their own gun. A gene-lock circuit is installed in the grip and interfaces with the weapon’s firing mechanism, and prevents the gun from being discharged unless it is deactivated. Most use a reader strip that matches the thumb or palm prints of the weapon’s owner; users who weargloves or heavy armours can have a tensiometric pad instead, while more sophisticated versions might use a micro-needle to take a sample of the wielder’s blood or a proximity detector linked to a subdermal implant. Regardless of its exact construction, a weapon upgraded with a genelock circuit will not fire unless wielded by the hand that was keyed to it.
+Gene-locks are excellent precautions against theft and being disarmed in combat, but they are far from immune to the predations of a skilled tech-adept. A gene-lock can be reset to a
+different owner or simply shut off so the weapon will function for anyone with a Hard (-20) Tech-Use Test that takes about an hour. Normally there are no consequences for a failed
+Test, though specially-crafted gene-locks might include some sort of booby trap. 

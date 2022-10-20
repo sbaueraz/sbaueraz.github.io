@@ -1,0 +1,6 @@
+Exterminator:
+
+Upgrades: Any Basic weapon or melee weapon without the Flexible quality that deals at least 1d10 Damage
+
+This small device stores highly compressed Promethium with a gas cartridge to propel it, and is designed to be attached to another weapon. On command, it can unleash a burst of purifying fire just like a flamer, and is something of a “poor man’s combi-weapon” that can be encountered among many different groups. Redemptionists are especially fond of them, and have been known to affix Exterminators to their melee weapons in addition to whatever other ordnance they may wield (Eviscerators are a particular favourite). Once fired the
+Exterminator burns out and must be discarded. However, they are cheap to manufacture and produced in significant quantities; it is easier to consider an Exterminator to be a unit of ammo rather than a weapon upgrade. The wielder of a weapon fitted with an Exterminator may choose to fire it instead of use the weapon’s normal attack for that Round. Its effect is identical to a standard flamer. Because of its weight, an Exterminator can be detrimental to a melee weapon’s handling; if attached to a melee weapon with the Balanced quality, it loses that quality as long as the Exterminator is attached (including after it has been expended).  

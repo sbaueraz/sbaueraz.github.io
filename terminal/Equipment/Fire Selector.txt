@@ -1,0 +1,5 @@
+Fire Selector:
+ 
+Upgrades: Any Pistol or Basic Solid Projectile or Bolt weapon with a removable clip
+
+Some weapons have the ability to use different types of ammunition readily, but this usually requires switching clips to do so. A fire selector is a mechanical device that replaces the weapon’s feed port, and when paired with a special clip, allows the user to select between ammunition loaded inside. This creates a somewhat bulky look, but few would argue its efficiency in combat, and fire selectors are common additions among professional mercenaries, assault troops, and other types of operatives. A weapon fitted with a fire selector can have any combination of specialty or unusual ammo loaded into its clip. At the start of the user’s Turn, he can use the fire selector to choose which type of ammo he wishes to use for that Round. 

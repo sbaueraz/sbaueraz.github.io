@@ -1,0 +1,5 @@
+Melee Attachment:
+
+Upgrades: Any Basic weapon
+
+Basic weapons are usually too cumbersome to be used against an opponent in melee combat. By fitting a close combat weapon under the Basic weapon’s barrel, a handy and immediately available melee weapon can be created. A melee attachment creates a sturdy hardpoint for a onehanded edged melee weapon to be fixed to. Most lasguns already have this upgrade installed, and some military-type autoguns include it as well. A knife or similar blade allows the Basic weapon to be used as a spear, while a longer weapon like a sword allows it to be used as an axe. Use the Damage and Penetration values of those weapons or that of the mounted weapon, whichever is favourable, and special qualities having to do with Damage – Power Field, Tearing, Toxic, and so forth – are maintained as well, while the spear and axe retain their other qualities as normal (such as the axe’s Unbalanced quality). Either one requires both hands to wield. 

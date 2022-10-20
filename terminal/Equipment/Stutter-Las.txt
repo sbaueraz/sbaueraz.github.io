@@ -1,0 +1,6 @@
+Stutter-Las:
+
+Upgrades: Any Pistol or Basic Las weapon without a Full-Auto setting
+
+While proscribed by the Mechanicus for very obvious reasons, stutter-las weapons are remarkably common gear in the hands of various scummers operating on the far side of the law. By modifying the fast-discharge capacitors used on most las weapons, the rate of fire can be significantly increased, albeit at the cost of modestly reduced beam intensity. As this upgrade is commonly favoured by those with a preference for quantity over quality, the wielder of a stutter-las will commonly opine that the loss of power is more than made up for by volume of fire. Moreover, the dull red las-bolts and short bursts of sparks that are often created can make a fine stand-in for the rattle of automatic gunfire on worlds and within regions where obtaining bullets for slug-throwers is more difficult than ubiquitous lasgun charge packs. A stutter-las gains a Full-Auto setting that expends 5 shots as well as the Inaccurate quality
+and reduces its Damage to 1d10+2 E when using standard charge packs; if the weapon's Damage was already lower than this value then the upgrade has no further reduction. 

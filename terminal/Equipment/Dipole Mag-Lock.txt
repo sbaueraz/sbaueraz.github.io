@@ -1,0 +1,9 @@
+Dipole Mag-Lock:
+
+Upgrades: Any Pistol or melee weapon that can be wielded in one hand
+
+Mag-locks are common pieces of equipment used to secure articulated sections of power armour together. They are also used in a wide variety of other applications, such as on large
+monotask cargo haulers. Enterprising armourers have found that the use of a dipole mag-lock can also replace a holster or baldric for users wearing carapace or power armour. When fitted to a weapon, the dipole mag-lock causes it to “stick” to a paired plate attached to the user’s armour. The mag-lock is usually released by a small stud on the weapon’s grip, though more advanced (and expensive) versions might use a proximity trigger, vox-link operation, or some other somatic cue to produce the same effect. A dipole mag-lock grants the Quick Draw
+talent for the upgraded weapon. If the user already has Quick Draw, the weapon may instead be drawn as part of a Reaction, such as to produce a pistol while diving for cover, or to
+draw a melee weapon to Parry an incoming attack. A dipole mag-lock is only usable if the character is wearing carapace or power armour, as lesser armours lack the suitable rigidity to
+support a weapon attached to them. 

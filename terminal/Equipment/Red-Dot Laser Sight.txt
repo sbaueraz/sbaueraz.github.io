@@ -1,0 +1,6 @@
+Red-Dot Laser Sight:
+ 
+Upgrades: Any non-Primitive ranged weapon
+
+This simple but highly effective sight projects a low-power red laser at whatever the weapon is pointed at. The firer is able to determine exactly where his shot will land simply based on where the dot created by the laser lies. Being “painted” by a laser sight can be a potent tool of intimidation as well, the targeted character having exact knowledge of where a bullet or bolt is about to land on them. However, the bright targeting beam can have detrimental effects on a character attempting to shoot from concealment. A red-dot laser sight automatically shuts off if the weapon it is attached to is fired on Semi-Auto or Full Auto as the vibration can destroy the focusing lens if it is powered up. A weapon fitted with a red-dot laser sight grants the wielder a +10 bonus to his Ballistic Skill Test made to attack whenever it is fired on single shot. If used to threaten a character as part of an Intimidate Test, it grants a +10 bonus to that Test as well. If the shooter is hiding, attacking or Aiming while using the sight grants opponents a +30 bonus to their Awareness Tests
+to spot the shooter. A red-dot laser sight counts towards a gun’s one sight limit. 
