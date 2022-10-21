@@ -15,11 +15,12 @@
 		/>
 		<link rel="stylesheet" href="main.css" />
 		<title>Terminal</title>
-        <script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>        
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
 	</head>
 	<body>
-		<div id="main" class="main theme_color dragscroll">
-			<noscript>You need to enable JavaScript to run this app.</noscript>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="main" class="main theme_color">
 			<textarea id="hidden_text" class="hidden_text"></textarea>
 			<pre><span id="typer" class="typer">|</span></pre>
 		</div>
@@ -40,6 +41,13 @@
             let overlay = document.getElementById('overlay');
             let denied = document.getElementById('denied');
             let displayMsg = "";
+
+            jQuery("#typer").draggable({ 
+                cursor: "move", 
+                containment: "true",
+                scroll: "false",
+                axis: "y"
+            });
 
             function showAlert(a) {
                 showOverlay();
