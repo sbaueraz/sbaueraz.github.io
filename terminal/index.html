@@ -23,7 +23,9 @@
         <noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="main" class="main theme_color">
 			<textarea id="hidden_text" class="hidden_text"></textarea>
-			<pre><span id="typer" class="typer">|</span></pre>
+			<pre id="dragme" class="terminal">
+                <span id="terminal" class="terminal">|</span>
+            </pre>
 		</div>
 
         <div id="overlay" class="overlay" onclick="hideOverlay()">
@@ -38,17 +40,18 @@
 		<script>
             let overlayShown = 0;
             let main = document.getElementById('main');
-            let span = document.getElementById('typer');
+            let span = document.getElementById('terminal');
             let overlay = document.getElementById('overlay');
             let denied = document.getElementById('denied');
             let displayMsg = "";
+            let lastX = null;
+            let lastY = null;
 
-            jQuery("#typer").draggable({ 
-                cursor: "move", 
-                containment: "true",
-                scroll: "false",
-                axis: "y"
-            });
+//            jQuery("#dragme").draggable({ 
+//                cursor: "move", 
+//                scroll: "true",
+//                axis: "y"
+//            });
 
             function showAlert(a) {
                 showOverlay();
@@ -81,7 +84,6 @@
 
             function showSlow() {
                 if (!displayMsg) {
-//                    span.scrollTop = span.scrollHeight;
                     return;
                 }
 
@@ -106,7 +108,10 @@
                     terminalText = terminalText.substr(0, terminalText.length - 1);
 
                 span.innerHTML = terminalText + word + "|";
-                span.scrollTop = span.scrollHeight;
+
+                $("#terminal").animate({
+                        top: "" + span.offsetHeight - span.scrollHeight
+                },0);
             }
 
             function loadFile(fileName) {
@@ -149,6 +154,38 @@
                 return terminalText;
             }
 
+            function handleMove(y) {
+                if (lastY != null) {
+                    let pos = $("#terminal").position().top + (y - lastY);
+                    $("#terminal").animate({
+                        top: "" + pos
+                    },0);
+                }
+                lastY = y;
+            }
+
+            function resetMove() {
+                lastY = null;
+            }
+
+            window.addEventListener("mousemove", function (event) {
+                if (event.buttons) {
+                    handleMove(event.clientY);
+                    //console.log("mouse",event);
+                } else {
+                    resetMove();
+                }
+                event.preventDefault();                
+            });
+
+            window.addEventListener("touchmove", function (event) {
+                handleMove(event.changedTouches[0].pageY);
+            });
+
+            window.addEventListener("touchend", function (event) {
+                resetMove();
+            });
+
             window.addEventListener("keydown", function (event) {
                 if (event.defaultPrevented) {
                     return; // Do nothing if the event was already processed
@@ -184,7 +221,9 @@
                 }
 
                 span.innerHTML = terminalText + "|";
-                span.scrollTop = span.scrollHeight;
+                $("#terminal").animate({
+                        top: "" + span.offsetHeight - span.scrollHeight
+                },0);
 
                 // Cancel the default action to avoid it being handled twice
                 event.preventDefault();

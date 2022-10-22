@@ -29,15 +29,14 @@ html, body {
     fill: #00ff00;
   }
 
-  .typer {
+  .terminal {
     word-wrap: break-word;
     white-space: normal;
-    overflow: hidden;
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     height: 100%;
-    width:100%;
+    width: 100%;
   }
 
   pre {
@@ -51,7 +50,6 @@ html, body {
     overflow-y: scroll;
     overflow-x: hidden;
     padding-left: 8px;
-    padding-top: 8px;
   }
 
   .bottom_padding {
