@@ -17,7 +17,6 @@
 		<title>Terminal</title>
         <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
         <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js" integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
 	<body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -46,12 +45,6 @@
             let displayMsg = "";
             let lastX = null;
             let lastY = null;
-
-//            jQuery("#dragme").draggable({ 
-//                cursor: "move", 
-//                scroll: "true",
-//                axis: "y"
-//            });
 
             function showAlert(a) {
                 showOverlay();
@@ -184,6 +177,7 @@
 
             window.addEventListener("touchend", function (event) {
                 resetMove();
+                showKeyboard();
             });
 
             window.addEventListener("keydown", function (event) {
@@ -211,8 +205,19 @@
                         terminalText = handleEnter(terminalText);
                         break;
                     case "Backspace":
-                        if (terminalText.length)
-                            terminalText = terminalText.slice(0,-1);
+                        console.log("Before:",""+terminalText);
+                        if (terminalText.length) {
+                            if (terminalText.slice(-1) == ">") {
+                                $("#terminal").children().last().remove();
+                                terminalText = span.innerHTML.replace(/(?:\r\n|\r|\n)/g, '<br>');
+                                if (terminalText.charAt(terminalText.length - 1) == '|')
+                                    terminalText = terminalText.substr(0, terminalText.length - 1);
+                            }
+                            else {
+                                terminalText = terminalText.slice(0,-1);
+                            }
+                        }
+                        console.log("After: ",""+terminalText);
                         break;
                     default:
                         if (event.key.length == 1)
