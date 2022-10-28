@@ -2,4 +2,4 @@ Bipod:
 
 Upgrades: Heavy weapons
 
-A bipod consists of two telescoping metal legs attached to a weapon’s barrel or housing, allowing it to be stably deployed on any sort of flat surface, including windowsills and low walls. Bipods are sometimes used on sniper rifles to help steady the sniper’s aim, but their main application is in bearing some of the weight and recoil of heavy weapons. When fitted with a bipod, a heavy weapon can be Braced as a HalfAction, and the firer can use it to attack targets within a 90-degree arc of his position. 
+A bipod consists of two telescoping metal legs attached to a weapon’s barrel or housing, allowing it to be stably deployed on any sort of flat surface, including windowsills and low walls. Bipods are sometimes used on sniper rifles to help steady the sniper’s aim, but their main application is in bearing some of the weight and recoil of heavy weapons. When fitted with a bipod, a heavy weapon can be Braced as a 1 Action Point, and the firer can use it to attack targets within a 90-degree arc of his position. 
