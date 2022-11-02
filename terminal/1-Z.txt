@@ -1,0 +1,47 @@
+﻿Mercantile Cogitator: Authorization Minoris  
+Imperial Date: 815.M41
+- SERVER 666.666.666.666 - 
+
+
+> Shop Data: G O R E _ F I E L D S
+ 
+* Heavy Flamer: 1,000 Thrones
+  
+* Destroyer: 750 Thrones
+  
+* Mezoa Grenade Launcher: 400 Thrones
+  
+* Gorge Grenade Launcher: 300 Thrones
+  
+* Voss Grenade Launcher: 1,000 Thrones
+  
+* RPG Launcher: 1,200 Thrones
+  
+* Frag Krak Missile: 75 Thrones
+  
+* Scatter Missile: 100 Thrones
+  
+* Tunnelling Torpedo: 60 Thrones
+  
+* Krak Grenade: 50 Thrones
+  
+* Hallucinogen Grenade: 40 Thrones
+  
+* Choke Gas Grenade: 40 Thrones
+  
+* Blind Grenade: 25 Thrones
+  
+* Photon Flash Grenade: 60 Thrones
+  
+* Stunner Grenade: 40 Thrones
+  
+* Thermal Grenade: 60 Thrones
+ 
+* Frag Grenade: 10 Thrones
+  
+* Flamer Fuel: 3 Thrones per 1 unit of fuel
+
+
+>Back
+>Undermine Control Panel (Tech Use Test) ⌧ 
+                                                                                                    Adeptus Logos Administatus C7R6
