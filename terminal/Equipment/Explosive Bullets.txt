@@ -1,0 +1,7 @@
+Explosive Bullets:
+ 
+Used With: All Solid Projectile weapons without the Scatter quality
+
+These bullets replace their metallic projectiles with a thin alloy shell packed full of high explosive compounds that detonate on impact with the target with an effect that is broadly similar to a bolt weapon. Lesser weapons tend to have a very minor effect that leaves broad but shallow wounds instead of thin penetrating injuries, but as the slug-thrower's calibre increases the effect can become frighteningly noticeable. However, without the ballistic cap of a bolt, explosive bullets have little penetrative ability and so aren't nearly as useful in areas of dense cover or against well armoured targets.
+
+Effects: The weapon's Damage type changes to Explosive and its Penetration becomes 0. For each point of Penetration reduced from the weapon's normal value, to a maximum of 4, the weapon gains the Proven quality with the same value; a hand cannon with Pen 2 would gain the Proven (2) quality, while an autocannon with Pen 4 would gain the Proven (4) quality.

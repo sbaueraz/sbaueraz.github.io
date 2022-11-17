@@ -1,0 +1,7 @@
+Slug Shells:
+ 
+Used With: Shotguns that use standard shells
+
+Slug shells contain a single alloy projectile in place of a handful of small pellets. This concentrates a shotgun's considerable power onto a smaller area, which greatly increases its destructive ability at longer ranges. Slug shells are commonly used by hunters to take game at greater distances than normal shot shells, though gangers and irregular troops will sometimes carry this type of shell in lieu of bringing a second weapon with greater reach.
+ 
+Effects: A shotgun using slug shells increases its Damage by 2 and Penetration by 1 but loses the Scatter quality. 

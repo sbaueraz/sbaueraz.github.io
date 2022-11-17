@@ -1,0 +1,7 @@
+Overcharge Pack:
+
+Used With: Pistol or Basic Las weapons
+
+Overcharge packs provide a more rapid beam discharge than standard charge packs, which increases the weapon’s power, though it also runs out of energy more quickly as well. Guardsmen who have proven their merit in battle are often issued these packs as they can be trusted to make their shots count even in a hectic combat, and many accomplished snipers were first identified as common soldiers using overcharge packs to great effect.
+
+Effects: Increase the weapon’s Damage and Penetration by 1 but halve the Clip size. 
