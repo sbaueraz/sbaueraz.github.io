@@ -53,11 +53,17 @@ Imperial Date: 815.M41
   
 * Multikey: 150 Throne Gelts
  
-* Arbitrator Carapace: 13,500 Scabs
+* Overcharge Pack: 12 Throne Gelts per pack
+
+* Slug Shells: 1 Throne Gelt per 4
+ 
+* Explosive Bullets: 4 Throne Gelts per 1
+ 
+* Arbitrator Carapace: 1,350 Throne Gelts
    
-* Enforcer Carapace: 5,750 Scabs
+* Enforcer Carapace: 575 Throne Gelts
   
-* Magistratum Carapace: 11,000 Scabs
+* Magistratum Carapace: 1,100 Throne Gelts
  
 	>Access Hidden Database (Encrypted) ⌧ 
                                                                                                     Adeptus Logos Administatus C7R6
