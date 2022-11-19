@@ -17,11 +17,9 @@ Imperial Date: 815.M41
   
 * RPG Launcher: 1,200 Thrones
   
-* Frag Krak Missile: 75 Thrones
+* Frag Missile: 75 Thrones
   
 * Scatter Missile: 100 Thrones
-  
-* Tunnelling Torpedo: 60 Thrones
   
 * Krak Grenade: 50 Thrones
   
