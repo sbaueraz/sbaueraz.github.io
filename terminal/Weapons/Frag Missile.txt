@@ -1,0 +1,8 @@
+﻿Frag Missile:
+
+Used with: Missile Launcher 
+A large-size fragmentation device meant to obliterate exposed enemies. Frag missiles incorporate what looks lik an inflated frag grenade attached to a rocket motor or propellant charge depending on which launcher will be firing it. The greatly increased explosive charge as well as the shrapnel quantity makes a blast from a frag round far more deadly, even for well-armoured targets.
+
+Dam: 2d10+2 X
+Pen: 4
+Special: Blast (6)

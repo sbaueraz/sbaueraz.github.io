@@ -1,0 +1,9 @@
+﻿Frag Grenade:
+
+Used With: Thrown, GL, RPG
+Fragmentation, or “frag”, are the most ubiquitous variety of grenade – when a hiver or voidsman mentions a grenade in general, he’s likely referring to a frag. Frag grenades use an explosive charge to shatter a heavily notched metallic shell into dozens of deadly pieces of shrapnel that fly out in every direction. Most Imperial models are either round or cylindrical and are about the size of a clenched fist, and while primarily a military weapon, many fighters outside the Imperial Guard or PDF cadres choose to carry a few frags “just in case”.
+Gunmetal Solid Mark III FG: The forges of Gunmetal City are known to produce a slightly heavier version of standard frag grenades. While not as easy to carry in large numbers, the Solid Mark III offers an improved blast radius and is the choice of professional grenadiers throughout the Calixis Sector. Because of its oversized housing, this grenade can only be thrown.
+
+Dam: 2d10 X
+Pen: 0
+Special: Blast (4)

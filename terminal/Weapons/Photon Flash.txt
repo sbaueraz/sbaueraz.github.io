@@ -1,0 +1,8 @@
+﻿Photon Flash:
+
+Used With: Thrown, GL
+Photon flash grenades are extensively used by various enforcer types to disorient and surprise their targets, and are favourites for covering the entry into a hostile building. After landing, a photon flash grenade’s chemical-powder core ignites and produces a flash like a small star, causing temporary blindness to anyone nearby. The flash is bright enough to overload cheap or primitive vision protection systems, so even better-equipped gangers and scum can still be disabled by one. Anyone caught in a photon flash grenade’s blast must succeed on a Challenging (+0) Toughness Test or be blinded for 1d5 Rounds.
+
+Dam: -
+Pen: -
+Special: Blast (15), Special

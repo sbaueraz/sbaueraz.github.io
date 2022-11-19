@@ -1,0 +1,12 @@
+﻿Mezoa-Pattern Grenade Launcher: 
+
+Grenade launchers produced on Mezoa are designed for simplicity and effectiveness at range as well as ease in firing. A long barrel and stable grenade chamber improves accuracy compared to other launchers, and the weapon automatically opens after firing to permit a rapid reload. Though it can only hold a single grenade, skilled users can load a new one with enough speed to keep up a steady barrage of shots, even while on the move.
+ 
+Class: Basic
+Range: 80m
+RoF: S/-/-
+Dam: Varies
+Pen: Varies
+Clip: 1
+Reload: 2 Action Points
+Special: 

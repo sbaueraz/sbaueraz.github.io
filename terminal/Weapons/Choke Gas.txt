@@ -1,0 +1,9 @@
+﻿Choke Gas:
+
+Used With: Thrown, GL
+A particularly indiscriminate and potentially lethal weapon designed for crowd control and riot dispersal, choke gas contains a powerful irritant that attacks the eyes and respiratory system. A few lungfuls of the thick bluish gas can reduce the most ardent mobs to a sobbing, coughing morass. Choke gas grenades can be found in the arsenals of Adeptus Arbites precinct-forts on almost every planet, and while undoubtedly effective, it is not a weapon of first choice within cities (especially hives) as it has a tendency to spread through built-up areas and into air filtration systems where it can kill or seriously harm those of weak constitution.
+Each Turn that a character is caught in the blast radius of choke gas they must make a Challenging (+0) Toughness Test. A gas mask provides a +20 bonus to this Test, while filtration plugs are totally useless as the choke gas attacks the eyes as well as respiratory system. Failure inflicts one level of Fatigue, and multiple Rounds are cumulative. The harmful effects of choke gas last while the character is within the blast area plus 1d10 Rounds. If a victim of choke gas fails the Test by four or more degrees, they also reduce their Toughness Characteristic by 1d10 for 1d5-1 hours. Successive failures are cumulative, and it is possible to die from choke gas by having one’s Toughness reduced to 0. Choke gas clouds linger for 1d5x3 minutes before dispersing, though weather conditions may significantly reduce this time.
+
+Dam: -
+Pen: -
+Special: Blast (1d10+3), Special

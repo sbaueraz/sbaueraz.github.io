@@ -1,0 +1,9 @@
+﻿Hallucinogen Grenade:
+
+Used With: Thrown, GL, RPG
+Hallucinogen grenades are a special type of (usually) non-lethal weapon that induces a variety of short-lived psychological states and delusions. A hallucinogen grenade releases an almost invisible cloud of gas that profoundly warps the minds of those who breathe it in, and their comparative rarity as well as unpredictable outcome marks them as a tool of a very small set of specialist users.
+All living creatures within a hallucinogen grenade’s blast must make a Difficult (-10) Toughness Test, with failure causing them to be overcome with delusions and hallucinations for 1d10 Rounds. Roll a d100 and refer to Hallucinogen Effects on page 137 of Dark Heresy to determine the nature of and results of these hallucinations for the duration of the grenade’s effect. Wearing a gas mask only provides a +20 bonus against this effect, and filtration plugs are totally useless.
+
+Dam: -
+Pen: -
+Special: Blast (10), Special

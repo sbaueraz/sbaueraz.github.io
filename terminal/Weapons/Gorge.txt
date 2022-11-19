@@ -1,0 +1,12 @@
+﻿Gorge Grenade Launcher:
+ 
+ The Gorge is a very basic single-shot launcher that resembles an oversized shotgun. It has a break-open action which allows grenades to be loaded – this is rather sluggish due to the Gorge’s robust design, but a grenadier can shoot with total confidence that his grenade will launch. Its simplicity does not diminish its effectiveness, and it is a popular support weapon used by enforcers, mercenaries, and PDF troopers. Gorges are especially common on hive worlds where they can be made in scav-workshops and lesser forges, and widespread availability on the black market makes it one of the easiest ways for recidivists and rebel groups to obtain extra firepower. The Gorge requires two hands to fire, but can be easily and safely swung with one and counts as a club in melee.
+ 
+Class: Basic
+Range: 60m
+RoF: S/-/-
+Dam: Varies
+Pen: Varies
+Clip: 1
+Reload: 6 Action Points
+Special: Reliable

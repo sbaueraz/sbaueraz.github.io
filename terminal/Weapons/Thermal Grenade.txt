@@ -1,0 +1,8 @@
+﻿Thermal Grenade:
+
+Used With: Thrown, GL, RPG
+Also known as inferno grenades, this powerful weapon uses an incendiary fuel mixture designed to violently melt its sturdy outer casing, with a subsequent explosion that causes liquefied metal shards to fill the blast area. While they are not as powerful as a melta-bomb, they are easier to handle and use, and offer a wider area of destruction that can easily ignite enclosed areas into blazing conflagrations. They can also burn down most barricades and lesser internal structures, and are often used by suppression teams during uprisings for just that purpose. In a bind, a thermal grenade can be employed in sabotaging equipment as the high-intensity heat can warp metal. Anyone caught within a thermal grenade’s blast must succeed on a Challenging (+0) Agility Test or be set on fire.
+
+Dam: 1d10+3 E
+Pen: 6
+Special: Blast (2)

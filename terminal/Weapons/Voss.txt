@@ -1,0 +1,12 @@
+﻿Voss Assault Launcher:
+
+ This grenade launcher resembles more common patterns but with the addition of a clockwork cylinder mechanism that must be wound up during reloading. The cylinder remains under tension and can fire off its grenades with a frightening pace, making it an excellent choice for shock troops who need to suppress a large enemy force at once. The violent motion of the cylinder’s rotation tends to make the assault launcher want to jump out of the shooter’s hands; they are known for their volume of firepower, not pinpoint accuracy.
+
+Class: Basic
+Range: 60m
+RoF: S/3/-
+Dam: Varies
+Pen: Varies
+Clip: 6
+Reload: 6 Action Points
+Special: Inaccurate

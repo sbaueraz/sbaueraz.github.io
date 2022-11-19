@@ -1,0 +1,12 @@
+﻿Cadence “Destroyer” Pistol:
+
+ A weapon produced only to commission by the mysterious Cadence tech-artisan cult, the Destroyer is an extremely sophisticated hand flamer that uses force-compression technology similar to that of a plasma weapon to create a superheated thermal-incandescent blast that burns far hotter and with greater fuel efficiency than most other flame weapons. About the only thing that the Destroyer has in common with other Imperial hand flamers is the ability to use standard-size Promethium fuel canisters. This flamer has a strong association with the Inquisition of the Calixian Conclave, and if the stories are to be believed, the first commissioner of the Destroyer was none other than the legendary Inquisitor Ark-Ashten of the Ordo Xenos.
+
+Class: Pistol
+Range: 15m
+RoF: S/-/-
+Dam: 1d10+5 E
+Pen: 5
+Clip: 5
+Reload: 6 Action Points
+Special: Flame, Unreliable

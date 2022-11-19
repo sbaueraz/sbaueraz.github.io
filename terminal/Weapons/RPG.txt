@@ -1,0 +1,13 @@
+﻿RPG Launcher:
+
+Class: Basic (Launcher)
+Short for “rocket propelled grenade”, an RPG Launcher is designed to fire modified grenades at high speed and considerable range far beyond that of a typical grenade launcher. It is a fairly simple weapon composed primarily of a launch tube and firing system with a pistol grip; rockets are loaded at the front, and one man can usually handle all of the operations in the field. The rockets themselves are uncomplicated affairs made of a solid propellant charge with fins that deploy once the projectile is in flight. A grenade can be installed at the top, and a small secondary charge sets it off on impact with a hard surface (the side of a tank, a barricade, body armour, and so forth). An RPG launcher can be extremely useful and versatile to any combat situation depending on what type and how many grenades are available to the firer. Most types of grenades can be used with an RPG launcher; see the individual grenade entry for compatibility. Blank rockets, ready to be loaded with a grenade, have a base price of 10 Thrones.
+
+Class: Basic
+Range: 120m
+RoF: S/-/-
+Dam: Varies
+Pen: Varies
+Clip: 1
+Reload: 3 Action Points
+Special:

@@ -1,0 +1,8 @@
+﻿Scatter Missile:
+
+Used With: Missile Launcher
+Also known as cluster bombs, rounds of this type spread a large amount of grenade-sized bomblets over a huge area, and timely deployment of a scatter round can utterly obliterate an entire enemy company at once. The sound of dozens upon dozens of bomblets going off in sequence is more akin to the report of a Vulcan Mega-bolter than any explosive, and the only thing more satisfying than the sight of the round’s detonation is observing the total carnage left behind on one’s enemies. A scatter shell deploys bomblets equivalent to a frag grenade into every 1 metre area within its blast area. These are considered multiple attacks for the purposes of attempting to avoid the individual blasts.
+
+Dam: 2d10 X
+Pen: 1
+Special: Blast (1) 

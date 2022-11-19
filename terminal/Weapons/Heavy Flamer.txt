@@ -1,0 +1,13 @@
+﻿Heavy Flamer: 
+
+Enormously oversized flamers sometimes sporting two nozzles, heavy flamers are designed to bring fiery ruin to huge swaths of terrain at once. The great amount of flaming Promethium hurled out by these weapons more closely resembles an inferno at a processing plant than a battlefield weapon, and a heavy flamer is quite possibly the least subtle armament that can be hauled by troops onto a battlefield. Heavy flamers are most commonly employed on Imperial armoured vehicles where a large amount of fuel can be carried with (relative) safety, though small numbers are also carried into battle by Guardsmen for special situations. In this role one trooper carries the flamer itself while his assistant hauls its fuel and a backup weapon such as a lascarbine. Especially strong or power armoured soldiers are capable of wielding a heavy flamer and its fuel supply by themselves. Among those who believe in the purifying power of fire, a heavy flamer is its ultimate expression as far as individual weapons go.
+Heavy flamers include a backpack fuel tank weighing 25kg that provides the listed Clip size.
+
+Class: Heavy
+Range: 30m
+RoF: S/-/-
+Dam: 2d10+4 E
+Pen: 4
+Clip: 30
+Reload: 6 Action Points
+Special: Flame, Unreliable

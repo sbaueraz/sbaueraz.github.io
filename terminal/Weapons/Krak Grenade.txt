@@ -1,0 +1,8 @@
+﻿Krak Grenade:
+
+Used With: Thrown, GL, RPG
+Krak grenades incorporate a small but extremely powerful charge designed to defeat armour with a concentrated blast. This heavy directed firepower can be used in a variety of ways, most commonly to punch through bunker walls or attack armoured vehicles. Krak grenades do not produce a blast effect and their very narrow explosion makes them impractical for use against people, but skilled grenadiers with sharp aim have been known to make use of them in an anti-personnel role. A man directly hit by a krak grenade will likely leave nothing behind by a pair of smouldering boots.
+
+Dam: 2d10+4 X
+Pen: 6
+Special:

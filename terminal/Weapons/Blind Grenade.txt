@@ -1,0 +1,9 @@
+﻿Blind Grenade:
+
+Used With: Thrown, GL, RPG
+Blind grenades explode with a burst of dense dark grey smoke that obscures normal vision while scattering thousands of particulate IR
+bafflers and EM spectrum chaff to befuddle advanced visual sensors. The effect is short-lived, but while it lasts it provides an excellent cover for advancing forces or to facilitate a quick withdrawal. A blind grenade’s vapour discharge dissipates after 1d10+1 Rounds though weather conditions may significantly reduce this time. Characters within the blast area while the smoke remains are considered to be Blind.
+
+Dam: -
+Pen: -
+Special: Blast (10), Smoke, Special

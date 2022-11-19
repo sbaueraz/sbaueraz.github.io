@@ -1,0 +1,8 @@
+﻿Stunner Grenade:
+
+Used With: Thrown
+This grenade carries a gas that disorients its victims through neurological bio-agents that cause a stupefying effect but no actual physical harm. Covert operatives and well-equipped thieves make use of these devices in situations where no permanent harm is required or it is more desirable to leave opponents temporarily incapacitated. Stunner grenades are weapons of opportunity and are ineffective against opponents wearing any kind of protective gear, as more than a few would-be professionals have found out the hard way. Anyone within the blast area of a stunner grenade must succeed on an Ordinary (+10) Toughness Test or be Stunned for 1 Round plus a number of Rounds equal to the Degrees of Failure of the Test.
+
+Dam: -
+Pen: -
+Special: Blast (10), Special
