@@ -1,0 +1,26 @@
+Mercantile Cogitator: Authorization Minoris
+
+Imperial Date: 815.M41
+- SERVER 79975 - 
+
+> Shop Data: N O I B U R N ' S _ G A R A G E
+
+C:/User/Noiburn/PersonalData
+C:/User/Noiburn/PersonalData/DataLog01
+
+Log-01
+
+This is to be the first cogitator log of Gregar Noiburn, ex-Enginist aboard the Misericord and now vagabond within the Slagerfeld Spire.
+
+	I spent the first half of my life a servant to the path of the Enginist cast. I kept to myself, did my duty as did my father before him, and his before that. Our families holy task from the Emperor himself was to maintain Tertiary Thrust Engine C-33. The blessed machine had been maintained perfectly throughout the generations, it's sacred oils applied daily, the canticles of the engine chanted over it as it continue to burn the pure promethium fuel that propells the great vessal through the Emperors stars. It is a duty that I was happy to perform.
+	My duty was cut short by the sabatoge of our charge, TTEC-33 had failed. Never before in the membrance of our ancestors had such an event ever befallen us. The Misericord runs off over 1200 engines of varrying size and importance, the momentary loss of one engine is of little effect. This matters not however for there are no degrees of failure among the Enginists, it is black and white, either your engine is running, or you have failed in your divine charge. 
+	My family was in charge of TTEC-33 the day that it failed, and so it was us who had to take the punishment for failure. We knew that it had been sabatoge, there was no possible alternative to explain it's machine spirits sudden displeasure. Despite this knowledge, my family decided to remain and take the punishment for something that was not their fault, I was not so brave. 
+	The Misericord had docked over Scintilla, I had paid what meagre thrones I had left to a few members of the Immortals to hide me amongst the dead being purchased by a nutrition plant for transferance into corpse starch. This was how I arrived in the Slagerfeld, I will put my skills to use and find a way to hide from anyone who might search for me. In time they will forget my sins, though the Emperor will not, for this I will someday pay. May the Emperor, the Enginists, and my family find mercy for my cowardice. 
+
+(WP Test or take 1 Insanity Point, add 1 Fortune Point to the pool)
+
+>Shop_Data (1-Y)
+   
+>Back ⌧
+    
+  Adeptus Logos Administatus C7R6
