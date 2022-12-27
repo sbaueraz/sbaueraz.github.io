@@ -1,0 +1,14 @@
+Hellgun:
+
+Hellguns are the favoured weapons of the Imperial Guard's crack Storm Troopers, and are also frequintly used by their Inquisitorial counterpards as well. With heavy-duty focusing equipment and triple-density discharge cells, a Hellgun is capable of burning through a heavily armoured enemy with ease. In addition to a greatly improved ability to defeat armour and pierce cover, hellguns are typically fitted with a built-in micro-cogitator and omni-scope that improves the shooter's accuracy as well as aggregating useful tactical information. Though they closely resemble a typical if over built lasgun pattern, a Hellgun is undeniably a professional weapon for professional soldiers.
+A Hellgun makes use of a capacitor weighing 10kg that is normally slung at the small of the user's back, with a cable power feed connecting it to the gun's charge port. This configuaration provides a large clip size. Larger power packs intended for prolonged combat operations can be used instead; thse increase the clip size to 120 and weight to 25kg. Hellguns can also make use of standard lasgun charge packs though their power-hungry nature consumes them quickly (It's clip size becomes 8). If used with an overcharge pack, its clip size becomes 3 and it gains the Overheats quality. 
+Hellguns include a hard-wired Targeter, granting its user a +10% bonus to Ballistic Skill Tests made to attack with it. This device does not count towards the weapon's one sight limit.
+
+Class: Basic (Las)
+Range: 110m
+RoF: S/3/-
+Dam: 1d10+4 E
+Pen: 7
+Clip: 30
+Reload: 6 Action Points
+Special:
