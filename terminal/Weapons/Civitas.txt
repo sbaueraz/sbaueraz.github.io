@@ -1,4 +1,4 @@
-﻿Civitas-Pattern:
+﻿Civitas-Pattern Las-Pistol:
 
 This is a simple utility weapon of extremely ancient design, and can commonly be found as a self-defence pistol carried by hab-workers or serving as a backup weapon to gangers wielding powerful if less reliable autoguns. It is bulkier and less efficient than common military patterns due to its cheap manufacture, but even if left in a drawer or stuck to the bottom of a desk for decades, a Civitas’ owner can rest assured that his weapon will always shoot.
 
