@@ -6,4 +6,4 @@ A byword for brutality on Scintilla, this heavy baton is intended to smash limbs
 Class: Melee
 Dam: 1d10 I
 Pen: 0
-Special: Primitive
+Special:
