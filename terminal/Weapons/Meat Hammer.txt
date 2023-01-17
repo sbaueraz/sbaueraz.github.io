@@ -8,5 +8,5 @@ RoF: S/-/-
 Dam: 2d5+6 I
 Pen: 0
 Clip: 1
-Reload: 3 Action Points
+Reload: 9 Action Points
 Special: Scatter, Tearing
