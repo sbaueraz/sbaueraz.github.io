@@ -1,0 +1,12 @@
+Mezoa-Pattern Plasma Gun:
+
+Mezoa-pattern plasma guns, manufactured on that world in the Gothic Sector, are typical of any number of “lesser grade” plasma guns that hail from forge worlds without Ryza’s intimate knowledge of their art and design. While certainly functional and deadly enough, these plasma guns typically lack a Maximal setting and are significantly more bulky and heavier to schlep around due to their inefficient induction coils and unnecessarily large fusion core. The sheer volume of plasma guns produced by Ryza makes them similar in number to those from lesser forges combined, but the inferior characteristics of these sub-standard patterns does tend to reduce their black market cost, and having any plasma gun is certainly better than having none at all.
+
+Class: Basic
+Range: 90m
+RoF: S/2/-
+Dam: 1d10+7 E
+Pen: 6
+Clip: 40
+Reload: 15 Action Points
+Special: Overheats
