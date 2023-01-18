@@ -60,6 +60,8 @@ Imperial Date: 815.M41
 * Slug Shells: 1 Throne Gelt per 4
  
 * Explosive Bullets: 4 Throne Gelts per 1
+
+* .075-calibre Bolt: 15 Thrones Gets per 1
  
 * Arbitrator Carapace: 1,350 Throne Gelts
    
