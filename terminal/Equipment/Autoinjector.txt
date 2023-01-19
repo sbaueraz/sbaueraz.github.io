@@ -1,3 +1,3 @@
-﻿Autojector:
+﻿Autoinjector:
  
 Most combat drugs tend to be used with autojectors due to their ease of use. An autojector resembles a plastek tube with an opening on one end that contains a spring- loaded needle. Once armed by depressing a stud, an autojector is used by jabbing the open end against the body - the sudden stop causes the needle to be deployed and the drug to be administered. An autojector can be used through clothing but can't penetrate any kind of armour - normally, a character can simply jab himself or an ally through a gap or space, but a character in sealed armour will have to remove at least one piece (typically the helmet) to present an injection site. Using a drug with an autojector is 3 Action Points, but the user can attempt to reduce this time to 1 Action Point by succeeding on a Weapon Skill Test (gaining the usual +30 bonus for attacking an Unaware target, assuming the recipient is willing).
