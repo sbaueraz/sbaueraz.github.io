@@ -59,9 +59,17 @@ Imperial Date: 815.M41
  
 * Overcharge Pack: 12 Throne Gelts per pack
 
+* Hotshot Pack: 15 Throne Gelts per pack
+
 * Slug Shells: 1 Throne Gelt per 4
+
+* Acid Shells: 16 Throne Gelts per 1
  
 * Explosive Bullets: 4 Throne Gelts per 1
+
+* Amputator Rounds: 12 Throne Gelts per 1
+
+* Man-Stopper Bullets: 5 Throne Gelts per 6
 
 * .075-calibre Bolt: 15 Thrones Gets per 1
  
