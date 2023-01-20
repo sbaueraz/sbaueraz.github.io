@@ -1,0 +1,7 @@
+Amputator Rounds:
+
+Used With: Any Pistol or Basic Solid Projectile weapon, including shotguns
+
+Amputator rounds are so named for their frightening tendency to blow the limbs off of unfortunate victims hit by them. Amputator rounds replace the bullet or shot pellets with explosive micro-shrapnel that can shear flesh and shatter bones.
+
+Effects: The weapon triggeres Righteous Fury on rolls of 9 or 10. If the attack results in Critical Damage, add an additional 3 points to the total Critical Damage suffered by the target.

@@ -1,0 +1,7 @@
+Man-Stopper Bullets:
+
+Used With: Any Pistol or Basic Solid Projectile weapon without the Scatter quality
+
+These projectiles are made of a solid hardened core that is designed to easily puncture armour and cover that an enemy might be hiding behind. The wounds they make are no more grievous than normal bullets, but they can still have quite an impressive effect once the target realises that the flakboard wall he is shielded by offers him absolutely no protection at all.
+
+Effects: Increase the weapon’s Penetration value to 3. Weapons that already have Pen 3 or higher don’t gain any additional benefits.

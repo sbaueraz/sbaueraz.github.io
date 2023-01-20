@@ -1,0 +1,7 @@
+Acid Shells/Bolts
+
+Used With: All shotguns and Bolt weapons
+
+Acid shells replace their multiple pellets with a single slug containing a large amount of incredibly corrosive acid that can eat through almost any material. An unarmoured man will have his flesh melted from his bones in moments, while even heavy protective gear can be worn away with alarming speed. Acid bolts function in the same way as their shotgun counterparts, replacing their mass-reactive warheads with a vessel containing the same acid.
+
+Effects: Change the weapon’s Damage to 2d10 Energy and Penetration to 0. If used in a shotgun the weapon loses the Scatter quality. Should the target takes any damage after reduction for Armour and Toughness they suffer the same effects as being set on fire for 1d5 Rounds, representing the awful chemical burns that the acid can cause. If Righteous Fury is triggered, the target’s worn armour has its AP reduced by 1 on the hit location.

@@ -1,0 +1,8 @@
+Hotshot Pack:
+
+Used With: Pistol and Basic Las weapons
+
+Effects: Though similar in design and construction to standard charge packs for laspistols and lasguns, a hotshot pack is specially designed to expend all of its stored energy in one powerful blast. Snipers in the Imperial Guard often use these charge packs to give their long las rifles some more punch; the fact that they go dry after one shot is of little concern to troops who are supposed to kill with one shot anyway.
+Effects: A weapon using a hotshot pack increases its Damage by 1, its Penetration to 4 (weapons that already have Pen 4 or higher don’t increase any further), and gains the Tearing quality. The weapon’s Clip size becomes 1 and therefore can only be fired on single shot mode. When using a hotshot pack, the weapon’s reliability decreases by one step; if the weapon has the Reliable quality it loses it, and if it doesn’t it gains the Unreliable quality. If the weapon is already Unreliable, it instead gains the Overheats quality.
+
+Some las weapons may have different consequences for using a hotshot pack; if applicable, these are described in their entries.
