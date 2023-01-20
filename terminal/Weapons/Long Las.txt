@@ -1,0 +1,16 @@
+Long Las:
+
+Class: Basic (Las)
+
+The long las is a sniper’s lasgun, heavily optimized for accuracy and beam cohesion over long range. Because of their substantial barrels and adjustable stocks, a long las is difficult to manoeuvre in tight spots or in close combat, though this is a minor concern to most common military users. Most long las are fitted with a large tubular noise dampener at the muzzle which significantly reduces the volume of the gun firing. Long las are most often used by marksmen to support infantry attacks, the greater range and precision being highly useful for destroying heavy weapon teams and entrenched troops. However, the bright beam of light can give away a concealed shooter's position; as a result, military scouts and infiltrators who rely on stealth will typically employ needle rifles instead. 
+
+All common long las patterns are considered to have a silencer installed, and usually include a telescopic sight which negates any penalties for firing at long range.
+
+Class: Basic
+Range: 150m
+RoF: S/-/-
+Dam: 1d10+3 E
+Pen: 1
+Clip: 40
+Reload: 3 Action Points
+Special: Accurate, Reliable
