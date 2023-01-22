@@ -3,7 +3,7 @@ Imperial Date: 815.M41
 - SERVER 73375 - 
 
 
-> Shop Data: T H E  I N S T I T U T E
+> Shop Data: T H E _ I N S T I T U T E
   
 ADMECH GENERAL'S WARNING: The Institute of Technology is not responsible for any surgical failures that may result in maiming, horrible death, and/or loss of humanity. The flesh is weak and it is not our fault.
   
