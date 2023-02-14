@@ -1,0 +1,12 @@
+﻿Garm-Pattern Service Pistol:
+
+This bolter is commonly carried by the grim Commissars attached to Imperial Guard units. The Garm is well suited to this role by these feared and respected leaders - its large size and inlaid insignia can be easily seen from a distance when a Commissar waves it in the air to inspire his troops, while the oversized muzle placed squarely at face level is often enough to embolden cowering Guardsmen (though more vindictive Commissars might follow up with a summary execution anyway). Specifically designed to inspire fear, a Garm-Pattern bolt pistol grants a +10% bonus to Intimidate Skill Tests when used to threaten anyone. This is in addition to the Carry a Big Gun rule.
+
+Class: Pistol
+Range: 30m
+RoF: S/2/-
+Dam: 1d10+5 X
+Pen: 4
+Clip: 8
+Reload: 3 Action Points
+Special: Tearing
