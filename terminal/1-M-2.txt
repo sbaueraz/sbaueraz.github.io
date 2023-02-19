@@ -20,5 +20,5 @@ Mr. Von Rock,
 
 
 	>Back
->To Shop Data ⌧ 
-                                                                                                    Adeptus Logos Administatus C7R6
+>To Shop Data (1-M) ⌧ 
+   Adeptus Logos Administatus C7R6
