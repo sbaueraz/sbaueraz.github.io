@@ -1,0 +1,14 @@
+DOMINATE:
+
+Demonstrating the superiority of his mutant mind, the telepath subverts his foe’s will and forces him to act against his every inclination. Few psychic abilities are so rightly feared.
+
+Value: 200 xp
+Prerequisite: Willpower 40
+Action: 2 Action Points
+Focus Power: Challenging (+0) Opposed Willpower test
+Range: 5 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker nominates a number targets in range and line of sight up to half his psy rating (rounded up) who oppose this power with a Willpower test. Each target that fails to resist the
+power must follow a simple command given by the psyker. Some example orders include “Flee,” “Fall,” or “Attack your friend.” If the command is a potentially suicidal act, each target receives a +20 to its Willpower test to Oppose the power. In all cases, the command must be achievable in a single round.

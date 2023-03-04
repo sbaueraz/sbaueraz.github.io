@@ -1,0 +1,16 @@
+MOLTEN BEAM
+The pyrokine projects from his hands a blindingly bright beam of sun-hot energy. At the touch of this blazing ray, plasteel liquefies and flesh bursts into ash.
+
+Value: 400 xp
+Prerequisite: Psy rating 4
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 5 metres x psy rating
+Sustained: No
+Subtype: Attack
+
+MOLTEN BEAM PSYCHIC BOLT:
+RNG 5M X PR 
+DMG 1D10+5+3XPR (E) 
+PEN 2XPR
+SPECIAL: MELTA

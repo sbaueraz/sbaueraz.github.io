@@ -1,0 +1,13 @@
+ENDURANCE:
+
+Focussing his mind on the injured bodies of his allies, the psyker energises their biology, initiating rapid cell growth. In moments, shattered bones re-knit, gaping wounds close and heal, and the effects of combat damage disappear.
+
+Value: 300 xp
+Prerequisite: Toughness 30
+Action: 1 Action Point
+Focus Power: Difficult (–10) Willpower test
+Range: 3 metres x psy rating radius
+Sustained: No
+Subtype: Concentration
+
+Effect: A number of allies in range equal to the psyker’s psy rating, plus the psyker himself, recover wounds equal to half the psyker’s psy rating, rounded up. They can also immediately overcome the effects of Pinning. This power is incredibly taxing and requires at least 12 hours of recovery before it may be used again.

@@ -1,0 +1,13 @@
+WARP PERCEPTION:
+
+The psyker opens his senses to the Warp, allowing unnatural tendrils of energy to augment his own perceptions. His flesh no longer limited, he casts his gaze wider and hungrily scents prey from farther afield.
+
+Value: 100 xp
+Prerequisite: Willpower 35
+Action: 1 Action Point
+Focus Power: Challenging (+0) Psyniscience test
+Range: Self
+Sustained: 1 Action Point
+Subtype: Concentration
+
+Effect: The psyker gains the Unnatural Senses (X) trait, where the X value is equal to the psy rating multiplied by 10.

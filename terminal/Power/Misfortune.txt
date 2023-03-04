@@ -1,0 +1,14 @@
+MISFORTUNE:
+
+Twisting fate, the psyker focuses his inner eye to ensure that his foe suffers every possible calamity that ill-fortune could provide. From embarrassing mishaps to life-and-death struggles, chance itself betrays the target at every turn.
+
+Value: 300 xp
+Prerequisite: Willpower 45
+Action: 1 Action Point
+Focus Power: Difficult (–10) Opposed Willpower test
+Range: 20 metres x psy rating
+Sustained: Free Action
+Subtype: Attack, Concentration
+
+Effect: The psyker nominates a single target in range and line of sight who opposes this power with a Willpower test. If the target fails to resist the power, misfortune follows it wherever it goes. For the duration of this power, the target’s Armour points are reduced in all locations by half the psyker’s psy rating, rounded up. The target’s weapons also jam on any attack in which they fail to hit
+their target.

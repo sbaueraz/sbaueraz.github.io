@@ -1,0 +1,13 @@
+PRESCIENCE:
+
+The psyker sees brief, fuzzy flashes into his immediate future, which he can use to guide the warband’s aim against their enemies. Though the glimpses are short, such foretelling can mean the difference between life and death when in combat.
+
+Value: 200 xp
+Prerequisite: Psyniscience Rank 1
+Action: 1 Action Point
+Focus Power: Challenging (+0) Psyniscience test
+Range: 3 metres x psy rating radius
+Sustained: 1 Action Point
+Subtype: Concentration
+
+Effect: For the duration of this power, the psyker and a number of allies equal to his psy rating within range, gain a bonus to their Weapon Skill and Ballistic Skill tests equal to twice the psyker’s psy rating. Allies affected by this power lose its benefit as soon as they move out of range.

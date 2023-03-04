@@ -1,0 +1,13 @@
+LIFE LEECH:
+
+The psyker latches on to his target’s life force and tears it from the hapless victim’s body. The psyker absorbs this stolen essence, using it to reinvigourate and bolster his own flesh.
+
+Value: 400 xp
+Prerequisite: Toughness 40
+Action: 2 Action Points
+Focus Power: Opposed Difficult (–10) Willpower test
+Range: 10 metres x psy rating
+Sustained: Free Action
+Subtype: Attack, Concentration
+
+Effect: The psyker nominates a single target in range and line of sight who opposes this power with a Toughness test. If the target fails to resist the power, he suffers 1d10 + psy rating Toughness damage, and the psyker gains Unnatural Toughness (1) trait, with its value increased by 1 for every full 5 points of Toughness damage the power inflicts. This Unnatural Toughness trait remains for as long as the power’s effect persists

@@ -1,0 +1,13 @@
+MANIPULATE FLAME:
+
+Reaching out with his mind, the psyker grasps nearby flame and moulds it to his desire. The flames dance to his tune, moving to untouched areas or falling quiet at their master’s command.
+
+Value: 100 xp
+Prerequisite: Willpower 35
+Action: 1 Action Point
+Focus Power: Routine (+20) Willpower test
+Range: 10 metres x psy rating
+Sustained: 1 Action Point
+Subtype: Attack
+
+Effect: The psyker chooses a patch of fire in range and line of sight with a radius no greater than PR metres. Each round, he can either extinguish or control the fire. If he extinguishes the fire, this power ends and the fire goes out. If he controls the fire, he can move it up to a number of metres equal to his psy rating per round along a flammable surface.

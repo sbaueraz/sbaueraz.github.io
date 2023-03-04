@@ -1,0 +1,14 @@
+IRON ARM:
+
+The psyker’s flesh transforms, hardening into a slick, living metal, weighing him down but also rendering him incredibly resistant. His new form allows him to shrug off small arms fire and crush
+his enemies with his bare hands.
+
+Value: 400 xp
+Prerequisites: Strength 35, Toughness 35
+Action: 1 Action Point
+Focus Power: Hard (–20) Willpower test
+Range: Self
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: While this power is in effect, the psyker gains the Unnatural Toughness and Unnatural Strength traits with ratings equal to half his psy rating, rounded up. However, his flesh’s sturdier form weighs the psyker down, causing him to suffer a –10 penalty to his Agility characteristic while the power is in effect.

@@ -1,0 +1,28 @@
+SCRIER'S GAZE:
+
+The most accomplished diviners are not only able to see into the future, but also the present. Unbound by the limits of mere physical vision, his mind peers far and wide, with little able to hide from his sight.
+
+Value: 200 xp
+Prerequisite: Psyniscience rank 2
+Action: Special
+Focus Power: Challenging (+0) Psyniscience test
+Range: Self
+Sustained: No
+Subtype: Concentration
+
+Effect: To begin the ritual, the psyker must spend at least thirty minutes using assorted psychic foci to concentrate his vision— drawing Tarot cards, casting runes, gazing deep into fire, or other methods as varied as the stars of the Imperium. At the end of this time, he makes his Focus Power test to project his vision over the area, with the GM revealing information based on the degrees of success, as described on Table 6–4: Scrier’s Gaze Results.
+
+Table 6–4: Scrier’s Gaze Results
+DOS RESULT:
+
+1
+Single Threat: The psyker managesto focus his view on a single key action his foe iseither planning or currently enacting. This couldbe launching an ambush, hiding a heretical tome, orenacting a bloodsoaked sacrifice.
+
+2
+Enemy Movements: The psyker's visions stretches over a wide area, able to see all activity within an entire battlefieldor hive level. However,he isunable to focus his vision enough to see the exact details at an individual level.
+
+3
+EnemyNumbers: The psykercontrols the focus of his vision. He isawareof all previous effects and is also able to discern details as to individual activitiesand exact enemynumbers.
+
+4+
+EnemyPlans: The psyker breaksthroughthe veil of time, seeing an area and the countless possible outcomes of conflictswithin it. He is aware of all previous effects, andalso knows details of the plots any enemy leaders areplanning.

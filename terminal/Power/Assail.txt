@@ -1,0 +1,19 @@
+ASSAIL:
+
+The psyker reaches out with his mind to pluck up whatever objects are available and hurl them at his target. If there is nothing suitable nearby, the psyker can direct his mental energies directly at his foe, pounding him with bolts of invisible force.
+
+Value: 200 xp
+Prerequisite: Willpower 40
+Action: 1 Action Point
+Focus Power: Ordinary (+10) Willpower test
+Range: 20 metres x psy rating
+Sustained: No
+Subtype: Attack, Concentration
+
+Effect: If the psyker scores at least three degrees of success on the Focus Power test for this attack, the target is also thrown 1d5 metres away and knocked Prone. Certain especially large targets such as battle tanks, Greater Daemons, and Titans are immune to this effect at the Game Master’s discretion.
+
+ASSAIL PSYCHIC BOLT:
+RNG 20M X PR 
+DMG 1D10+PR (I) 
+PEN 2
+SPECIAL: —

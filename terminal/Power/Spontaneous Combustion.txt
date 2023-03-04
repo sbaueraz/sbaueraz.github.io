@@ -1,0 +1,17 @@
+SPONTANEOUS COMBUSTION:
+
+In one of the purest displays of his power, the psyker ignites his enemies, burning them alive. The target’s blood boils and flesh smoulders, and as the psyker’s rage reaches its pinnacle, the target’s body begins to explode in blasts of ash and flame.
+
+Value: 200 xp
+Prerequisite: Willpower 40
+Action: 1 Action Point
+Focus Power: Ordinary (+10) Willpower test
+Range: 20 metres x psy rating
+Sustained: No
+Subtype: Attack
+
+SPONTANEOUS COMBUSTION PSYCHIC BOLT:
+RNG 20M X PR 
+DMG 1D10+2+2XPR (E) 
+PEN 0
+SPECIAL: FLAME

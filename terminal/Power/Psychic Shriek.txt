@@ -1,0 +1,17 @@
+PSYCHIC SHRIEK:
+
+Drawing a deep soul-breath, the psyker unleashes a rippling Warp tide that sears the souls and blasts the minds of those in its path. The violent psychic wave is enough to overwhelm and shut down the minds of those it strikes, while those not slain outright are left reeling and dazed.
+
+Value: 300 xp
+Prerequisite: Psy rating 3
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 10 metres x psy rating
+Sustained: No
+Subtype:Attack
+
+PSYCHIC SHRIEK PSYCHIC BOLT:
+RNG 10M X PR 
+DMG 1D10+2+2XPR (X) 
+PEN 0
+SPECIAL: CONCUSSIVE (1)

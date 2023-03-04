@@ -1,0 +1,17 @@
+FLAME BREATH:
+
+Using his body as a conduit for his Warp-drawn power, the psyker expels a torrent of flame from his mouth and eyes. Even his allies can find the sight terrifying as his foes are burned with his unnatural exhalations.
+
+Value: 300 xp
+Prerequisite: Psy rating 3
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 20 metres x psy rating
+Sustained: No
+Subtype: Attack
+
+FLAME BREATH PSYCHIC BARRAGE:
+RNG 20M X PR
+DMG 1D10+2+2XPR (E) 
+PEN 0
+SPECIAL: FLAME

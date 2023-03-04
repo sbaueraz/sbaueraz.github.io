@@ -1,0 +1,19 @@
+FIRE SHIELD:
+
+With but a gesture, the psyker summons a wall of shimmering, unnatural fire in the air before him. Any who would strike the pyromancer must contend with fiery retribution, as flames leap outward, travelling in reverse down the path of the bullet or lasbolt to strike the psyker’s assailant.
+
+Value: 300 xp
+Prerequisite: Agility 40
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 20 metres x psy rating
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: While this power is in effect, any character in range and line of sight that successfully strikes the psyker with an attack immediately suffers Energy damage equal to the psyker’s psy rating. The degrees of success on this attack are equal to those from the Focus Power test, and the inflicted damage is not reduced by Armour or Toughness bonus.
+
+FIRE SHIELD PSYCHIC BOLT:
+RNG 20M X PR 
+DMG PR (E) 
+PEN 0
+SPECIAL: FLAME

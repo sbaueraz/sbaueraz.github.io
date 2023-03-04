@@ -1,0 +1,13 @@
+INVIGOURATE:
+
+The psyker draws upon the energies of the Warp to galvanise the flesh, a possibly hazardous endeavour but one that can be essential to continue the warband’s efforts. Newly empowered, the Acolytes can continue afresh.
+
+Value: 100 xp
+Prerequisite: Toughness 30
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 1 metre
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker can remove a number of levels of Fatigue from himself and allies within range. He can chose how many levels to reduce per character, but the sum of all levels removed from all characters cannot exceed his psy rating. This power is very taxing and requires at least 12 hours of recovery before it can be used again.

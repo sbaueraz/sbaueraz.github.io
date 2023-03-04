@@ -1,0 +1,31 @@
+VORTEX OF DOOM:
+
+In perhaps the ultimate display of his mastery of both the physical world and the Warp, the psyker tears open a hole twixt the two. Around the roiling vortex, the laws of physical space are undone as the ravenous predations of Chaos devour all in the vicinity. This power is extraordinarily dangerous, and not only to the psyker’s enemies. The Vortex of Doom feeds on itself and can sustain its power without need of the psyker.
+
+Value: 400 xp
+Prerequisite: Psy rating 5
+Action: 1 Action Point
+Focus Power: Difficult (–10) Willpower test
+Range: 5 metres x psy rating
+Sustained: 1 Action Point
+Subtype: Attack, Concentration
+
+Effect: The psyker chooses a point in range and line of sight, and creates a vortex of energy centred on that point that starts with a radius of 2 metres. Each character who is touching the vortex at the end of the psyker’s turn suffers damage as detailed below.
+
+V ORTEX OF D OOM PSYCHIC BLAST:
+RNG 5M X PR 
+DMG 2D10+2XPR (X) 
+PEN †
+SPECIAL: BLAST (2), †PEN=CURRENT VORTEX RADIUS
+
+The psyker cannot voluntarily stop sustaining this power. Instead, at the beginning of each turn the psyker is sustaining the vortex, he must make a Challenging (+0) Willpower test with a –5 penalty for each metre in the vortex’s current radius. If he passes the test, he may perform one of the following actions:
+• Increase the vortex’s radius by one metre.
+• Decrease the vortex’s radius by one metre.
+• Move the vortex any direction a number of metres equal to the psyker’s psy rating.
+If the psyker fails the Willpower test to sustain the vortex, or if he is unable to make the test due to other circumstances, its radius increases by one metre and it moves a number of metres equal to the psyker’s psy rating in a random direction (see the Scatter Diagram on page 230). If the vortex’s radius ever decreases to zero metres, the power ends and the vortex disappears. If the vortex’s radius ever grows larger than the psyker’s psy rating, it explodes, ending the power, and destroying the vortex. The psyker is hit by this damage regardless of his proximity to the exploding vortex as the energy of the Warp he was channelling lashes back into him.
+
+VORTEX EXPLOSION PSYCHIC BLAST:
+RNG — 
+DMG 2D10+4XPR (X) 
+PEN †
+SPECIAL: BLAST (2XPR), †PEN=CURRENT VORTEX RADIUS

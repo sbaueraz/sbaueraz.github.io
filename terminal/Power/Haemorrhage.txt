@@ -1,0 +1,13 @@
+HAEMORRHAGE:
+
+Drawing on his mastery of the living body, the biomancer accelerates his victim’s heart rate beyond the bounds of biological possibility. Betrayed by his own body, the target’s blood boils over, flooding his brain and bursting his over-taxed veins. Those nearby have their own hearts caught in the unnatural rhythm, suffering the same fate.
+
+Value: 400 xp
+Prerequisite: Psy rating 4
+Action: 1 Action Point
+Focus Power: Difficult (–10) Opposed Willpower test
+Range: 10 metres x psy rating
+Sustained: No
+Subtype: Attack, Concentration
+
+Effect: The psyker nominates a single target in range and line of sight who opposes this power with a Toughness test. If the target fails to resist the power, it suffers Energy damage equal to the psyker’s psy rating, plus one additional damage per degree of failure on its Toughness test; this damage ignores Toughness bonus and Armour. If this damage successfully kills the target, the psyker may immediately recast this psychic power as a Free Action on any legal target within 5 metres of the original target.

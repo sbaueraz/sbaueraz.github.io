@@ -1,0 +1,13 @@
+TELEKINE SHIELD:
+
+Using the energy of the Warp, the psyker erects a wall of tangible force that moves with him. The shimmering barrier stops bullets and deflects blades, but as more and more kinetic energy is directed at him, the psyker’s mental shield wears down.
+
+Value: 200 xp
+Prerequisite: Intelligence 40
+Action: 1 Action Point
+Focus Power: Routine (+20) Willpower test
+Range: Self
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: For the duration of the power, all of the psyker’s Hit Locations count as being protected by cover with an Armour Value equal to half this power’s psy rating. This shield can be damaged just like normal cover by damage that exceeds the shield’s Armour Value (see page 229). If the shield is reduced to 0 Armour points, the power stops, and is no longer sustained.

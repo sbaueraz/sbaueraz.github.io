@@ -1,0 +1,14 @@
+PERFECT TIMING:
+
+So accurate are the diviner’s premonitions, that he can predict the exact moment his foe will expose himself as a target. Further, the psyker can forge a link with his allies, momentarily intertwining their fortunes, so that they might fire in perfect unison, already squeezing their weapons’ triggers before the foe is aware.
+
+Value: 300 xp
+Prerequisite: Perception 55
+Action: 1 Action Point
+Focus Power: Difficult (–10) Psyniscience test
+Range: 3 metres x psy rating radius
+Sustained: 1 Action Point
+Subtype: Concentration
+
+Effect: For the duration of this power, the psyker and a number of allies equal to his psy rating within range, ignore the effects of cover when firing on a target. If their attacks would strike a Hit
+Location on the enemy that would benefit from cover, that benefit is ignored. Allies affected by this power lose its benefits as soon as they move out of range.

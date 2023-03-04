@@ -1,0 +1,13 @@
+INVISIBILITY:
+
+Clouding enemy minds, the psyker obscures his allies from their foes’ senses. Though eyes and other senses detect them as normal, their minds do not perceive them, save for a slight distortion in their vision.
+
+Value: 400 xp
+Prerequisites: Agility 30, psy rating 4
+Action: 1 Action Point
+Focus Power: Difficult (–10) Willpower test
+Range: 10 metres x psy rating
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: The psyker nominates a single target within range and line of sight (this can be the psyker himself). For the duration of the power, the target counts having the Stealth skill at Known (rank 1), and gains a bonus to Stealth tests equal to +5 times the psyker’s psy rating. Additionally, all ranged attacks made against the target suffer a penalty equal to –5 times the psyker’s psy rating. If the target moves beyond the power’s range, he loses this power’s benefits.

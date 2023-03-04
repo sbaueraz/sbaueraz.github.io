@@ -1,0 +1,14 @@
+FOREBODING:
+
+The psyker gains an unnatural sixth sense. With this inexplicable insight, he knows how and where his enemies will attack, dodging blows and lasblasts with contemptuous and frightening ease.
+
+Value: 200 xp
+Prerequisite: Psyniscience rank 1
+Action: Reaction
+Focus Power: Difficult (–10) Perception test
+Range: Self
+Sustained: No
+Subtype: Concentration
+
+Effect: In any situation where the psyker would be called upon to make an Evasion test, he may instead attempt to use this power. If the power is successful, the psyker avoids the attack exactly as if he
+has passed an Evasion test with the number of degrees of success he scored on the Focus Power test.

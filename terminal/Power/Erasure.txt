@@ -1,0 +1,13 @@
+ERASURE:
+
+With a surgeon’s skill, the psyker opens up his target’s mind and slices away a memory, removing it forever. This power is of immense utility to an Inquisitor’s work, particularly one who wishes to operate discreetly, without the usual mess of an execution.
+
+Value: 100 xp
+Prerequisite: Fellowship 40
+Action: 2 Action Points
+Focus Power: Challenging (+0) Opposed Willpower test
+Range: 5 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker chooses a single foe in range and line of sight who opposes this power with a Willpower test. If he fails, the psyker removes a memory of a recent event from the target’s mind. The psyker can only remove an amount of time from the target’s memory up to 10 x PR minutes, and the event removed cannot have occurred more than PR hours prior to the use of this power. The enemy is left with a gap in his memory, with no recollection of what occurred during that time.

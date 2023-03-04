@@ -1,0 +1,18 @@
+SUNBURST:
+
+The psyker releases a nova of fiery energy from his body. As the psyker focuses his power, a blazing aura coalesces around him, growing brighter and hotter before rapidly expanding outward in all directions. As the calm at the eye of the firestorm, the psyker is untouched, while all around him is reduced to ash and cinder.
+
+Value: 400 xp
+Prerequisite: Psy rating 4
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 20 metres x psy rating
+Sustained: No
+Subtype: Attack
+
+SUNBURST PSYCHIC STORM:
+RNG 20M X PR 
+DMG 1D10+2+2XPR (E) 
+PEN 0
+SPECIAL: FLAME
+

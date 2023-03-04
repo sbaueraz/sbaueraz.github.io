@@ -1,0 +1,19 @@
+FIERY FORM:
+
+Unnatural flame engulfs the psyker’s entire body. He is cloaked in sheets of fire that somehow do not harm him, but burns any nearby with horrifying results.
+
+Value: 400 xp
+Prerequisite: Psy rating 4
+Action: 1 Action Point
+Focus Power: Difficult (–10) Willpower test
+Range: Self
+Sustained: 1 Action Point
+Subtype: Concentration
+
+Effect: While this power is in effect, all of the psyker’s melee attacks deal additional Energy damage equal to his psy rating and gain the Flame quality. In addition, at the end of each of the psyker’s turns in which he sustains this power, he emits a Psychic Blast centred on his location. Each character within the area of the blast, with the exception of the psyker himself, are struck.
+
+FIERY FORM PSYCHIC BLAST:
+RNG (SELF) 
+DMG 1D10+PR (E) 
+PEN 0
+SPECIAL: BLAST (PR), FLAME

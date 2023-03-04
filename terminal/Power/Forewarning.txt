@@ -1,0 +1,13 @@
+FOREWARNING:
+
+Foreseeing his foes’ intentions, the psyker taps into the Warp and, like dropping a small pebble into a pool, sends ripples to slightly shift the course of events. Without moving a muscle, the psyker saves his ally from certain injury and leaves his enemy baffled.
+
+Value: 400 xp
+Prerequisite: Perception 50
+Action: 1 Action Point
+Focus Power: Challenging (+0) Psyniscience test
+Range: 3 metres x psy rating radius
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: For the duration of this power, a number of allies within range equal to the psyker’s psy rating, plus the psyker himself, gain a bonus to all Evasion tests equal to twice the psyker’s psy rating. Allies affected by this power lose its benefits as soon as they move out of range.

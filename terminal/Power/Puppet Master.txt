@@ -1,0 +1,13 @@
+PUPPET MASTER:
+
+In the ultimate expression of telepathic power, the psyker utterly crushes his target’s will, locking him away in a dark corner of his own mind and taking complete control of his body. After recovering their wits, those subjected to this power are often struck with bouts of insecurity, never certain again if their actions are truly their own.
+
+Value: 400 xp
+Prerequisite: Fellowship 55
+Action: 2 Action Points
+Focus Power: Difficult (–10) Opposed Willpower test
+Range: 10 metres x psy rating
+Sustained: Special
+Subtype: Concentration
+
+Effect: The psyker nominates a single target in range and line of sight with total wounds no greater than 3 times the psyker’s psy rating, who opposes this power with a Willpower test. If the target fails to resist the power, it is controlled by the psyker like a puppet. For the duration of the power, the psyker can divide his Actions between himself and the target. The dominated target uses its own Characteristics, but at –10 due to the crudity of the control. If at any point the psyker would make the target perform a potentially suicidal action, the target can attempt a Challenging (+0) Opposed Willpower test to try to break free of the power. Additionally, the power breaks as soon as the target moves out of range.

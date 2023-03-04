@@ -1,0 +1,13 @@
+HALLUCINATION:
+
+The human mind’s grasp on reality is fragile and easily manipulated with sufficient power. With his own psychic senses, the telepath touches the psyche of his target and severs its connection to normal existence.
+
+Value: 200 xp
+Prerequisite: Fellowship 40
+Action: 1 Action Point
+Focus Power: Challenging (+0) Opposed Willpower test
+Range: 10 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker nominates a single target in range and line of sight who opposes this power with a Willpower test. If the target fails to resist the power, it must roll on Table 5–3: Hallucinogenic Effects on page 146, and immediately apply the effects. The effect rolled on the table lasts for a number of rounds equal to half the psyker’s psy rating, rounded up

@@ -1,0 +1,13 @@
+TELEKINETIC CONTROL:
+
+The telekine calls on his powers to reach out farther than his flesh can extend, distorting reality to grasp objects with eldritch hands. With invisible fingers perhaps only betrayed with frosted rime or whispered breezes, few can notice his subtle manipulations.
+
+Value: 100 xp
+Prerequisite: Willpower 35
+Action: 1 Action Point
+Focus Power: Routine (+20) Willpower test
+Range: 10 metres x psy rating
+Sustained: 1 Action Point
+Subtype: Concentration
+
+Effect: The psyker chooses an object in range and line of sight with a weight no greater than 2 x PR kilograms. At the beginning of each of his turns, he can move the object in any direction up to a number of metres equal to twice his psy rating. If the object ever leaves the range of the power, the power ends.

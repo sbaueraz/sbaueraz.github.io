@@ -1,0 +1,20 @@
+CRUSH:
+
+Rather than using his abilities to turn inanimate objects into weapons, the telekine focuses directly on his enemy to squeeze him in an invisible fist of power. Unless the target can repel the
+psychokinetic assault, he is bludgeoned horridly. Even should he survive, the overwhelming psychic force nonetheless pins him in place under a tremendous weight.
+
+Value: 300 xp
+Prerequisite: Willpower 45
+Action: 1 Action Point
+Focus Power: Challenging (+0) Opposed Willpower test
+Range: 10 metres x psy rating
+Sustained: No
+Subtype: Attack, Concentration
+
+Effect: The psyker nominates a single target in range and line of sight who opposes this power with a Toughness test. If the target fails to resist the power, it suffers the attack below. 
+
+CRUSH PSYCHIC BOLT:
+RNG 10M X PR 
+DMG 1D10+PR (I) 
+PEN 2
+SPECIAL: SNARE (PR/2)

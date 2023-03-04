@@ -1,0 +1,13 @@
+TERRIFY:
+
+Turning an eldritch key, the psyker unlocks his target’s deepest and strongest fears, exposing him to the worst recesses of his own psyche. These nightmarish visions are enough to drive even the strongest helplessly mad.
+
+Value: 400 xp
+Prerequisite: Fellowship 45
+Action: 1 Action Point
+Focus Power: Difficult (–10) Opposed Willpower test
+Range: 10 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: Slithering deep into the mind of his victim, the psyker unearths their greatest failings, greatest weaknesses, and greatest fears. Using these as tools against his opponent, the psyker can turn even the most courageous warriors into pathetic, whimpering cowards before him. The psyker nominates a single target in range and line of sight who opposes this power with a Willpower test. If the target fails to resist the power, it must roll on Table 8–11: Shock on page 287, adding +10 times the psyker’s psy rating to the roll in place of the normal addition for degrees of failure, and immediately apply the effects.

@@ -1,0 +1,17 @@
+TELEPATHIC LINK:
+
+In this, the simplest yet purest expression of his powers, the telepath establishes a mental connection to another, linking their minds and allowing him to receive or transmit thoughts. When stealth is essential, such silent communication is ideal.
+
+Value: 100 xp
+Prerequisite: Willpower 35
+Action: 1 Action Point
+Focus Power: Difficult (–10) Opposed Willpower test
+Range: 20 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker chooses a person in range and line of sight who opposes this power with a Willpower test. If the target fails, the psyker can either read the person’s thoughts or send him a brief mental message.
+
+• Thought Reading: The psyker reads the target’s thoughts, with the GM determining the nature of the information gained. The more degrees of success scored on the Focus Power test, the more information is gained overall. The higher the PR of the power, the more secretive the information gained.
+
+• Thought Sending: The psyker causes a message to appear in the target’s mind as if he has just heard it spoken aloud. The message can be no longer than 5 x PR seconds long. If the target of this power is aware of what the psyker is trying to do, he can voluntarily fail the opposed Willpower test, counting as having rolled a 100.

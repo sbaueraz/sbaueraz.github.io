@@ -1,0 +1,12 @@
+WINDING FATE
+By touching a character or item, the psyker sees visions into that subject’s future and past. Though ghostly and laced with tendrils of Warp-smoke, these images reveal not only what was, but what is yet to be.
+
+Value: 500 xp
+Prerequisite: Perception 50
+Action: 2 Action Points
+Focus Power: Difficult (–10) Psyniscience test
+Range: Self
+Sustained: No
+Subtype: Concentration
+
+Effect: The vision lasts for a number of seconds equal to the twice the psy rating, and can be from the subject’s future or past a number of days equal to the psy rating. The higher the psy rating, the more the psyker can control what his flashes focus on (at the GM’s discretion).

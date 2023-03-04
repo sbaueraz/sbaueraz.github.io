@@ -1,0 +1,13 @@
+ENFEEBLE:
+
+The psyker lashes at his target with tendrils of Warp energy. The vile power quickly strips the victim of vitality, draining its spirit with every caress.
+
+Value: 100 xp
+Prerequisite: Toughness 35
+Action: 1 Action Point
+Focus Power: Challenging (+0) Opposed Willpower test
+Range: 20 metres x psy rating
+Sustained: 1 Action Point
+Subtype: Attack, Concentration
+
+Effect: The psyker nominates a single target in range and line of sight who opposes this power with a Toughness test. If the target fails to resist the power, it is Stunned for one round. In addition, as long as this power remains in effect, if the target rolls doubles on any test it makes, it suffers a number of levels of Fatigue equal to half the psyker’s psy rating (rounded down). A single target can only be affected by one instance of the Enfeeble power at a time, with other usages on the same target having no further effect. 

@@ -1,0 +1,13 @@
+CAUTERISE:
+
+With careful application of his powers, the psyker applies intense heat to a wound on his own flesh or to the flesh of an ally, quenching the flow of blood. The effect is quite painful, but certainly preferable to bleeding to death. The use of this power generates a focused and intense heat that rivals advanced medicae equipment, and certainly far exceeds the effects of ordinary battlefield cauterisations.
+
+Value: 300 xp
+Prerequisite: Willpower 45
+Action: 1 Action Point
+Focus Power: Routine (+20) Willpower test
+Range: 1 metre
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker chooses himself or another character he can physically touch. If the target is suffering from Blood Loss, successfully using the power removes that condition. 

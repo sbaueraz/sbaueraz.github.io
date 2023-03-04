@@ -1,0 +1,13 @@
+WARP SPEED:
+
+Tapping into the power of the Empyrean, the psyker suffuses his body with energy, pushing himself beyond physical limits. While under the effects of this power, the psyker moves with unbelievable speed, ensuring that no heretic is swift enough to escape justice.
+
+Value: 500 xp
+Prerequisite: Psy rating 5
+Action: 1 Action Point
+Focus Power: Difficult (–10) Willpower test
+Range: Self
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: The psyker gains the Unnatural Weapon Skill, Unnatural Ballistic Skill, and Unnatural Agility traits, all at values equal to his psy rating.

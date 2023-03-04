@@ -1,0 +1,13 @@
+MENTAL FORTITUDE:
+
+Drawing from the limitless potential of the Warp, the psyker augments the mental abilities of his targets, providing defence against the stresses of combat and the terrors of the galaxy.
+
+Value: 300 xp
+Prerequisite: Adamantium Faith
+Action: 1 Action Point
+Focus Power: Difficult (–10) Willpower test
+Range: 3 metres x psy rating radius
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: For the duration of this power, a number of allies up to the psyker’s psy rating within range count as having the Adamantium Faith talent. Allies affected by this power lose its benefits as soon as they move out of range

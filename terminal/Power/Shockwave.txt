@@ -1,0 +1,19 @@
+SHOCKWAVE:
+
+The psyker uses his unnatural control of the physical world to amplify a sound to impossible levels. From clapping his hands together, stamping on a hab floor, or even shouting, the psyker creates a sound that transforms into a powerful shockwave, bursting eardrums and knocking people off their feet.
+
+Value: 300 xp
+Prerequisite: Willpower 50
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: Self
+Sustained: No
+Subtype: Attack, Concentration
+
+Effect: Each character in the area of effect (other than the psyker) suffers the damage below. He is also pushed directly away from the psyker a number of metres equal to the psyker’s psy rating.
+
+SHOCKWAVE PSYCHIC BLAST:
+RNG (SELF) 
+DMG 1D10+PR (X) 
+PEN 0
+SPECIAL: BLAST (PR)

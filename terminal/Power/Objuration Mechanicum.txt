@@ -1,0 +1,13 @@
+OBJURATION MECHANICUM:
+
+With this power, the psyker reaches into and disrupts the inner workings of nearby machines, jamming gears, blowing fuses, and severing power couplings. Those who rely on technology find themselves bereft of their support and helpless.
+
+Value: 300 xp
+Prerequisite: Intelligence 40
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 10 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker chooses a point anywhere within range and line of sight. This power creates a Haywire Field (see page 147) centred at this point, with a radius in metres equal to the psyker’s psy rating.

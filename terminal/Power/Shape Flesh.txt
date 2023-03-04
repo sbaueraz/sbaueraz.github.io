@@ -1,0 +1,21 @@
+SHAPE FLESH:
+
+Powerful biomancers are able to bend the living body to their will with great finesse. At the heights of ability, a psyker can mould flesh with an expertise any sculptor would envy.
+
+Value: 200 xp
+Prerequisites: Perception 35, Toughness 30
+Action: 2 Action Points
+Focus Power: Ordinary (+10) Willpower test
+Range: 1 metre
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: The psyker chooses himself or an organic target that he can physically touch. The target’s physical appearance changes to a new form of the psyker’s choosing for the duration of the power. The amount and precision of the alterations depend on the final psy rating used. Following are some broad guidelines, but GMs can further alter the range of the power as needed.
+
+• PR 1–3: The psyker can alter subtle flesh shapes, tones, and colours to distort the appearance of the target. He does not have direct control over what the end result looks like.
+
+• PR 4–6: The psyker can alter flesh, hair, eyes, and any other physical features. He can choose how the features will be altered, but does not have the precision to mimic others.
+
+• PR 7–9: The psyker can change any physical feature of the target to resemble another individual. However, the psyker must have a pic record of the individual, or have seen him before.
+
+• PR 10+: The psyker can shape his target to exactly mimic another individual. Additionally, he can use the power to morph the target into a form that no longer appears human. All tests to identify the target’s true identity suffer a penalty equal to 5 x PR for the duration of the power. The effects of the power on a target other than the psyker remain in effect for the duration of the power, regardless of how far away from the psyker the target becomes.

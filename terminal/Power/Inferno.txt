@@ -1,0 +1,17 @@
+INFERNO:
+
+Focussing his power, the psyker ignites the very atmosphere surrounding his target, placing his foe in the midst of a sudden and violent conflagration.
+
+Value: 500 xp
+Prerequisite: Psy rating 5
+Action: Half Action
+Focus Power: Difficult (–10) Willpower test
+Range: 10 metres x psy rating
+Sustained: No
+Subtype:Attack, Concentration
+
+INFERNO PSYCHIC BLAST:
+RNG 10M X PR 
+DMG 2D10+3XPR (E) 
+PEN 0
+SPECIAL: BLAST (PR), FLAME

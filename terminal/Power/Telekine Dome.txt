@@ -1,0 +1,13 @@
+TELEKINE DOME:
+
+The psyker shields himself and nearby allies with a dome of mental force, large enough to surround his group and protect them from harm. The protective shield deflects bullets and lasblasts, sending them ricocheting in all directions.
+
+Value: 300 xp
+Prerequisite: Psy rating 4
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 5 metres x psy rating
+Sustained: Free Action
+Subtype: Concentration
+
+Effect: The psyker chooses a point in range and line of sight, and creates a dome of invisible energy centred on that point with a radius equal to half the psyker’s psy rating, rounded up. Each ally (including the psyker, potentially) standing inside the dome gains a number of Armour points equal to the psy rating to all Hit Locations against any attack that originated outside of the dome’s radius. However, characters may still physically pass through the dome at no penalty.

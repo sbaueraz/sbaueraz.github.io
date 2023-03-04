@@ -1,0 +1,17 @@
+SMITE:
+
+Drawing on the electric field of his own body, the psyker projects crackling bolts of bio-lightning, transforming his very life force into destructive energy. Diviners often claim that one can tell much about the state of a biomancer’s soul from the colour and appearance of this power.
+
+Value: 200 xp
+Prerequisite: Willpower 40
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 20 metres x psy rating
+Sustained: No
+Subtype: Attack, Concentration
+
+SMITE: PSYCHIC BARRAGE
+RNG 20M X PR 
+DMG 1D10+PR (E)
+PEN 4
+SPECIAL: —

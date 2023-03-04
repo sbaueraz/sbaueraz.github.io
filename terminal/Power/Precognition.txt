@@ -1,0 +1,13 @@
+PRECOGNITION:
+
+In one of the most viscerally intense applications of the Divination discipline, the psyker witnesses solid and perfectly lifelike visions of his own future. Peering into moments yet to come, he can use this information to ensure or avoid future fates.
+
+Value: 400 xp
+Prerequisites: Perception 45, Willpower 45
+Action: 2 Action Points
+Focus Power: Hard (–20) Psyniscience test
+Range: 5 metres x psy rating radius
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker gains a number of re-rolls equal to his psy rating that last until the beginning of the his next turn. For the duration of that round, whenever the psyker or an ally in range makes a test or damage roll, the psyker may spend one of the rerolls to allow that ally to re-roll all dice involved in the roll. If the psyker is killed or rendered Unconscious before the beginning of his next turn, all remaining re-rolls are lost.

@@ -1,0 +1,14 @@
+GATE OF INFINITY:
+
+Though it offers no physical attack, this power is nonetheless one of the most dangerous uses of the
+Telekinesis discipline. With it, the psyker tears open a hole in space so that he might pass through the Warp. Others might refuse to pass through the unreal pathway, however, fearful of any proximity to the Immaterium and its terrible denizens.
+
+Value: 400 xp
+Prerequisite: Psy rating 5
+Action: Extended Action (9 Action Points)
+Focus Power: Hard (–20) Willpower test
+Range: 1 kilometres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker chooses a point anywhere within 5 metres times his psy rating, and opens a gate to the Immaterium at that point. He then chooses a point within range of the power, and opens an exit to the gate at that location. The psyker must be aware of the location in which he is opening the exit to the gate, either having visited it before, seen it from afar, or simply studied it on a map. The gate lasts for a number of rounds equal to the psyker’s psy rating, and has a radius in metres equal to the psyker’s psy rating as well. For the duration of the power, the two sides of the gate are linked, and any person or objects may pass between them freely provided they can fit through the gate. This power is incredibly taxing and requires at least 12 hours of recovery before it may be used again.
