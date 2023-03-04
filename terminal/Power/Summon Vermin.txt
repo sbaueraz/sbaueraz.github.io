@@ -1,0 +1,13 @@
+Summon Vermin:
+
+Reaching out with his mind, the psyker calls out to nearby minor creatures, who unknowingly heed his summons.
+
+Value: 100 xp
+Prerequisite: Fellowship 30
+Action: 3 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 1 kilometre x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: A number of small animals—such as rats, snakes, and similar small creatures—up to the psyker’s PR within range come to the psyker’s current location as quickly as possible. The time until the creatures appear depends on their speed and proximity, and they are likely to arrive over the course of several rounds or minutes. Once the creatures arrive, they behave normally and are not compelled to obey the psyker.

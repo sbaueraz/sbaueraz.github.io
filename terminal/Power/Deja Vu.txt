@@ -1,0 +1,13 @@
+Deja Vu:
+
+The psyker reaches into his target’s mind and momentarily scrambles synapses and memories, causing the target to relive his last few moments.
+
+Value: 200 xp
+Prerequisite: Willpower 35
+Action: 1 Action Point
+Focus Power: Opposed Difficult (–10) Willpower test
+Range: 5 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker selects a single target, who opposes the test with an Ordinary (+10) Willpower test. If the psyker succeeds, the target must repeat his last exploit, such as firing a gun at a target who is no longer there or diving for cover from a grenade that has already detonated. This repeated deed counts as the target’s Action for the round. If the action would be obviously harmful to the target (but not to an ally), the target automatically wins the Opposed test (scoring 1 more degree of success than the psyker).

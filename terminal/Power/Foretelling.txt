@@ -1,0 +1,13 @@
+Foretelling:
+
+Focussing his preternatural senses onto another person or object, the psyker receives a brief glimpse of the future.
+
+Value: 100 xp
+Prerequisite: Perception 35
+Action: 3 Action Points
+Focus Power: Difficult (–10) Psyniscience test
+Range: 5 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker chooses a single character or item within range and receives a brief and unclear image of the future, giving him a rough idea of one thing that will happen to the target within a number of minutes up to the psyker’s PR. The GM decides what information the psyker receives, with additional degrees of success on the Focus Power test yielding more important information. For example, the psyker might learn that the character will be the target of an attack or will himself become violent, or that a cogitator will be accessed by an unknown individual. The psyker cannot select himself as the target of this power.

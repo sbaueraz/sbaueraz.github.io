@@ -1,0 +1,13 @@
+Suggestion:
+
+Although a far cry from the mind-influencing techniques of a trained telepath, many wyrds and nascent psykers possess a preternatural ability to convince others of small falsehoods. As with many of the powers such psykers evince, this is a useful survival mechanism, allowing the psyker to evade detection.
+
+Value: 200 xp
+Prerequisite: Rank 1 (Known) in the Deceive skill
+Action: 3 Action Points
+Focus Power: Difficult (–10) Opposed Willpower test
+Range: 1 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker convinces the target of a small, but potentially important lie. The target opposes this with a Challenging (+0) Willpower test, which the GM should modify based on the credibility and scope of the lie. In the case of clearly impossible lies, the target succeeds automatically (scoring 1 more degree of success than the psyker). For instance, a human psyker might suggest that a guard has already checked his identification, but would have no possibility of convincing that same guard that the psyker is a Space Marine. 

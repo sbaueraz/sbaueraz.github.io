@@ -1,0 +1,13 @@
+Luck:
+
+Many undiscovered psykers are known for their luck or good fortune. Such psykers might not even be aware of their own true nature, but subconsciously manipulate events through a variety of psychic effects, from telepathic hints to telekinetic nudges. Of course, if others knew the true reason for their ability to seemingly defy the odds, they would not consider these psykers fortunate, but damned—as might a psyker himself.
+
+Value: 100 xp
+Prerequisite: Perception 30
+Action: 1 Action Point
+Focus Power: Challenging (+0) Awareness test
+Range: Self
+Sustained: No
+Subtype: Concentration
+
+Effect: If the Focus Power test is successful, the psyker gains a bonus of 5 plus his psy rating on the next test he attempts this round. If the psyker fails the Focus Power test by 2 or more degrees of failure, his misguided attempt to call on the Warp backfires, and the resultant psychic ripples inflict a penalty equal to twice his psy rating on his next test this round.

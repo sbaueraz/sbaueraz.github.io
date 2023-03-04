@@ -1,0 +1,13 @@
+Ill Omen:
+
+Drawing on Mankind’s natural, and often quite justified, superstitious fears, the psyker bleeds just a miniscule drop of the Warp’s influence into the world. The result, while perhaps logically explainable, nonetheless instils a deep unease in those who witness it—an unmistakable sense of worse things to come. The exact nature of the omen could take any number of forms, including a raven crying three times, a small plant wilting, a disturbingly familiar patina of rust, animals spooking with no apparent cause, or anything else that might unnerve the target.
+
+Value: 200 xp
+Prerequisite: Rank 1 (Known) in the Psyniscience skill
+Action: 3 Action Points
+Focus Power: Difficult (–10) Willpower test
+Range: 10 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker chooses a single target within range and line of sight, who opposes this power with a Challenging (+0) Logic test. If the power is used during structured time and the target fails to resist, he suffers a –10 penalty to all tests for PR rounds. If used during narrative time, the psyker instead chooses a time within the next PR hours for the target to experience the omen. The GM determines the effects on the target’s behaviour, but a likely result is that the target rethinks his current course of action or direction he is travelling. The GM should use the psyker’s degrees of success and PR, as well as his suggestion for the form of the omen, in determining the outcome.

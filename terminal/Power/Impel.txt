@@ -1,0 +1,13 @@
+Impel:
+
+Developing psykers often instinctively exhibit rudimentary versions of the abilities shown in the disciplines of the Scholastica Psykana. Whereas an accomplished telekine can manipulate objects with more deftness than he could with his actual hands, an untrained psyker might simply lash out, shoving objects with blunt, yet effective, mental force.
+
+Value: 100 xp
+Prerequisite: Willpower 30
+Action: 1 Action Point
+Focus Power: Ordinary (+10) Willpower test
+Range: 5 metres x psy rating
+Sustained: No
+Subtype: Attack, Concentration
+
+Effect: The psyker chooses a target, which can be an object or character, and pushes it directly away from him a number of metres equal to his psy rating. To determine the maximum weight the psyker can push, consult the table on page 248 of the Dark Heresy Core Rulebook, substituting the psyker’s PR and WPB for SB and TB. If the target is a character, he opposes the power with a Challenging (+0) Strength test. If the target fails with two or more degrees of failure, he is also knocked Prone. If the psyker wins by 3 or more degrees of success, the target suffers 1d5+PR damage and 1 level of Fatigue. 

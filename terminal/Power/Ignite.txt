@@ -1,0 +1,13 @@
+Ignite:
+
+The psyker draws upon his anger, whether knowingly or not, and channels the Warp to produce a physical manifestation of his burning rage.
+
+Value: 100 xp
+Prerequisite: Willpower 30
+Action: 1 Action Point
+Focus Power: Challenging (+0) Willpower test
+Range: 5 metres x psy rating
+Sustained: 1 Action Point
+Subtype: Attack, Concentration
+
+Effect: The psyker creates a small flame, approximately a centimetre across, at a point within range and line of sight. The flame is not large or hot enough to inflict damage, but can illuminate roughly a 5 metre radius. It can also ignite combustible materials at the GM’s discretion, with the chance of igniting an object increasing the longer the psyker sustains the power. If the target of this power is a character, he must pass a Challenging (+0) Agility test each round the psyker sustains the power after the first, or catch fire. The target gains a +30 bonus to this test on any round during which he performs an action with the Movement subtype.

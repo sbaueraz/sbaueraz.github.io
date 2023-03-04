@@ -1,0 +1,17 @@
+Word of Beasts:
+
+Many untrained psykers, both in the wilds of feral worlds and the depths of hive cities, develop an instinctive ability to communicate with beasts and lower creatures. Whether this ability represents true telepathy or something else is impossible to say.
+
+Value: 100 xp
+Prerequisite: Fellowship 35
+Action: 1 Action Point
+Focus Power: Difficult (–10) Opposed Willpower test
+Range: 10 metres
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker opens a limited telepathic link with an animal, which resists the power with a Challenging (+0) Willpower test. If the psyker succeeds, he chooses one of the following effects: 
+
+Impression Reading: The psyker receives a mental impression of the animal’s recent experiences. These are not thoughts in the sense of a sentient being, but merely vague impressions and unclear images. The GM determines the level of detail and form of the information received based on the intelligence and senses of the animal, as well as the PR of the psyker. The amount of information is based on the psyker’s degrees of success on the Focus Power test.
+
+Empathic Link: The psyker establishes a bond with the animal that persists after the telepathic link ends. The animal follows the psyker and obeys his commands to the best of its ability, exactly as if he had tamed and trained it with the Wrangling special use of the Survival skill (see page 116 of the Dark Heresy Core Rulebook).

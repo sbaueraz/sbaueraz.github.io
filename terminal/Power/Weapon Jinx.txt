@@ -1,0 +1,13 @@
+Weapon Jinx:
+
+The psyker reaches out with his power, fouling the mechanisms of nearby weapons.
+
+Value: 200 xp
+Prerequisite: Intelligence 35
+Action: 1 Action Point
+Focus Power: Difficult (–10) Willpower test
+Range: 5 metres x psy rating
+Sustained: No
+Subtype: Concentration
+
+Effect: The psyker chooses a number of ranged weapons within range up to the psyker’s psy rating, with each Best craftsmanship weapon counting as two weapons for the purposes of this power. Affected weapons count as Poor craftsmanship until repaired. If the psyker’s degrees of success on the Focus Power test exceed the psy rating of the power, then the affected weapons also jam immediately. Should the psyker fail the test with 2 or more degrees of failure, his own ranged weapons jam immediately. 

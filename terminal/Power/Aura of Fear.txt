@@ -1,0 +1,15 @@
+Aura of Fear:
+
+Summoning his eldritch powers, the psyker projects a fearful aura. All those who witness him see their own deepest fears projected onto the psyker, not with their eyes, but in their minds.
+
+Value: 200 xp
+Prerequisite: Fellowship 35, 5+ Insanity points
+Action: 3 Action Points
+Focus Power: Hard (–20) Willpower test
+Range: Self
+Sustained: 1 Action Point
+Subtype: Concentration
+
+Effect: The psyker gains the Fear (1) trait as long as he sustains this power.
+
+Psychic Phenomena: Instead of rolling for Psychic Phenomena should the situation call for it, the psyker instead must take a Fear (4) test and also suffer Warp Shock as per page 289 of the Dark Heresy Core Rulebook if he fails.
