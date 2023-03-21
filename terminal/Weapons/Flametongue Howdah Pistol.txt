@@ -1,0 +1,12 @@
+"Flametongue" Howdah Pistol:
+
+The Fykos Forge of Gunmetal City is a prestigious clan of master gunsmiths who specialise in elaborate and finely made hunting weapons, and the Flametongue pistol is no different. This simple and reliable weapon resembles a master-crafted hack shotgun that is chambered to fire huge, custom-made soft alloy rounds that break apart on impact to cause horrific wounds. Intended as a last line of defence should a hunter be ambushed by a dangerous thin-skinned predator, there is an expression among professional game hunters that anything that can't be put down with both shots from a Flametongue is probably something that shouldn't be hunted in the first place.
+
+Class: Pistol
+Range: 20m
+RoF: S/-/-
+Damage: 1d10+6 I
+Pen: 0
+Clip: 2
+Reload: 6 Action Points
+Special: Primitive, Reliable, Tearing
