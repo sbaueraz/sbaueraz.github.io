@@ -1,0 +1,28 @@
+Mercantile Cogitator: Authorization Minoris  
+Imperial Date: 815.M41
+- SERVER M3D1C - 
+
+
+> Medicae Data: S O K H M A N N _ & _ M A R T I N _ I N D U S T R I E S
+
+>Welcome Employee: ERROR_NAMENOTFOUND, Please consult the VIP patient list below for more details.
+
+Patient Name:           Floor:           Room:         Condition:
+
+>Aiden Lorek            >666             >013          >Forhead Injury, still in recovery
+
+>Karl Franz             >16              >032          >incident with a hammer, awaiting treatment
+
+>Alpharius              >22              >044          >Started babbling and is now missing from room
+
+>Beloran van-Draxon     >15              >106          >Recovering from missing hand, transfering to IoT tomorrow for bionic work
+
+>Padme Amadala          >101             >033          >Condition worsening, patient is dying of sadness somehow
+
+>David Carradine        >200             >001          >In recovery from nearly dying to strangulation
+
+
+⌧ Back (1-4)
+
+
+  Adeptus Logos Administatus C7R6
