@@ -1,0 +1,11 @@
+S&M Medimist Grenade:
+
+A highly expirimental product that rarely see's any use except for mercenaries and the rare enforcer who decides to use his paycheck on one. This specialized medical explosive device (M.E.D.) is useful in the field of battle for instantly cautorizing soldiers wounds in the field without requiring a guardsman to cease fire and tend to their injuries. The magos biologis amongst the Skaelen-Har have released this expirimental model for sale to the public so that they can monitor its effectiveness amongst mercenaries and enforcers.
+
+Produces a thin pink mist that allows any organic organism inside to make a +10% Toughness Test each round in order to heal 1 Wound. The mist lasts for 1d10+2 rounds but high wind conditions might cause it to disperse more quickly. 
+
+Class: Basic
+Range: Thrown
+Damage: -
+Pen: 0
+Special: Blast (6), Unreliable, Special

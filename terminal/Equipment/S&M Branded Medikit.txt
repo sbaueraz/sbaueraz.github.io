@@ -1,0 +1,3 @@
+S&M Branded Medikit:
+
+This functions exactly as a standard quality Medikit except that it is equiped with specialized S&M branded tools and instruments. Instead of a +20% bonus this medikit gives +10% and the option to Flip to Succeed on heal tests where the kit is used. You must be trained in the Heal Skill to use this kit. 
