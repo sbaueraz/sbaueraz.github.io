@@ -1,0 +1,22 @@
+﻿Mercantile Cogitator: Authorization Minoris  
+Imperial Date: 815.M41
+- SERVER M3D1C - 
+
+
+> Medicae Data: S O K H M A N N _ & _ M A R T I N _ I N D U S T R I E S
+>MedicaeData/MedicaeServices:
+
+> Economy Care Package: 800 Scints or 80 Thrones*
+This level of care provides you life saving treatment in the case of bleeding, amputation, or other life threatening injuries. (Roll 1d10 and recover that number of Wounds. Recover all spots on the Peril Track.)
+
+> Deluxe Care Package: 1600 Scints or 160 Thrones*
+Our deluxe care package offers you an incredible level of care assisted by advanced medicae servitors to ensure you recover quickly and are able to return to work in tip top shape. (Roll 1d10+1 twice and take the best result. Recover that many Wounds and recover all spots on the Peril Track. This removes most negative conditions such as infection or standard illnesses.)
+
+> Divine Care Package: 3000 Scints or 300 Thrones*
+The god emperor created your bodily form and as such it when it comes to getting the best possible care it requires the attentive touch of our expertly trained medicae staff with direct supervision of a Magos Biologis of the Cult Mechanicus along with the assistance of our most advanced medicae servitors. (Recover all Wounds and remove all but the most impervious afflictions. Recover all spots on the Peril Track.)
+
+
+⌧ Back (1-4)
+
+
+  Adeptus Logos Administatus C7R6

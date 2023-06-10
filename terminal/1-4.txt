@@ -1,0 +1,26 @@
+﻿Mercantile Cogitator: Authorization Minoris  
+Imperial Date: 815.M41
+- SERVER M3D1C - 
+
+
+> Medicae Data: S O K H M A N N _ & _ M A R T I N _ I N D U S T R I E S
+
+ "Welcome faithful servant to our Medicae Facility. Select your needed level of service as shown below." 
+
+(Payment must be collected or verified before service is performed, any work being performed under an employers medicae coverage is to be fulfilled following the proper verification of Form 3-1923: See servitor for more details!)
+
+((Sokhmann & Martin Industries are not responsible for any injury, illness, loss of limbs, discomfort, or death that you may endure during your stay with us. In the event of your tragic demise your body may be used for medicae studies and/or recycled to provide vital hive functions.))
+
+(((There is no guarantee that the service you purchase will result in your desired outcome. All services are subject to a varied set of results. The performing medicae offers no warranty in the case of your condition worsening after service or for any future injures you might sustain after your stay here.)))
+
+By continuing you agree that you have read the condition above and agree. 
+
+⌧ I agree
+ 
+> Medicae Services (1-4-1)
+
+> S&M Products (1-4-2)
+
+> AdminEncryptedLogin (Security Test)
+
+  Adeptus Logos Administatus C7R6
