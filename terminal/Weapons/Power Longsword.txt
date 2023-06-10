@@ -1,0 +1,8 @@
+Power Sword:
+
+Power swords are the most common type of power weapon, at leats as far as these rare and valuable arms can be considered. A power sword is an immediate sign of the wearer's status as well as their preference for close range combat, as few weapons are as functional, deadly and immediately ostentatious as a power sword. Depending on the mark, power swords might simply be elegant weapons that could pass for a conventional blade or obvious tech-marvels that ripple energy along their exposed power cabling. Regardless of whether it's wielded by an Inquisitor, Imperial Guard Officer, or Rogue Trader a power sword sets its user apart from those below his station.
+
+Class: Melee
+Damage: 1d10+6 E
+Pen: 6
+Special: Balanced, Powerfield
