@@ -17,9 +17,9 @@ By continuing you agree that you have read the condition above and agree.
 
 ⌧ I agree
  
-> Medicae Services (1-4-1)
+> Medicae Services (1-4.1)
 
-> S&M Products (1-4-2)
+> S&M Products (1-4.2)
 
 > AdminEncryptedLogin (Security Test)
 
