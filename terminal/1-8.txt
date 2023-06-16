@@ -1,0 +1,57 @@
+Civilian Cogitator: Authorization Minoris
+
+Imperial Date: 815.M41
+- SERVER 419 - 
+
+>Username: Gad Panaard
+Password: ********
+
+C:/User/Gad/PersonalData
+...
+C:/User/Gad/PersonalData/RecyclingBin
+...
+C:/User/Gad/PersonalData/RecyclingBin/OldFiles
+...
+
+Log-01: Deleted
+
+Log-02: Error-Removal Failed ⌧ (1-8.2)
+
+Log-03: Deleted
+
+Log-04: Deleted
+
+Log-05: Deleted
+
+Log-06: Deleted
+
+Log-07: Deleted
+
+Log-08: Deleted
+
+Log-09: Deleted
+
+Log-10: Deleted
+
+Log-11: Deleted
+
+Log-12: Deleted
+
+Log-13: Deleted
+
+Log-14: Deleted
+
+Log-15: Error-Removal Failed (1-8.3)
+
+Log-16: Deleted
+
+Log-17: Deleted
+
+Log-18: Deleted
+
+
+
+   
+>Back (1-8)
+    
+  Adeptus Logos Administatus C7R6
