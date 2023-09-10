@@ -1,0 +1,38 @@
+﻿Imperial Dataslate:
+ 
+Owner: Officer Addie
+Model: 75.RT-E1.41K
+STC#: 08112011
+ 
+PrimaryConsole/UserAccounts/OfficerAddie
+ 
+Data Transmission: <OUTGOING>
+
+SECURITY CLEARENCE: CLASSIFIED
+
+Loading suspect list for Case P-666 regarding: HAB 001313
+ 
+⌧ Private Garrek: Floor 2-Room 212
+ 
+⌧ Malik Drax: Floor 6-Room 654
+
+⌧ Eldric Sylus: Floor 2-Room 209
+
+⌧ Lorna Skar: Floor 2- Room 250
+
+⌧ Thaddeus Kyron: Floor 6-Room 601
+
+⌧ Ezekiel Vlocks: Floor 3-Room 329
+
+⌧ Morva Xal: Floor 3-Room 382
+
+⌧ Gralk Tor: Floor 1-Room 191
+
+⌧ Lexis Voss: Floor 4-Room 403
+
+⌧ Mara Kael: Floor 1-101
+
+>END LOG<
+
+
+
