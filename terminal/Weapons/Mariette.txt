@@ -1,0 +1,14 @@
+Mariette Cylinder Pistol:
+
+Named for the Malfian noble house said to have originated the design, the Mariette is an extremely concealable stubber crafted from polyflex and ceramics with no metallic or powered components. Its four chamber-barrels are self-contained and the whole pistol is designed to break down into a handful of small parts that can be concealed inside some innocuous object, such as a data-slate, or hidden around the wearer's body. Disassembled, the Mariette is almost totally imperceptible as a weapon, making it a top choice for those who want a gun on themselves in situations where it would ordinarily be forbidden; this makes it popular with nobles and VIPs and those who would try to kill them alike, a truly Malfian weapon if there ever was one. 
+
+When disassembled and hidden a Mariette is almost impossible to find (-30% penalty on Search Tests), and the parts don't show up on scanners or auspex as weapons. Mariette barrel-cylinders are themselves rare usually costing nearly 100 Thrones and are not individually reloadable or be configured with special ammunition. 
+
+Class: Pistol
+Range: 20m
+RoF: S/2/-
+Damage: 2d5+3 I
+Pen: 0
+Clip: 2
+Reload: 6 Action Points
+Special: Tearing
