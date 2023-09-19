@@ -1,0 +1,17 @@
+Imperial Dataslate:
+ 
+Owner: Tokady
+Model: 75.RT-E1.41K
+STC#: 08112011
+ 
+PrimaryConsole/UserAccounts/Tokady
+ 
+Data Log Entries <PRIVATE>
+ 
+PrimaryConsole/UserAccounts/Tokady/Contract
+
+	Mr Mosk, your next contract is encoded on this data slate. If you value our arrangement then you will pass this along to your source. Our boss is pleased so far with the results. Your sister has been efficient. Carry out this next contract and we'll deliver the Thrones to the usual account. This next task is very important so make sure she knows there is no room for failure. You both know the consequences.
+
+⌧ Back
+    
+  Adeptus Logos Administatus C7R6
