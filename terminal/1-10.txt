@@ -18,7 +18,7 @@ Loading suspect list for Case P-666 regarding: HAB 001313
 
 ⌧ Eldric Sylus: Floor 2-Room 209
 
-⌧ Carmen Sanfeldaro: Floor 4- Room 405
+⌧ Lysandra Vale: Floor 4- Room 405
 
 ⌧ Lorna Skar: Floor 2- Room 250
 
@@ -26,7 +26,7 @@ Loading suspect list for Case P-666 regarding: HAB 001313
 
 ⌧ Ezekiel Vlocks: Floor 3-Room 329
 
-⌧ Morva Xal: Floor 3-Room 382
+⌧ Morven Xal: Floor 3-Room 382
 
 ⌧ Gralk Tor: Floor 1-Room 191
 
