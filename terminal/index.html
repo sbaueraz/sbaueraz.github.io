@@ -120,7 +120,7 @@
                         if (data.includes("<html>") && data.includes("404"))
                             showAlert(denied);
                         else
-                            displayMsg = "<br>" + data.replace(/(?:\r\n|\r|\n)/g, '<br>') + "<br>";
+                            displayMsg = "<br>" + data.replace(/(?:\r\n|\r|\n)/g, '<br>') + "<br>-------------------------------------------------------------------------------------------<br>";
                     })
                     .catch (function(error) {
                         showAlert(denied);
