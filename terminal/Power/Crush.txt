@@ -1,7 +1,6 @@
 CRUSH:
 
-Rather than using his abilities to turn inanimate objects into weapons, the telekine focuses directly on his enemy to squeeze him in an invisible fist of power. Unless the target can repel the
-psychokinetic assault, he is bludgeoned horridly. Even should he survive, the overwhelming psychic force nonetheless pins him in place under a tremendous weight.
+Rather than using his abilities to turn inanimate objects into weapons, the telekine focuses directly on his enemy to squeeze him in an invisible fist of power. Unless the target can repel the psychokinetic assault, he is bludgeoned horridly. Even should he survive, the overwhelming psychic force nonetheless pins him in place under a tremendous weight.
 
 Value: 300 xp
 Prerequisite: Willpower 45
