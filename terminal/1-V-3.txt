@@ -20,9 +20,9 @@ Sapik: "Authorization: IoT Lex-1 requesting patch through to Magos Beta."
       
 Upsilon: "Answering call manually. Welcome Lexmechanic Sapik Ti-Gwik, feeding vox information through now. Inquiry, what is call regarding?"
     
-Sapik: "Testing clearance..... Tech Prist Upsilon all you need to know is it is in regards to Project 12-Beta-14."
+Sapik: "Testing clearance..... Tech Prist Upsilon all you need to know is that this regards Project 12-Beta-14."
    
-Upsilon: "Affirmative."
+Upsilon: "Affirmative. Confirming patch through to Magos Beta"
     
     -END LOG-  
  
