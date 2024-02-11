@@ -1,0 +1,42 @@
+Skaelen-Har Data Cogitator: Authorization Majoris 
+Imperial Date: 615.M41
+- SERVER 31143 - 
+
+Loading please wait...
+  
+ 
+1% 
+5%   
+13%   
+27%    
+56%   
+66%   
+96%     
+100%
+
+++COMPLETED++
+
+VESSEL: Misericorde
+SHIP ID: 218
+DESTINATION: Scintilla/Sibellus/Slagerfeld/SktAgnus
+MERCHANT NUMBER: 218930000627
+SHIP CLASS: Charter
+CAPTAIN: Anapollo & Luneros
+DELIVERY STATUS: Complete
+CARGO LIST (DETAILED):------
+
++10,000,000,000 Kilograms Raw Food Stuffs
++6,000,000,000 Tons of Raw Metals
++3,000,000,000 Medicinal Supplies
++200,000,000 Civilians
++100,000 Astra Militarum Cadets
+
+Special Cargo: REDACTED ++OVERRIDE CONFIRMED++
+
+OWNER: ++REDACTED++
+SIZE: ++REDACTED++
+WEIGHT: ++REDACTED++
+DESCRIPTION: Standard crate, statuette
+SIGNED FOR BY: Vetter Guilderland
+
+Adeptus Logos Administatus C7R6
