@@ -22,7 +22,7 @@ DESTINATION: Scintilla/Sibellus/Slagerfeld/SktAgnus
 MERCHANT NUMBER: 218930000627
 SHIP CLASS: Charter
 CAPTAIN: Anapollo & Luneros
-DELIVERY STATUS: Complete
+DELIVERY STATUS: Completed
 CARGO LIST (DETAILED):------
 
 +10,000,000,000 Kilograms Raw Food Stuffs
@@ -38,5 +38,7 @@ SIZE: ++REDACTED++
 WEIGHT: ++REDACTED++
 DESCRIPTION: Standard crate, statuette
 SIGNED FOR BY: Vetter Guilderland
+CHECKED OUT TO: Gad Panaard
+TO BE DELIVERED TO: The Rusty Casing: Slagerfeld Projects
 
 Adeptus Logos Administatus C7R6
