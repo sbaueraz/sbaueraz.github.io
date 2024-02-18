@@ -40,5 +40,6 @@ DESCRIPTION: Standard crate, statuette
 SIGNED FOR BY: Vetter Guilderland
 CHECKED OUT TO: Gad Panaard
 TO BE DELIVERED TO: The Rusty Casing: Slagerfeld Projects
+DELIVERY STATUS: Failed
 
 Adeptus Logos Administatus C7R6
