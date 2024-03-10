@@ -44,7 +44,9 @@ Data Log 040: Imperial Date 815.M41 (1-11.4)
 
 
 
-
+Administrative Actions:
+>Enable Defensive Mines (Tech-Use Test)
+>Activate Security Turrets (Security Test)
 >Tune Vox Caster to Manor Frequency
 >Back ⌧ 
 
