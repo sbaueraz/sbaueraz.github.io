@@ -1,0 +1,8 @@
+﻿Armoured Bodyglove:
+
+This form-fitting armour is crafted from armaplas micro-fibre that is bonded together in a similar style to the more common mesh armour. An armoured body glove is costly and difficult to craft, as even the most skilled armour-artisans must often start over several times when microscopic imperfections turn up in the bonding process, but the protection it offers is incredible considering its mass and flexibility. It is also much more comfortable to wear than any light carapace suit, making it an ideal choice for operatives who must remain undercover for days at a time. Assassins and Inquisitorial agents are likely the most common users, as they must frequently undertake such missions and usually have suitable funding for the more costly equipment, but well-equipped bounty hunters and house enforcers are known to sport it as well.
+For twice the listed price, an armoured body glove may be manufactured with a removable hood that, when pulled up, provides the same AP to the head location. This version is treated with a special laminate coating that absorbs scanner waves that common IR sensors andauspexes generate, making it significantly harder to spot the wearer with such equipment. Attempts to detect the wearer with an auspex, IR goggles, or similar gear take a -20 penalty.
+
+Locations Covered: All
+
+AP: 5
