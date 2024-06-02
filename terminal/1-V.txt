@@ -1,10 +1,10 @@
 ﻿Imperial Dataslate:
  
-Owner: Seth Kysnoxtic
+Owner: Sapik Ti-Gwik
 Model: 75.RT-E1.41K
 STC#: 08112011
  
-Primary Console/UserAccounts/Seth
+Primary Console/UserAccounts/Sapik
  
 Vox Transmission Logs <PRIVATE>
  
