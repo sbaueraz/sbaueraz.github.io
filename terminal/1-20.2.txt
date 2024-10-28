@@ -1,0 +1,23 @@
+Imperial Dataslate:
+ 
+Owner: Morven Xal
+Model: 75.RT-E1.41K
+STC#: 08112011
+
+ 
+Research Logs:\\Archive\\
+:ResearchLogs\Logs\PatientFiles\Lexis Voss
+
+Patient File: Lexis Voss
+
+Appointment 1: New record entered. Lexis Voss, age 33, mother of 1, weight 148. 
+
+Reason for Visitation: Bad cough, prescribed low dose of De-Tox until the feeling subsides.
+
+Appointment 2:  Age 34, Mother of 1, weight 139
+Reason for Visitation: Extreme headache, cannot think straight, causing microaggressions. Prescribed low dose of Calmer to take as needed.
+
+>Back ⌧ (1-20)                                                                                                                          
+
+ 
+Adeptus Logos Administatus C7R6
