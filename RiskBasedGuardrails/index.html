@@ -94,7 +94,7 @@ async function loadData() {
     const files = ['SP500.json', 'MonthlyInflation.json', 'MonthlyTreasuryBond.json', 'config.json'];
 
     // Create an array of fetch promises
-    const fetchPromises = files.map(file => fetch(`/data/${file}`).then(response => response.json()));
+    const fetchPromises = files.map(file => fetch(`data/${file}`).then(response => response.json()));
 
     // Wait for all fetches to complete
     const jsonData = await Promise.all(fetchPromises);
