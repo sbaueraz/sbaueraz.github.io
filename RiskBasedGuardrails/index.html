@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Based Guardrails</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; font-size: 14px; }
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #chart-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+        .chart-wrapper {
+            flex: 1 1 auto;
+            width: 100%;
+            position: relative;
+        }
+        .form-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+        #scenario_config {
+            margin: 10px;
+            padding: 0;
+            height: 100%;
+            overflow-y: auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 100%;
+            overflow-y: auto;
+            gap: 10px;
+        }        
+        canvas {
+            width: 100%;
+            height: 100%;
+        }        
+        label {
+            min-width: 150px;
+            text-align: right;
+        }
+        input[type="text"] {
+            padding: 8px;
+            width: 70px;
+        }
+        input[type="checkbox"] {
+            margin-left: 5px;
+        }
+        button {
+            padding: 8px 16px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+  <div id="scenario_config" style="display:none"></div>
+  <div id="charts-container">
+  </div>   
+<script>
+
+var defaultConfiguration;
+var sp500Historical;
+var monthlyInflationHistorical;
+var monthlyTreasuryBondHistorical;
+
+let chartCount = 0;
+var charts = [];
+var spendDataset = [];
+var upperGuardrailDataset = [];
+var lowerGuardrailDataset = [];
+var currentScoreDataset = [];
+var stockSavingsDataset = [];
+var bondSavingsDataset = [];
+
+async function loadData() {
+    console.log("Start fetching...");
+    // Define the file paths
+    const files = ['SP500.json', 'MonthlyInflation.json', 'MonthlyTreasuryBond.json', 'config.json'];
+
+    // Create an array of fetch promises
+    const fetchPromises = files.map(file => fetch(`/data/${file}`).then(response => response.json()));
+
+    // Wait for all fetches to complete
+    const jsonData = await Promise.all(fetchPromises);
+
+    sp500Historical = jsonData[0];
+    monthlyInflationHistorical = jsonData[1];
+    monthlyTreasuryBondHistorical = jsonData[2];
+    defaultConfiguration=jsonData[3];
+
+    let config = defaultConfiguration;
+    const configString = localStorage.getItem("lastScenario");
+    if (configString)
+        config = JSON.parse(configString);
+
+    createSimpleForm(config, '#scenario_config');
+
+    console.log("All files fetched:", jsonData);
+}
+
+loadData();
+
+function createChart(config) {
+    chartCount++;
+
+    // Create a new chart container
+    const chartWrapper = $('<div class="chart-wrapper"></div>');
+
+    // Create a canvas element
+    const canvas = $(`<canvas id="chart${chartCount}"></canvas>`);
+    chartWrapper.append(canvas);
+    $("#charts-container").append(chartWrapper);    
+
+    // Adjust each chart's height dynamically
+    $(".chart-wrapper").css("flex", `1 1 ${100 / chartCount}vh`);
+
+    // Create a Chart.js chart
+    const ctx = canvas[0].getContext("2d");
+
+    chart = new Chart(ctx, {
+        type: "line",
+        data: {
+            labels: [],
+            datasets: [
+                {
+                    label: "Upper Guardrail",
+                    data: [],
+                    borderColor: "green",
+                    backgroundColor: "green",
+                    pointRadius: 0,  // Hide dots
+                    pointHoverRadius: 0,
+                    yAxisID: "yScore"
+                },
+                {
+                    label: "Lower Guardrail",
+                    data: [],
+                    borderColor: "red",
+                    backgroundColor: "red",
+                    pointRadius: 0,  // Hide dots
+                    pointHoverRadius: 0,
+                    yAxisID: "yScore"
+                },
+                {
+                    label: "Current Score",
+                    data: [],
+                    borderColor: "blue",
+                    backgroundColor: "blue",
+                    pointRadius: 1,
+                    yAxisID: "yScore"
+                },
+                {
+                    label: "Stocks",
+                    data: [],
+                    borderColor: "black",
+                    backgroundColor: "black",
+                    pointRadius: 1,
+                    yAxisID: "ySavings"
+                },
+                {
+                    label: "Bonds",
+                    data: [],
+                    borderColor: "grey",
+                    backgroundColor: "grey",
+                    pointRadius: 1,
+                    yAxisID: "ySavings"
+                },
+                {
+                    label: "Monthly Spend",
+                    data: [],
+                    borderColor: "purple",
+                    backgroundColor: "purple",
+                    pointRadius: 1,
+                    yAxisID: "ySpent"
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                title: {
+                    display: true,  // Show title
+                    text: config.description,
+                    font: {
+                        size: 18  // Font size
+                    },
+                    padding: {
+                        top: 10,
+                        bottom: 10
+                    }
+                }
+            }, 
+            scales: {
+                x: {
+                    type: 'linear',
+                    title: {
+                        display: true, 
+                        text: "Year" ,
+                    },
+                    ticks: {
+                        stepSize: 12, // Show a tick every 12 months
+                        callback: function(value, index, values) {
+                            return value / 12; // Convert month number to year
+                        }
+                    }
+                },
+                ySpent: {
+                    position: "left",
+                    title: { display: true, text: "Dollars Spent" },
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function(value, index, values) {
+                            return `$${value.toLocaleString()}`; // Adds $ and formats with commas
+                        }
+                    }
+                },
+                ySavings: {
+                    position: "right",
+                    title: { display: true, text: "Savings" },
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function(value, index, values) {
+                            return `$${value.toLocaleString()}`; // Adds $ and formats with commas
+                        }
+                    },
+                    grid: { drawOnChartArea: false } // Prevents overlapping grid lines
+                },
+                yScore: {
+                    position: "right",
+                    title: { display: true, text: "Score" },
+                    beginAtZero: true,
+                    grid: { drawOnChartArea: false }
+                }
+            }
+        }
+    });
+
+    spendDataset.push(chart.data.datasets.find(ds => ds.label === "Monthly Spend"));
+    upperGuardrailDataset.push(chart.data.datasets.find(ds => ds.label === "Upper Guardrail"));
+    lowerGuardrailDataset.push(chart.data.datasets.find(ds => ds.label === "Lower Guardrail"));
+    currentScoreDataset.push(chart.data.datasets.find(ds => ds.label === "Current Score"));
+    stockSavingsDataset.push(chart.data.datasets.find(ds => ds.label === "Stocks"));
+    bondSavingsDataset.push(chart.data.datasets.find(ds => ds.label === "Bonds"));
+
+    charts.push(chart);
+
+    return chartCount-1;
+}
+
+function createSimpleForm(jsonData, targetSelector) {
+    $("#scenario_config").css("display", "block");
+    const $form = $('<form>');
+    
+    for (const [key, value] of Object.entries(jsonData)) {
+        const $formGroup = $('<div>').addClass('form-group');
+        
+        // Create label from key (convert camelCase to normal text)
+        const labelText = key
+            .replace(/([A-Z])/g, ' $1')
+            .replace(/^./, str => str.toUpperCase());
+        const $label = $('<label>').text(labelText).attr('for', key);
+        
+        // Determine input type based on value type
+        let $input;
+        if (typeof value === 'boolean') {
+            $input = $('<input>').attr({
+                type: 'checkbox',
+                id: key,
+                name: key
+            }).prop('checked', value);
+        } else {
+            $input = $('<input>').attr({
+                type: 'text',
+                id: key,
+                name: key,
+                value: value
+            });
+        }
+
+        $formGroup.append($label, $input);
+        $form.append($formGroup);
+    }
+    
+    $form.append($('<button>').attr('type', 'submit').text('Run Simulation'));
+    $(targetSelector).append($form);
+
+    $('form').on('submit', function(e) {
+        e.preventDefault();
+        $("#scenario_config").css("display", "none");
+        const configs = getFormData(this);
+        console.log('Form data:', configs);
+
+        for (let i = 0;i < configs.length;i ++) {
+            const config = configs[i];
+
+            const chartNbr = createChart(config);
+            const worker = new Worker('worker.js');
+
+            // Listen for results from the worker
+            worker.onmessage = (e) => {
+                const results = e.data; // Data sent by the worker
+                //console.log('Results received:', results);
+                const { command, data } = e.data;
+            
+                if (command == "update" && chartCount > 0) {
+                    const chart = charts[data.chartNbr];
+                    chart.data.labels.push(data.step);
+
+                    spendDataset[data.chartNbr].data.push(Math.round(data.spend / 10) * 10);
+                    upperGuardrailDataset[data.chartNbr].data.push(data.upperGuardrail);
+                    lowerGuardrailDataset[data.chartNbr].data.push(data.lowerGuardrail);
+                    currentScoreDataset[data.chartNbr].data.push(Math.round(data.currentScore));
+                    stockSavingsDataset[data.chartNbr].data.push(Math.round(data.stockSavings / 100) * 100);
+                    bondSavingsDataset[data.chartNbr].data.push(Math.round(data.bondSavings / 100) * 100);
+            
+                    chart.update('none');
+                } else if (command == "done") {
+                    worker.terminate(); // Clean up the worker
+                }
+            };        
+
+            worker.postMessage({
+                command:"start", 
+                data:{
+                    config : config,
+                    chartNbr,
+                    sp500Historical,
+                    monthlyInflationHistorical,
+                    monthlyTreasuryBondHistorical
+                }
+            });
+        }
+    });
+}
+
+function getFormData(formSelector) {
+    const fieldValues = {};
+    const formRepresentation = {}; // Will hold the raw text entered per field
+
+    $(formSelector).find('.form-group').each(function() {
+        const $input = $(this).find('input, select, textarea');
+        const fieldName = $input.attr('name');
+
+        let values = [];
+        let rawValue = ''; // This will hold the entered text/selection
+
+        switch ($input.prop('tagName').toLowerCase()) {
+            case 'input':
+                if ($input.attr('type') === 'checkbox') {
+                    const checked = $input.prop('checked');
+                    values = [checked];
+                    rawValue = checked.toString();
+                } else {
+                    rawValue = $input.val();
+                    const parts = rawValue.split('|').map(part => part.trim());
+                    values = parts.map(part => {
+                        if (fieldName == "historicalYear" && !part)
+                            part = "" + (Math.random() * (2023 - 1928 + 1) + 1928);
+                        const num = parseFloat(part);
+                        return isNaN(num) ? part : num;
+                    });
+                    rawValues = values.join("|");
+                }
+                break;
+
+            case 'select':
+                rawValue = $input.find('option:selected').val();
+                const selectParts = rawValue.split('|').map(part => part.trim());
+                values = selectParts.map(part => {
+                    const num = parseFloat(part);
+                    return isNaN(num) ? part : num;
+                });
+                break;
+
+            case 'textarea':
+                rawValue = $input.val();
+                const textParts = rawValue.split('|').map(part => part.trim());
+                values = textParts.map(part => {
+                    if (fieldName == "historicalYear" && !part)
+                        part = "" + (Math.random() * (2023 - 1928 + 1) + 1928);
+                    const num = parseFloat(part);
+                    return isNaN(num) ? part : num;
+                });
+                rawValues = values.join("|");
+                break;
+
+            default:
+                break;
+        }
+
+        // Save the processed values for the cartesian product.
+        fieldValues[fieldName] = values.length > 0 ? values : [''];
+
+        // Save the raw value entered into the representation object.
+        formRepresentation[fieldName] = rawValue;
+    });
+
+    // Save the single object representation into local storage.
+    localStorage.setItem("lastScenario", JSON.stringify(formRepresentation));
+
+    // Return the cartesian product based on the field values.
+    return cartesianProduct(fieldValues);
+}
+
+function cartesianProduct(fieldValues) {
+    const keys = Object.keys(fieldValues);
+    const result = [];
+    // Identify fields that have more than one option.
+    const variableKeys = keys.filter(key => fieldValues[key].length > 1);
+
+    function combine(current, index) {
+        if (index === keys.length) {
+            // If there are variable fields, add a description field.
+            if (variableKeys.length > 0) {
+                const descriptionParts = [];
+                for (const key of variableKeys) {
+                    const labelText = key
+                        .replace(/([A-Z])/g, ' $1')
+                        .replace(/^./, str => str.toUpperCase());
+                    let val = current[key];
+                    if (typeof val === 'number')
+                        val = Math.round(val);
+
+                    descriptionParts.push(`${labelText}: ${val}`);
+                }
+                current.description = descriptionParts.join(', ');
+            }
+            result.push(current);
+            return;
+        }
+
+        const key = keys[index];
+        const values = fieldValues[key];
+
+        for (const value of values) {
+            combine({ ...current, [key]: value }, index + 1);
+        }
+    }
+
+    combine({}, 0);
+
+    return result;
+}
+
+// Wait for DOM to be ready
+$(document).ready(function() {
+  
+
+});
+
+</script>
+</body>
+</html>

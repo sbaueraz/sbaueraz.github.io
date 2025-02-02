@@ -1,0 +1,16 @@
+{
+  "initialSavings": 2100000,
+  "minimumBalance": 50000,
+  "historicalYear": 1929,
+  "stockAllocation": 0.7,
+  "otherIncome": 700,
+  "fullSocialSecurity": 5956,
+  "retirementAge": 70,
+  "bucketBondRatio": 0.5,
+  "currentAge": 59.75,
+  "months": 360,
+  "runs": 2000,
+  "guardrailHigh": 0.99,
+  "guardrailLow": 0.70,
+  "goalSuccess": 0.9
+}
