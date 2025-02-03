@@ -4,13 +4,13 @@
   "historicalYear": 1929,
   "stockAllocation": 0.7,
   "otherIncome": 0,
-  "fullSocialSecurity": 5956,
+  "fullSocialSecurity": 3200,
   "retirementAge": 70,
   "bucketBondRatio": 0.5,
-  "currentAge": 59.75,
+  "currentAge": 60,
   "months": 360,
   "runs": 2000,
   "guardrailHigh": 0.99,
   "guardrailLow": 0.70,
-  "goalSuccess": 0.9
+  "goalSuccess": 0.85
 }
