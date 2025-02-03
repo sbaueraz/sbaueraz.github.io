@@ -216,7 +216,7 @@ function createChart(config) {
                     ticks: {
                         stepSize: 12, // Show a tick every 12 months
                         callback: function(value, index, values) {
-                            return config.historicalYear + Math.round(value / 12); // Convert month number to year
+                            return Math.round(config.historicalYear + value / 12); // Convert month number to year
                         }
                     }
                 },
