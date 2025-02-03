@@ -20,6 +20,11 @@ self.onmessage = (e) => {
 
 function startSimulation(self, data) {
   const {config, sp500Historical, monthlyInflationHistorical, monthlyTreasuryBondHistorical} = data;
+  config.stockAllocation /= 100;
+  config.bucketBondRatio /= 100;
+  config.guardrailHigh /= 100;
+  config.guardrailLow /= 100;
+  config.goalSuccess /= 100;
  
   initializeHistoricalData(sp500Historical, monthlyInflationHistorical, monthlyTreasuryBondHistorical);
 
