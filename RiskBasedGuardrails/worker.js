@@ -25,17 +25,31 @@ function startSimulation(self, data) {
   config.guardrailHigh /= 100;
   config.guardrailLow /= 100;
   config.goalSuccess /= 100;
+
+  if (!config.maximumWithdrawal)
+    config.maximumWithdrawal = 1000000;
  
   initializeHistoricalData(sp500Historical, monthlyInflationHistorical, monthlyTreasuryBondHistorical);
 
-  config.retirementAgeInMonths = config.retirementAge * 12;
-  if (!config.currentAgeInMonths)
-    config.currentAgeInMonths = config.currentAge * 12;
-  config.socialSecurity = calculateSocialSecurity(config.fullSocialSecurity, config.retirementAgeInMonths)
+  if (config.spouse1FullSocialSecurity / 2 > config.spouse2FullSocialSecurity) {
+    config.spouse2FullSocialSecurity = config.spouse1FullSocialSecurity / 2;
+    if (config.spouse2RetirementAge > 67)
+      config.spouse2RetirementAge = 67;
+  } else if (config.spouse2FullSocialSecurity / 2 > config.spouse1FullSocialSecurity) {
+    config.spouse1FullSocialSecurity = config.spouse1FullSocialSecurity / 2;
+    if (config.spouse1RetirementAge > 67)
+      config.spouse1RetirementAge = 67;
+  }
+
+  config.spouse1RetirementAgeInMonths = config.spouse1RetirementAge * 12;
+  config.spouse2RetirementAgeInMonths = config.spouse2RetirementAge * 12;
+
+  config.spouse1SocialSecurity = calculateSocialSecurity(config.spouse1FullSocialSecurity, config.spouse1RetirementAgeInMonths)
+  config.spouse2SocialSecurity = calculateSocialSecurity(config.spouse2FullSocialSecurity, config.spouse2RetirementAgeInMonths)
 
   console.log(JSON.stringify(config, null, 2)); // Pretty print with 2 spaces  
 
-  console.log("Initial monthly withdrawal = ",findGoalWithdrawl(config));
+  findGoalWithdrawal(config);
 
   config.useGuardrails = true;
   monteCarloRetirement(self, config);
@@ -146,14 +160,19 @@ function simulateUsingHistorical(months, config) {
 }
 
 function monteCarloRetirement(self, config) {
-    let socialSecurity = config.socialSecurity;
+    let spouse1SocialSecurity = config.spouse1SocialSecurity;
+    let spouse2SocialSecurity = config.spouse2SocialSecurity;
     let monthlyWithdrawal = config.monthlyWithdrawal;
+    let maximumWithdrawal = config.maximumWithdrawal;
     let inflationAggregate = 0.0;
     let inflationMonths = 0;
     let month = config.startMonth - 1;
     if (month < 0)
         month = 0;
 
+    if (config.useGuardrails)
+      console.log("max Withdrawal2", maximumWithdrawal);
+  
     // Generate random returns for stocks and bonds
     let simulatedBond;
     let simulatedStock = [];
@@ -165,6 +184,7 @@ function monteCarloRetirement(self, config) {
     simulatedBond = result.bonds;
 
     const appliedInflation = new Array(config.months);
+    const appliedYearlyInflation = new Array(config.months);
 
     if (!config.stockBalance)
       config.stockBalance = config.initialSavings * config.stockAllocation;
@@ -190,7 +210,8 @@ function monteCarloRetirement(self, config) {
 
     for (; month <= config.months; month++) {
       // Add Social Security payments if past the age we pick
-      const socialSecurityIncome = (month + config.currentAgeInMonths) > config.retirementAgeInMonths ? socialSecurity : 0;
+      let socialSecurityIncome = (month + config.spouse1CurrentAge*12) > config.spouse1RetirementAgeInMonths ? spouse1SocialSecurity : 0;
+      socialSecurityIncome += (month + config.spouse2CurrentAge*12) > config.spouse2RetirementAgeInMonths ? spouse2SocialSecurity : 0;
 
       // Total income for the month
       const totalIncome = config.otherIncome + socialSecurityIncome;
@@ -202,8 +223,24 @@ function monteCarloRetirement(self, config) {
       stockBalance *= (1 + simulatedStock[month]);
       bondBalance *= (1 + simulatedBond[month]);
 
-      let bondWithdrawal = netWithdrawal * config.bucketBondRatio;
-      let stockWithdrawal = netWithdrawal * (1 - config.bucketBondRatio);
+      let ratio = config.bucketBondRatio;
+      // 0 = "Smart bucketing"
+      if (config.bucketBondRatio == 0) {
+        if (simulatedBond[month] < simulatedStock[month] && simulatedStock[month] > 0) {
+          ratio = .2
+        } else if (simulatedBond[month] > simulatedStock[month] && simulatedStock[month] > 0) {
+          ratio = .8;
+        } else if (simulatedStock[month] < 0) {
+          ratio = 1;
+        } else {
+          ratio = .5;
+        }
+        if (config.useGuardrails)
+          console.log(month, " bond vs stock = ratio", simulatedBond[month], simulatedStock[month], ratio);
+      }
+
+      let bondWithdrawal = netWithdrawal * ratio;
+      let stockWithdrawal = netWithdrawal * (1 - ratio);
 
       if (bondWithdrawal > bondBalance) {
         stockWithdrawal = bondWithdrawal - bondBalance;
@@ -226,7 +263,7 @@ function monteCarloRetirement(self, config) {
           ( config.useGuardrails && (stockBalance + bondBalance) <= 0)) {
         break;
       }
-  
+
       if (config.useGuardrails) {
         const clonedConfig = structuredClone(config);
         clonedConfig.startMonth = month+1;  
@@ -234,7 +271,9 @@ function monteCarloRetirement(self, config) {
         clonedConfig.bondBalance = bondBalance;
         clonedConfig.initialSavings = stockBalance + bondBalance;
         clonedConfig.monthlyWithdrawal = monthlyWithdrawal;
-        clonedConfig.socialSecurity = socialSecurity;
+        clonedConfig.maximumWithdrawal = maximumWithdrawal;
+        clonedConfig.spouse1SocialSecurity = spouse1SocialSecurity;
+        clonedConfig.spouse2SocialSecurity = spouse2SocialSecurity;
         clonedConfig.useGuardrails = false;
 
         if (self) {
@@ -243,7 +282,7 @@ function monteCarloRetirement(self, config) {
             let data = {
                 chartNbr,
                 step: month,
-                spend: undoInflation(clonedConfig.monthlyWithdrawal, month, appliedInflation),
+                spend: undoInflation(clonedConfig.monthlyWithdrawal, month, appliedYearlyInflation),
                 upperGuardrail: config.guardrailHigh * 100,
                 lowerGuardrail: config.guardrailLow * 100,
                 currentScore: simulationSuccess * 100,
@@ -254,20 +293,22 @@ function monteCarloRetirement(self, config) {
         }
 
         if (simulationSuccess <= config.guardrailLow || simulationSuccess >= config.guardrailHigh && month <= (config.months - 2)) {
-          monthlyWithdrawal = findGoalWithdrawl(clonedConfig);
+          monthlyWithdrawal = Math.min(findGoalWithdrawal(clonedConfig), maximumWithdrawal);
         }
       }
 
       inflationAggregate += simulatedInflation[month-1];
       inflationMonths ++;
-      appliedInflation[month-1] = 0;
+      appliedInflation[month-1] = Math.max(simulatedInflation[month-1],0);
       if (inflationMonths % 12 == 0) {
         if (inflationAggregate > 0) {
           monthlyWithdrawal *= (1+inflationAggregate);
-          socialSecurity *= (1+inflationAggregate);
-          appliedInflation[month-1] = inflationAggregate;
+          spouse1SocialSecurity *= (1+inflationAggregate);
+          spouse2SocialSecurity *= (1+inflationAggregate);
+          maximumWithdrawal *= (1+inflationAggregate);
+          appliedYearlyInflation[month-1] = inflationAggregate;
         }
-  
+
         inflationAggregate=0;
         inflationMonths=0;
       }
@@ -276,26 +317,26 @@ function monteCarloRetirement(self, config) {
     return stockBalance + bondBalance;
 }
     
-function findGoalWithdrawl(config) {
+function findGoalWithdrawal(config) {
     const runs = config.runs;
     if (!config.initialWithdrawal)
         config.initialWithdrawal = (config.initialSavings * .05) / 12;
 
     // Initial scan with lower iterations to get close to the actual goal
     config.runs = 500;
-    config.initialWithdrawal = findGoalWithdrawlInternal(config);
+    config.initialWithdrawal = findGoalWithdrawalInternal(config);
 
     // Increase iterations to desired number and try again
     config.runs = runs;
 
-    let val = findGoalWithdrawlInternal(config);
+    let val = findGoalWithdrawalInternal(config);
     val = Math.floor(val / 100) * 100;
     config.monthlyWidthdrawal = val;
 
     return val;
 }
   
-function findGoalWithdrawlInternal(config) {
+function findGoalWithdrawalInternal(config) {
     let currentWithdrawal = config.initialWithdrawal;
   
     config.monthlyWithdrawal = currentWithdrawal;
@@ -310,6 +351,8 @@ function findGoalWithdrawlInternal(config) {
       //console.log("   Retry", attempts, "at",simulationSuccess*100.0, "Trying a new withdrawal of", currentWithdrawal, "adjust =", adjust);
       simulationSuccess = runSimulation(config);
 
+      if (simulationSuccess >= .999 && currentWithdrawal > config.maximumWithdrawal)
+        return config.maximumWithdrawal;
       if (++attempts > 400) {
         //console.log("    Too many iterations looking for goal withdrawl, using $", currentWithdrawal," which gives ", simulationSuccess*100, "% success");
         break;

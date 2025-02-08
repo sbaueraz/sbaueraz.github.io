@@ -49,7 +49,7 @@
             height: 100%;
         }        
         label {
-            min-width: 150px;
+            min-width: 200px;
             text-align: right;
         }
         input[type="text"] {
@@ -107,8 +107,10 @@ async function loadData() {
 
     let config = defaultConfiguration;
     const configString = localStorage.getItem("lastScenario");
-    if (configString)
+    if (configString) {
         config = JSON.parse(configString);
+        syncConfig(config, defaultConfiguration);
+    }
 
     createSimpleForm(config, '#scenario_config');
 
@@ -116,6 +118,23 @@ async function loadData() {
 }
 
 loadData();
+
+function syncConfig(obj1, obj2) {
+    let newObj = {};
+
+    // Iterate over obj2 in order, adding elements to newObj
+    for (let key in obj2) {
+        if (key in obj1) {
+            newObj[key] = obj1[key]; // Keep existing value from obj1
+        } else {
+            newObj[key] = obj2[key]; // Add missing value from obj2
+        }
+    }
+
+    // Replace obj1's properties with newObj
+    Object.keys(obj1).forEach(key => delete obj1[key]); // Clear obj1
+    Object.assign(obj1, newObj); // Reassign in correct order
+}
 
 function createChart(config) {
     chartCount++;
@@ -223,7 +242,7 @@ function createChart(config) {
                 },
                 ySpent: {
                     position: "left",
-                    title: { display: true, text: "Dollars Spent" },
+                    title: { display: true, text: "Monthly Income" },
                     beginAtZero: true,
                     ticks: {
                         callback: function(value, index, values) {
@@ -273,8 +292,12 @@ function createSimpleForm(jsonData, targetSelector) {
         
         // Create label from key (convert camelCase to normal text)
         const labelText = key
-            .replace(/([A-Z])/g, ' $1')
-            .replace(/^./, str => str.toUpperCase());
+                .replace(/([A-Z])/g, ' $1')  // Add space before uppercase letters
+                .replace(/(\d+)/g, ' $1')     // Add space before numbers
+                .replace(/^./, str => str.toUpperCase())  // Capitalize first letter
+                .replace(/\s+/g, ' ')         // Ensure single spaces
+                .trim();                      // Remove leading/trailing spaces
+
         const $label = $('<label>').text(labelText).attr('for', key);
         
         // Determine input type based on value type
@@ -432,8 +455,11 @@ function cartesianProduct(fieldValues) {
                 const descriptionParts = [];
                 for (const key of variableKeys) {
                     const labelText = key
-                        .replace(/([A-Z])/g, ' $1')
-                        .replace(/^./, str => str.toUpperCase());
+                       .replace(/([A-Z])/g, ' $1')  // Add space before uppercase letters
+                       .replace(/(\d+)/g, ' $1')     // Add space before numbers
+                       .replace(/^./, str => str.toUpperCase())  // Capitalize first letter
+                       .replace(/\s+/g, ' ')         // Ensure single spaces
+                       .trim();                      // Remove leading/trailing spaces
                     let val = current[key];
                     if (typeof val === 'number')
                         val = Math.round(val);
