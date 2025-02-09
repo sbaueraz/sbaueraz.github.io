@@ -5,6 +5,7 @@
   "historicalYear": 1930,
   "stockAllocation": 70,
   "otherIncome": 0,
+  "otherIncomeIncreases": false,
   "spouse1CurrentAge": 59.75,
   "spouse2CurrentAge": 60.50,
   "spouse1RetirementAge": 67,

@@ -164,6 +164,7 @@ function monteCarloRetirement(self, config) {
     let spouse2SocialSecurity = config.spouse2SocialSecurity;
     let monthlyWithdrawal = config.monthlyWithdrawal;
     let maximumWithdrawal = config.maximumWithdrawal;
+    let otherIncome = config.otherIncome;
     let inflationAggregate = 0.0;
     let inflationMonths = 0;
     let month = config.startMonth - 1;
@@ -214,7 +215,7 @@ function monteCarloRetirement(self, config) {
       socialSecurityIncome += (month + config.spouse2CurrentAge*12) > config.spouse2RetirementAgeInMonths ? spouse2SocialSecurity : 0;
 
       // Total income for the month
-      const totalIncome = config.otherIncome + socialSecurityIncome;
+      const totalIncome = otherIncome + socialSecurityIncome;
 
       // Total withdrawal for the month
       const netWithdrawal = monthlyWithdrawal - totalIncome;
@@ -306,6 +307,8 @@ function monteCarloRetirement(self, config) {
           spouse1SocialSecurity *= (1+inflationAggregate);
           spouse2SocialSecurity *= (1+inflationAggregate);
           maximumWithdrawal *= (1+inflationAggregate);
+          if (config.otherIncomeIncreases)
+            otherIncome *= (1+inflationAggregate);
           appliedYearlyInflation[month-1] = inflationAggregate;
         }
 
