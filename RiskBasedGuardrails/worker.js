@@ -159,6 +159,22 @@ function simulateUsingHistorical(months, config) {
     return {sp500, inflation, bonds};
 }
 
+function runningAverage(arr, index, n) {
+  if (!Array.isArray(arr) || arr.length === 0) return 0;
+  if (index < 0 || index >= arr.length || n <= 0) return 0;
+
+  let start = Math.max(0, index - n + 1); // Ensure we don't go out of bounds
+  let sum = 0;
+  let count = 0;
+
+  for (let i = start; i <= index; i++) {
+      sum += arr[i];
+      count++;
+  }
+
+  return count > 0 ? sum / count : 0;
+}
+
 function monteCarloRetirement(self, config) {
     let spouse1SocialSecurity = config.spouse1SocialSecurity;
     let spouse2SocialSecurity = config.spouse2SocialSecurity;
@@ -227,28 +243,30 @@ function monteCarloRetirement(self, config) {
       let ratio = config.bucketBondRatio;
       // 0 = "Smart bucketing"
       if (config.bucketBondRatio == 0) {
-        if (simulatedBond[month] < simulatedStock[month] && simulatedStock[month] > 0) {
+        const bondAvg = runningAverage(simulatedBond, month, 12);
+        const stockAvg = runningAverage(simulatedStock, month, 12);
+        if (bondAvg < stockAvg && stockAvg > 0) {
           ratio = .2
-        } else if (simulatedBond[month] > simulatedStock[month] && simulatedStock[month] > 0) {
+        } else if (bondAvg > stockAvg && stockAvg > 0) {
           ratio = .8;
-        } else if (simulatedStock[month] < 0) {
+        } else if (stockAvg < 0) {
           ratio = 1;
         } else {
           ratio = .5;
         }
-        if (config.useGuardrails)
-          console.log(month, " bond vs stock = ratio", simulatedBond[month], simulatedStock[month], ratio);
+        //if (config.useGuardrails)
+        //  console.log(month, " bond vs stock = ratio", (simulatedBond[month]*100).toFixed(1), (simulatedStock[month]*100).toFixed(1), (ratio*100).toFixed(1));
       }
 
       let bondWithdrawal = netWithdrawal * ratio;
       let stockWithdrawal = netWithdrawal * (1 - ratio);
 
       if (bondWithdrawal > bondBalance) {
-        stockWithdrawal = bondWithdrawal - bondBalance;
         bondWithdrawal = bondBalance;
+        stockWithdrawal = netWithdrawal - bondWithdrawal;
       } else if (stockWithdrawal > stockBalance) {
-        bondWithdrawal = stockWithdrawal - stockBalance;
         stockWithdrawal = stockBalance;
+        bondWithdrawal = netWithdrawal - stockWithdrawal;
       }
   
       // Update savings after withdrawals
@@ -288,7 +306,11 @@ function monteCarloRetirement(self, config) {
                 lowerGuardrail: config.guardrailLow * 100,
                 currentScore: simulationSuccess * 100,
                 stockSavings: undoInflation(stockBalance, month, appliedInflation),
-                bondSavings: undoInflation(bondBalance, month, appliedInflation)
+                bondSavings: undoInflation(bondBalance, month, appliedInflation),
+//                stockWithdrawal: stockWithdrawal,
+//                bondWithdrawal: bondWithdrawal
+                stockWithdrawal: undoInflation(stockWithdrawal, month, appliedInflation), 
+                bondWithdrawal: undoInflation(bondWithdrawal, month, appliedInflation)
             };
             self.postMessage({command: "update", data: data});
         }

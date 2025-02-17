@@ -88,6 +88,8 @@ var lowerGuardrailDataset = [];
 var currentScoreDataset = [];
 var stockSavingsDataset = [];
 var bondSavingsDataset = [];
+var stockWithdrawalDataSet = [];
+var bondWithdrawalDataSet = [];
 
 async function loadData() {
     console.log("Start fetching...");
@@ -161,6 +163,7 @@ function createChart(config) {
                 {
                     label: "Upper Guardrail",
                     data: [],
+                    hidden: true,
                     borderColor: "green",
                     backgroundColor: "green",
                     pointRadius: 0,  // Hide dots
@@ -170,6 +173,7 @@ function createChart(config) {
                 {
                     label: "Lower Guardrail",
                     data: [],
+                    hidden: true,
                     borderColor: "red",
                     backgroundColor: "red",
                     pointRadius: 0,  // Hide dots
@@ -179,35 +183,54 @@ function createChart(config) {
                 {
                     label: "Current Score",
                     data: [],
-                    borderColor: "blue",
-                    backgroundColor: "blue",
+                    hidden: true,
+                    borderColor: "black",
+                    backgroundColor: "black",
                     pointRadius: 1,
                     yAxisID: "yScore"
                 },
                 {
                     label: "Stocks",
                     data: [],
-                    borderColor: "black",
-                    backgroundColor: "black",
+                    borderColor: "orange",
+                    backgroundColor: "orange",
                     pointRadius: 1,
                     yAxisID: "ySavings"
                 },
                 {
                     label: "Bonds",
                     data: [],
-                    borderColor: "grey",
-                    backgroundColor: "grey",
+                    borderColor: "pink",
+                    backgroundColor: "pink",
                     pointRadius: 1,
                     yAxisID: "ySavings"
                 },
                 {
                     label: "Monthly Spend",
                     data: [],
+                    borderColor: "gold",
+                    backgroundColor: "gold",
+                    pointRadius: 1,
+                    yAxisID: "ySpent"
+                },
+                {
+                    label: "Stock withdrawal",
+                    data: [],
+                    hidden: true,
+                    borderColor: "teal",
+                    backgroundColor: "teal",
+                    pointRadius: 1,
+                    yAxisID: "ySpent"
+                },
+                {
+                    label: "Bond withdrawal",
+                    data: [],
+                    hidden: true,
                     borderColor: "purple",
                     backgroundColor: "purple",
                     pointRadius: 1,
                     yAxisID: "ySpent"
-                }
+                }            
             ]
         },
         options: {
@@ -224,7 +247,18 @@ function createChart(config) {
                         top: 10,
                         bottom: 10
                     }
-                }
+                },
+                legend: {
+                    onClick: (e, legendItem, legend) => {
+                        const index = legendItem.datasetIndex;
+                        const chart = legend.chart;
+                        const meta = chart.getDatasetMeta(index);
+
+                        // Toggle visibility
+                        meta.hidden = meta.hidden === null ? true : !meta.hidden;
+                        chart.update();
+                    }
+                }        
             }, 
             scales: {
                 x: {
@@ -242,7 +276,7 @@ function createChart(config) {
                 },
                 ySpent: {
                     position: "left",
-                    title: { display: true, text: "Monthly Income" },
+                    title: { display: true, text: "Monthly" },
                     beginAtZero: true,
                     ticks: {
                         callback: function(value, index, values) {
@@ -277,6 +311,8 @@ function createChart(config) {
     currentScoreDataset.push(chart.data.datasets.find(ds => ds.label === "Current Score"));
     stockSavingsDataset.push(chart.data.datasets.find(ds => ds.label === "Stocks"));
     bondSavingsDataset.push(chart.data.datasets.find(ds => ds.label === "Bonds"));
+    stockWithdrawalDataSet.push(chart.data.datasets.find(ds => ds.label === "Stock withdrawal"));
+    bondWithdrawalDataSet.push(chart.data.datasets.find(ds => ds.label === "Bond withdrawal"));
 
     charts.push(chart);
 
@@ -348,13 +384,15 @@ function createSimpleForm(jsonData, targetSelector) {
                     const chart = charts[data.chartNbr];
                     chart.data.labels.push(data.step);
 
-                    spendDataset[data.chartNbr].data.push(Math.round(data.spend / 10) * 10);
-                    upperGuardrailDataset[data.chartNbr].data.push(data.upperGuardrail);
-                    lowerGuardrailDataset[data.chartNbr].data.push(data.lowerGuardrail);
-                    currentScoreDataset[data.chartNbr].data.push(Math.round(data.currentScore));
-                    stockSavingsDataset[data.chartNbr].data.push(Math.round(data.stockSavings / 100) * 100);
-                    bondSavingsDataset[data.chartNbr].data.push(Math.round(data.bondSavings / 100) * 100);
-            
+                    upperGuardrailDataset [data.chartNbr].data.push(data.upperGuardrail);
+                    lowerGuardrailDataset [data.chartNbr].data.push(data.lowerGuardrail);
+                    currentScoreDataset   [data.chartNbr].data.push(Math.round(data.currentScore));
+                    stockSavingsDataset   [data.chartNbr].data.push(Math.round(data.stockSavings    / 100) * 100);
+                    bondSavingsDataset    [data.chartNbr].data.push(Math.round(data.bondSavings     / 100) * 100);
+                    stockWithdrawalDataSet[data.chartNbr].data.push(Math.round(data.stockWithdrawal / 10 ) * 10 );
+                    bondWithdrawalDataSet [data.chartNbr].data.push(Math.round(data.bondWithdrawal  / 10 ) * 10 );
+                    spendDataset          [data.chartNbr].data.push(Math.round(data.spend           / 10 ) * 10 );
+
                     chart.update('none');
                 } else if (command == "done") {
                     worker.terminate(); // Clean up the worker
