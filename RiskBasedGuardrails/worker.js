@@ -73,10 +73,10 @@ function initializeHistoricalData(sp500Historical, monthlyInflationHistorical, m
 // Function to calculate Social Security income based on full retirement amount and current age in months
 function calculateSocialSecurity(fullRetirementAmount, currentAgeInMonths) {
     const fullRetirementAgeMonths = 67 * 12; // Full retirement age in months
-  
+
     // Calculate early retirement reduction or delayed credits
     const monthsDifference = currentAgeInMonths - fullRetirementAgeMonths;
-  
+
     let adjustmentFactor;
     if (monthsDifference < 0) {
         // Early retirement
@@ -87,51 +87,15 @@ function calculateSocialSecurity(fullRetirementAmount, currentAgeInMonths) {
         const delayedCreditPerMonth = 0.008; // 0.8% increase per month
         adjustmentFactor = 1 + monthsDifference * delayedCreditPerMonth;
     }
-  
+
     // Adjustment factor should not exceed 1.24 (max delayed credits) or go below 0.7 (max early reduction)
     adjustmentFactor = Math.max(0.7, Math.min(1.24, adjustmentFactor));
-  
+
     // Calculate monthly Social Security income
     const monthlyIncome = fullRetirementAmount * adjustmentFactor;
-  
-    return monthlyIncome.toFixed(2);
-}
 
-/**
- * Simulates monthly returns using an AR(1) model with annualized inputs.
- * @param {number} annualMeanReturn - Long-term annualized mean return (e.g., 0.06 for 6%).
- * @param {number} annualStdDev - Annualized standard deviation of returns (e.g., 0.15 for 15%).
- * @param {number} phi - Autoregression coefficient (e.g., 0.3 for moderate persistence).
- * @param {number} months - Number of months to simulate.
- * @returns {number[]} Array of simulated monthly returns.
- */
-function simulateAR1(annualMeanReturn, annualStdDev, phi, months) {
-    // Convert annualized values to monthly
-    const monthlyMeanReturn = annualMeanReturn / 12;
-    const monthlyStdDev = annualStdDev / Math.sqrt(12);
-  
-    // Initialize variables
-    const randomGenerator = () => randomNormal(0, monthlyStdDev);  // Normal distribution for noise
-    const returns = []; // Array to store simulated returns
-  
-    // Start with the first return equal to the monthly mean return
-    let previousReturn = monthlyMeanReturn;
-  
-    for (let i = 0; i < months; i++) {
-        // Generate the random noise term
-        const epsilon = randomGenerator();
-  
-        // Apply the AR(1) formula
-        const currentReturn = monthlyMeanReturn + phi * (previousReturn - monthlyMeanReturn) + epsilon;
-  
-        // Save the return
-        returns.push(currentReturn);
-  
-        // Update the previous return
-        previousReturn = currentReturn;
-    }
-  
-    return returns;
+    console.log("Retire amount", currentAgeInMonths/12, monthlyIncome.toFixed(2), adjustmentFactor);
+    return Number(monthlyIncome.toFixed(2));
 }
 
 //This function simulates the S&P 500 and inflation returns using historical data
@@ -234,13 +198,25 @@ function monteCarloRetirement(self, config) {
       const totalIncome = otherIncome + socialSecurityIncome;
 
       // Total withdrawal for the month
-      const netWithdrawal = monthlyWithdrawal - totalIncome;
+      let netWithdrawal = monthlyWithdrawal - totalIncome;
 
       // Calculate returns based on allocation
       stockBalance *= (1 + simulatedStock[month]);
       bondBalance *= (1 + simulatedBond[month]);
 
-      let ratio = config.bucketBondRatio;
+      if (netWithdrawal > stockBalance + bondBalance) {
+        netWithdrawal = stockBalance + bondBalance;
+      }
+      //if (config.useGuardrails)
+      //  console.log(month, "netWithdrawal", netWithdrawal, "totalIncome", totalIncome, "monthlyWithdrawal", monthlyWithdrawal, "socialSecurityIncome", socialSecurityIncome, "otherIncome", otherIncome);
+
+      if (config.stockBondRebalanceInterval && month % config.stockBondRebalanceInterval == 0) {
+        const balance = (stockBalance + bondBalance); 
+        stockBalance = balance * config.stockAllocation;
+        bondBalance = balance - stockBalance;
+      }
+
+      let ratio = config.bucketBondRatio * (1-config.stockAllocation);
       // 0 = "Smart bucketing"
       if (config.bucketBondRatio == 0) {
         const bondAvg = runningAverage(simulatedBond, month, 12);
@@ -252,7 +228,7 @@ function monteCarloRetirement(self, config) {
         } else if (stockAvg < 0) {
           ratio = 1;
         } else {
-          ratio = .5;
+          ratio = .5 * (1-config.stockAllocation);
         }
         //if (config.useGuardrails)
         //  console.log(month, " bond vs stock = ratio", (simulatedBond[month]*100).toFixed(1), (simulatedStock[month]*100).toFixed(1), (ratio*100).toFixed(1));
@@ -268,7 +244,10 @@ function monteCarloRetirement(self, config) {
         stockWithdrawal = stockBalance;
         bondWithdrawal = netWithdrawal - stockWithdrawal;
       }
-  
+
+      //if (config.useGuardrails)
+      //  console.log(month, "    ratio", ratio, "stock", stockBalance, "bond", bondBalance, "bondWithdrawal", bondWithdrawal, "stockWithdrawal", stockWithdrawal);
+
       // Update savings after withdrawals
       stockBalance -= stockWithdrawal;
       bondBalance -= bondWithdrawal;
@@ -276,7 +255,7 @@ function monteCarloRetirement(self, config) {
         stockBalance = 0;
       if (bondBalance < 0)
         bondBalance = 0;
-  
+
       // If savings are depleted, stop the simulation
       if ((!config.useGuardrails && (stockBalance + bondBalance) <= config.minimumBalance) || 
           ( config.useGuardrails && (stockBalance + bondBalance) <= 0)) {
