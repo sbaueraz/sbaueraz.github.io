@@ -320,7 +320,7 @@ function createChart(config) {
 }
 
 function createSimpleForm(jsonData, targetSelector) {
-    $("#scenario_config").css("display", "block");
+    $(targetSelector).css("display", "block");
     const $form = $('<form>');
     
     for (let [key, value] of Object.entries(jsonData)) {
@@ -360,13 +360,19 @@ function createSimpleForm(jsonData, targetSelector) {
     }
     
     $form.append($('<button>').attr('type', 'submit').text('Run Simulation'));
+    $form.append($('<button>').attr('type', 'submit').text('Calculate Initial Withdrawl Rate').css('margin-top', '10px').on('click', function(e) {
+        e.preventDefault();
+        const configs = getFormData(this.form);
+        calculateInitialWithdrawlRate(configs);
+    }));
+
     $(targetSelector).append($form);
 
     $('form').on('submit', function(e) {
         e.preventDefault();
-        $("#scenario_config").css("display", "none");
+        $(targetSelector).css("display", "none");
         const configs = getFormData(this);
-        console.log('Form data:', configs);
+        //console.log('Form data:', configs);
 
         for (let i = 0;i < configs.length;i ++) {
             const config = configs[i];
@@ -376,8 +382,6 @@ function createSimpleForm(jsonData, targetSelector) {
 
             // Listen for results from the worker
             worker.onmessage = (e) => {
-                const results = e.data; // Data sent by the worker
-                //console.log('Results received:', results);
                 const { command, data } = e.data;
             
                 if (command == "update" && chartCount > 0) {
@@ -397,10 +401,10 @@ function createSimpleForm(jsonData, targetSelector) {
                 } else if (command == "done") {
                     worker.terminate(); // Clean up the worker
                 }
-            };        
+            };
 
             worker.postMessage({
-                command:"start", 
+                command: "start", 
                 data:{
                     config : config,
                     chartNbr,
@@ -411,6 +415,44 @@ function createSimpleForm(jsonData, targetSelector) {
             });
         }
     });
+}
+
+function calculateInitialWithdrawlRate(configs) {
+    const resultDiv = $('<div>').css({
+        border: '1px solid black',
+        margin: '10px',
+        padding: '10px',
+        backgroundColor: '#f9f9f9'
+    });
+
+    for (let i = 0;i < configs.length;i ++) {
+        const config = configs[i];
+        const worker = new Worker('worker.js');
+        
+        // Listen for results from the worker
+        worker.onmessage = (e) => {
+            const { command, data } = e.data;
+        
+            if (command == "done") {
+                console.log("Initial Withdrawl Rate for ", config.description, " is $", data.results.monthlyWithdrawal, " per month");
+                // Clear the page and show the results, append to existing results
+                resultDiv.append($('<h3>').text(config.description));
+                resultDiv.append($('<p>').html(`Initial Withdrawl Rate: <strong>$${data.results.monthlyWithdrawal.toLocaleString()}</strong> per month`));
+                $("#scenario_config").html(resultDiv);
+                worker.terminate(); // Clean up the worker
+            }
+        };
+
+        worker.postMessage({
+            command:"calculateInitialWithdrawlRate", 
+            data:{
+                config : config,
+                sp500Historical,
+                monthlyInflationHistorical,
+                monthlyTreasuryBondHistorical
+            }
+        });
+    }
 }
 
 function getFormData(formSelector) {

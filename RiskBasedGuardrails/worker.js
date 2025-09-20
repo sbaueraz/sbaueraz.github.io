@@ -9,7 +9,17 @@ self.onmessage = (e) => {
     try {
         chartNbr = data.chartNbr;
         console.log("Calling run simulation");
-        const results = startSimulation(self, data);
+        const results = startSimulation(self, data, true);
+
+        self.postMessage({command:"done", data: {results}});
+    } catch (error) {
+        console.error("error:", error);
+    }
+  } else if (command == "calculateInitialWithdrawlRate") {
+    try {
+        chartNbr = data.chartNbr;
+        console.log("Calling run simulation");
+        const results = startSimulation(self, data, false);
 
         self.postMessage({command:"done", data: {results}});
     } catch (error) {
@@ -18,41 +28,41 @@ self.onmessage = (e) => {
   }
 };
 
-function startSimulation(self, data) {
+function startSimulation(self, data, runFullSimulation) {
   const {config, sp500Historical, monthlyInflationHistorical, monthlyTreasuryBondHistorical} = data;
-  config.stockAllocation /= 100;
-  config.bucketBondRatio /= 100;
+  config.stockAllocation = config.initialStockSavings / (config.initialStockSavings + config.initialBondSavings);
+  config.stockBondWithdrawalRatio /= 100;
   config.guardrailHigh /= 100;
   config.guardrailLow /= 100;
   config.goalSuccess /= 100;
+
+  // Calculate how many months based on current year - config.endYear
+  const currentDate = new Date();   
+  if (config.endYear && config.endYear > 0) {
+    config.months = (config.endYear - currentDate.getFullYear() + 2) * 12; // +2 to include current year and end year
+    config.months -= (12 - currentDate.getMonth()); // Adjust for current month
+  } else if (!config.months || config.months <= 0)
+    config.months = 30 * 12; // Default to 30 years if neither endYear nor months is set
 
   if (!config.maximumWithdrawal)
     config.maximumWithdrawal = 1000000;
  
   initializeHistoricalData(sp500Historical, monthlyInflationHistorical, monthlyTreasuryBondHistorical);
 
-  if (config.spouse1FullSocialSecurity / 2 > config.spouse2FullSocialSecurity) {
-    config.spouse2FullSocialSecurity = config.spouse1FullSocialSecurity / 2;
-    if (config.spouse2RetirementAge > 67)
-      config.spouse2RetirementAge = 67;
-  } else if (config.spouse2FullSocialSecurity / 2 > config.spouse1FullSocialSecurity) {
-    config.spouse1FullSocialSecurity = config.spouse1FullSocialSecurity / 2;
-    if (config.spouse1RetirementAge > 67)
-      config.spouse1RetirementAge = 67;
-  }
-
   config.spouse1RetirementAgeInMonths = config.spouse1RetirementAge * 12;
   config.spouse2RetirementAgeInMonths = config.spouse2RetirementAge * 12;
 
-  config.spouse1SocialSecurity = calculateSocialSecurity(config.spouse1FullSocialSecurity, config.spouse1RetirementAgeInMonths)
-  config.spouse2SocialSecurity = calculateSocialSecurity(config.spouse2FullSocialSecurity, config.spouse2RetirementAgeInMonths)
+  config.spouse1SocialSecurity = calculateBenefit(config.spouse1RetirementAgeInMonths, config.spouse2RetirementAgeInMonths, config.spouse1FullSocialSecurity, config.spouse2FullSocialSecurity);
+  config.spouse2SocialSecurity = calculateBenefit(config.spouse2RetirementAgeInMonths, config.spouse1RetirementAgeInMonths, config.spouse2FullSocialSecurity, config.spouse1FullSocialSecurity);
 
   console.log(JSON.stringify(config, null, 2)); // Pretty print with 2 spaces  
 
   findGoalWithdrawal(config);
 
-  config.useGuardrails = true;
-  monteCarloRetirement(self, config);
+  if (runFullSimulation) {
+    config.useGuardrails = true;
+    monteCarloRetirement(self, config);
+  }
 
   return config;
 }
@@ -61,8 +71,8 @@ function initializeHistoricalData(sp500Historical, monthlyInflationHistorical, m
 
   for (let i = 0;i < sp500Historical.length;i ++) {
     let change = 0;
-    if (i > 0 && sp500Historical[i-1].close1 > 0) {
-      change = (sp500Historical[i].close1 - sp500Historical[i-1].close1) / sp500Historical[i-1].close1;
+    if (i > 0 && sp500Historical[i-1].close > 0) {
+      change = (sp500Historical[i].close - sp500Historical[i-1].close) / sp500Historical[i-1].close;
     }
     returnsSP500.push(change);
     returnsInflation.push(monthlyInflationHistorical[i].interest/100);
@@ -70,32 +80,65 @@ function initializeHistoricalData(sp500Historical, monthlyInflationHistorical, m
   }
 }
 
-// Function to calculate Social Security income based on full retirement amount and current age in months
-function calculateSocialSecurity(fullRetirementAmount, currentAgeInMonths) {
-    const fullRetirementAgeMonths = 67 * 12; // Full retirement age in months
+function calculateBenefit(retireAgeMonths, spouseRetireAgeMonths, fraBenefit, spouseFraBenefit) {
+  const FRA_MONTHS = 67 * 12;   // 804
+  const EARLY_MIN = 62 * 12;    // 744
+  const DELAY_MAX = 70 * 12;    // 840
 
-    // Calculate early retirement reduction or delayed credits
-    const monthsDifference = currentAgeInMonths - fullRetirementAgeMonths;
+  if (retireAgeMonths === 0 || fraBenefit === 0) return 0;
 
-    let adjustmentFactor;
-    if (monthsDifference < 0) {
-        // Early retirement
-        const earlyReductionPerMonth = 0.005; // 0.5% reduction per month
-        adjustmentFactor = 1 + monthsDifference * earlyReductionPerMonth;
+  const ownPIA = fraBenefit; // Primary Insurance Amount (at FRA)
+
+  // --- Own Retirement Benefit ---
+  let ownBenefit = ownPIA;
+
+  if (retireAgeMonths < FRA_MONTHS) {
+    let monthsEarly = FRA_MONTHS - retireAgeMonths;
+    let reduction = 0;
+
+    if (monthsEarly <= 36) {
+      reduction = monthsEarly * (5 / 900); // 5/9 of 1% = 0.005555...
     } else {
-        // Delayed retirement
-        const delayedCreditPerMonth = 0.008; // 0.8% increase per month
-        adjustmentFactor = 1 + monthsDifference * delayedCreditPerMonth;
+      reduction = (36 * (5 / 900)) + ((monthsEarly - 36) * (5 / 1200));
+      // 5/12 of 1% = 0.004166...
     }
 
-    // Adjustment factor should not exceed 1.24 (max delayed credits) or go below 0.7 (max early reduction)
-    adjustmentFactor = Math.max(0.7, Math.min(1.24, adjustmentFactor));
+    ownBenefit = ownPIA * (1 - reduction);
+  } else if (retireAgeMonths > FRA_MONTHS) {
+    let monthsDelayed = Math.min(retireAgeMonths, DELAY_MAX) - FRA_MONTHS;
+    let increase = monthsDelayed * (2 / 300); // 2/3 of 1% = 0.006667 per month
+    ownBenefit = ownPIA * (1 + increase);
+  }
 
-    // Calculate monthly Social Security income
-    const monthlyIncome = fullRetirementAmount * adjustmentFactor;
+  // --- If no spouse, return own benefit only ---
+  if (spouseRetireAgeMonths === 0 || spouseFraBenefit === 0) {
+    return Math.round(ownBenefit);
+  }
 
-    console.log("Retire amount", currentAgeInMonths/12, monthlyIncome.toFixed(2), adjustmentFactor);
-    return Number(monthlyIncome.toFixed(2));
+  // --- Spousal Benefit ---
+  const maxSpousal = 0.5 * spouseFraBenefit;
+  const spousalExcess = Math.max(0, maxSpousal - ownPIA);
+
+  let finalSpousalExcess = spousalExcess;
+
+  if (retireAgeMonths < FRA_MONTHS) {
+    let monthsEarly = FRA_MONTHS - retireAgeMonths;
+    let reduction = 0;
+
+    if (monthsEarly <= 36) {
+      reduction = monthsEarly * (25 / 3600); // 25/36 of 1% = 0.006944 per month
+    } else {
+      reduction = (36 * (25 / 3600)) + ((monthsEarly - 36) * (5 / 1200));
+    }
+
+    finalSpousalExcess = spousalExcess * (1 - reduction);
+  }
+  // At/after FRA → no reduction, no delayed credits.
+
+  // --- Final Benefit ---
+  let finalBenefit = ownBenefit + finalSpousalExcess;
+
+  return Math.round(finalBenefit);
 }
 
 //This function simulates the S&P 500 and inflation returns using historical data
@@ -168,9 +211,9 @@ function monteCarloRetirement(self, config) {
     const appliedYearlyInflation = new Array(config.months);
 
     if (!config.stockBalance)
-      config.stockBalance = config.initialSavings * config.stockAllocation;
+      config.stockBalance = config.initialStockSavings;
     if (!config.bondBalance)
-      config.bondBalance = config.initialSavings * (1.0 - config.stockAllocation);
+      config.bondBalance = config.initialBondSavings;
 
     let stockBalance = config.stockBalance;
     let bondBalance = config.bondBalance;
@@ -216,18 +259,18 @@ function monteCarloRetirement(self, config) {
         bondBalance = balance - stockBalance;
       }
 
-      let ratio = config.bucketBondRatio * (1-config.stockAllocation);
+      let ratio = config.stockBondWithdrawalRatio;
       // 0 = "Smart bucketing"
-      if (config.bucketBondRatio == 0) {
+      if (ratio == 0) {
         const bondAvg = runningAverage(simulatedBond, month, 12);
         const stockAvg = runningAverage(simulatedStock, month, 12);
-        if (bondAvg < stockAvg && stockAvg > 0) {
-          ratio = .2
-        } else if (bondAvg > stockAvg && stockAvg > 0) {
-          ratio = .8;
-        } else if (stockAvg < 0) {
-          ratio = 1;
-        } else {
+        if (bondAvg < stockAvg && stockAvg > 0) { // stock is doing better than bonds
+          ratio = .2; // Pull 80% from stocks
+        } else if (bondAvg > stockAvg && stockAvg > 0) { // bonds are doing better than stocks
+          ratio = .8; // Pull 20% from stocks
+        } else if (stockAvg < 0) { // stocks are going down
+          ratio = 1; // Pull 100% from bonds
+        } else { // Pull from both equally based on their allocation
           ratio = .5 * (1-config.stockAllocation);
         }
         //if (config.useGuardrails)
@@ -267,7 +310,8 @@ function monteCarloRetirement(self, config) {
         clonedConfig.startMonth = month+1;  
         clonedConfig.stockBalance = stockBalance;
         clonedConfig.bondBalance = bondBalance;
-        clonedConfig.initialSavings = stockBalance + bondBalance;
+        clonedConfig.initialStockSavings = stockBalance;
+        clonedConfig.initialBondSavings = bondBalance;
         clonedConfig.monthlyWithdrawal = monthlyWithdrawal;
         clonedConfig.maximumWithdrawal = maximumWithdrawal;
         clonedConfig.spouse1SocialSecurity = spouse1SocialSecurity;
@@ -286,8 +330,6 @@ function monteCarloRetirement(self, config) {
                 currentScore: simulationSuccess * 100,
                 stockSavings: undoInflation(stockBalance, month, appliedInflation),
                 bondSavings: undoInflation(bondBalance, month, appliedInflation),
-//                stockWithdrawal: stockWithdrawal,
-//                bondWithdrawal: bondWithdrawal
                 stockWithdrawal: undoInflation(stockWithdrawal, month, appliedInflation), 
                 bondWithdrawal: undoInflation(bondWithdrawal, month, appliedInflation)
             };
@@ -324,7 +366,7 @@ function monteCarloRetirement(self, config) {
 function findGoalWithdrawal(config) {
     const runs = config.runs;
     if (!config.initialWithdrawal)
-        config.initialWithdrawal = (config.initialSavings * .05) / 12;
+        config.initialWithdrawal = ((config.initialStockSavings + config.initialBondSavings) * .05) / 12;
 
     // Initial scan with lower iterations to get close to the actual goal
     config.runs = 500;
@@ -335,7 +377,7 @@ function findGoalWithdrawal(config) {
 
     let val = findGoalWithdrawalInternal(config);
     val = Math.floor(val / 100) * 100;
-    config.monthlyWidthdrawal = val;
+    config.monthlyWithdrawal = val;
 
     return val;
 }
@@ -358,7 +400,7 @@ function findGoalWithdrawalInternal(config) {
       if (simulationSuccess >= .999 && currentWithdrawal > config.maximumWithdrawal)
         return config.maximumWithdrawal;
       if (++attempts > 400) {
-        //console.log("    Too many iterations looking for goal withdrawl, using $", currentWithdrawal," which gives ", simulationSuccess*100, "% success");
+        console.log("    Too many iterations looking for goal withdrawl, using $", currentWithdrawal," which gives ", simulationSuccess*100, "% success");
         break;
       }
 
@@ -371,7 +413,7 @@ function findGoalWithdrawalInternal(config) {
     }
 
     if (attempts >= 400) {
-        console.log("Stopped at",simulationSuccess*100.0, "withdrawal of ", currentWithdrawal, "attempts", attempts, adjust, "balances",config.initialSavings);
+        console.log("Stopped at",simulationSuccess*100.0, "withdrawal of ", currentWithdrawal, "attempts", attempts, adjust, "balances",config.initialStockSavings, config.initialBondSavings);
     }
     //console.log("Success at",simulationSuccess*100.0, "withdrawal of ", currentWithdrawal, "attempts", attempts, adjust);
 
