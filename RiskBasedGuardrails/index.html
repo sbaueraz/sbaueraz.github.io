@@ -360,10 +360,10 @@ function createSimpleForm(jsonData, targetSelector) {
     }
     
     $form.append($('<button>').attr('type', 'submit').text('Run Simulation'));
-    $form.append($('<button>').attr('type', 'submit').text('Calculate Initial Withdrawl Rate').css('margin-top', '10px').on('click', function(e) {
+    $form.append($('<button>').attr('type', 'submit').text('Calculate Initial Withdrawal Rate').css('margin-top', '10px').on('click', function(e) {
         e.preventDefault();
         const configs = getFormData(this.form);
-        calculateInitialWithdrawlRate(configs);
+        calculateInitialWithdrawalRate(configs);
     }));
 
     $(targetSelector).append($form);
@@ -417,7 +417,7 @@ function createSimpleForm(jsonData, targetSelector) {
     });
 }
 
-function calculateInitialWithdrawlRate(configs) {
+function calculateInitialWithdrawalRate(configs) {
     const resultDiv = $('<div>').css({
         border: '1px solid black',
         margin: '10px',
@@ -434,18 +434,18 @@ function calculateInitialWithdrawlRate(configs) {
             const { command, data } = e.data;
         
             if (command == "done") {
-                console.log("Initial Withdrawl Rate for ", config.description, " is $", data.results.monthlyWithdrawal, " per month");
+                console.log("Initial Withdrawal Rate for ", config.description, " is $", data.results.monthlyWithdrawal, " per month");
                 // Clear the page and show the results, append to existing results
                 resultDiv.append($('<h3>').text(config.description));
-                resultDiv.append($('<p>').html(`Initial Withdrawl Rate: <strong>$${data.results.monthlyWithdrawal.toLocaleString()}</strong> per month`));
+                resultDiv.append($('<p>').html(`Initial Withdrawal Rate: <strong>$${data.results.monthlyWithdrawal.toLocaleString()}</strong> per month`));
                 $("#scenario_config").html(resultDiv);
                 worker.terminate(); // Clean up the worker
             }
         };
 
         worker.postMessage({
-            command:"calculateInitialWithdrawlRate", 
-            data:{
+            command:"calculateInitialWithdrawalRate",
+            data: {
                 config : config,
                 sp500Historical,
                 monthlyInflationHistorical,

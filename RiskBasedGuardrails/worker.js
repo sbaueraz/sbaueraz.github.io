@@ -15,7 +15,7 @@ self.onmessage = (e) => {
     } catch (error) {
         console.error("error:", error);
     }
-  } else if (command == "calculateInitialWithdrawlRate") {
+  } else if (command == "calculateInitialWithdrawalRate") {
     try {
         chartNbr = data.chartNbr;
         console.log("Calling run simulation");
