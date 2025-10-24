@@ -260,18 +260,18 @@ function monteCarloRetirement(self, config) {
       }
 
       let ratio = config.stockBondWithdrawalRatio;
-      // 0 = "Smart bucketing"
-      if (ratio == 0) {
+      // No setting = "Smart bucketing"
+      if (!ratio) {
         const bondAvg = runningAverage(simulatedBond, month, 12);
         const stockAvg = runningAverage(simulatedStock, month, 12);
         if (bondAvg < stockAvg && stockAvg > 0) { // stock is doing better than bonds
           ratio = .2; // Pull 80% from stocks
         } else if (bondAvg > stockAvg && stockAvg > 0) { // bonds are doing better than stocks
-          ratio = .8; // Pull 20% from stocks
+          ratio = .8; // Pull 80% from bonds
         } else if (stockAvg < 0) { // stocks are going down
           ratio = 1; // Pull 100% from bonds
         } else { // Pull from both equally based on their allocation
-          ratio = .5 * (1-config.stockAllocation);
+          ratio = 1-config.stockAllocation;
         }
         //if (config.useGuardrails)
         //  console.log(month, " bond vs stock = ratio", (simulatedBond[month]*100).toFixed(1), (simulatedStock[month]*100).toFixed(1), (ratio*100).toFixed(1));
