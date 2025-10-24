@@ -477,7 +477,7 @@ function getFormData(formSelector) {
                     const parts = rawValue.split('|').map(part => part.trim());
                     values = parts.map(part => {
                         if (fieldName == "historicalYear" && !part)
-                            part = "" + (Math.random() * (2023 - 1928 + 1) + 1928);
+                            part = "" + (Math.random() * (2024 - 1928 + 1) + 1928);
                         const num = parseFloat(part);
                         return isNaN(num) ? part : num;
                     });
@@ -499,7 +499,7 @@ function getFormData(formSelector) {
                 const textParts = rawValue.split('|').map(part => part.trim());
                 values = textParts.map(part => {
                     if (fieldName == "historicalYear" && !part)
-                        part = "" + (Math.random() * (2023 - 1928 + 1) + 1928);
+                        part = "" + (Math.random() * (2024 - 1928 + 1) + 1928);
                     const num = parseFloat(part);
                     return isNaN(num) ? part : num;
                 });
@@ -545,7 +545,10 @@ function cartesianProduct(fieldValues) {
                     let val = current[key];
                     if (typeof val === 'number')
                         val = Math.round(val);
-
+                    if (val === "") 
+                        val = "None";
+                    else if (val === "0")
+                        val = "None";
                     descriptionParts.push(`${labelText}: ${val}`);
                 }
                 current.description = descriptionParts.join(', ');
