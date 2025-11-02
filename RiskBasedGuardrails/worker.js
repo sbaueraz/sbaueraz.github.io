@@ -336,7 +336,7 @@ function monteCarloRetirement(self, config) {
             self.postMessage({command: "update", data: data});
         }
 
-        if (simulationSuccess <= config.guardrailLow || simulationSuccess >= config.guardrailHigh && month <= (config.months - 2)) {
+        if (simulationSuccess <= config.guardrailLow || (simulationSuccess >= config.guardrailHigh && month <= (config.months - 2))) {
           monthlyWithdrawal = Math.min(findGoalWithdrawal(clonedConfig), maximumWithdrawal);
         }
       }
