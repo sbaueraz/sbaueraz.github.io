@@ -64,6 +64,10 @@ function startSimulation(self, data, runFullSimulation) {
     monteCarloRetirement(self, config);
   }
 
+  // Store initial (first year) social security amounts before inflation adjustments
+  config.initialSpouse1SocialSecurity = config.spouse1SocialSecurity;
+  config.initialSpouse2SocialSecurity = config.spouse2SocialSecurity;
+
   return config;
 }
 

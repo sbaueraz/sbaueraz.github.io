@@ -418,42 +418,85 @@ function createSimpleForm(jsonData, targetSelector) {
 }
 
 function calculateInitialWithdrawalRate(configs) {
-    const resultDiv = $('<div>').css({
-        border: '1px solid black',
-        margin: '10px',
-        padding: '10px',
-        backgroundColor: '#f9f9f9'
-    });
+     const resultDiv = $('<div>').css({
+         border: '1px solid black',
+         margin: '10px',
+         padding: '10px',
+         backgroundColor: '#f9f9f9'
+     });
 
-    for (let i = 0;i < configs.length;i ++) {
-        const config = configs[i];
-        const worker = new Worker('worker.js');
-        
-        // Listen for results from the worker
-        worker.onmessage = (e) => {
-            const { command, data } = e.data;
-        
-            if (command == "done") {
-                console.log("Initial Withdrawal Rate for ", config.description, " is $", data.results.monthlyWithdrawal, " per month");
-                // Clear the page and show the results, append to existing results
-                resultDiv.append($('<h3>').text(config.description));
-                resultDiv.append($('<p>').html(`Initial Withdrawal Rate: <strong>$${data.results.monthlyWithdrawal.toLocaleString()}</strong> per month`));
-                $("#scenario_config").html(resultDiv);
-                worker.terminate(); // Clean up the worker
-            }
-        };
+     for (let i = 0;i < configs.length;i ++) {
+         const config = configs[i];
+         const worker = new Worker('worker.js');
+         
+         // Listen for results from the worker
+         worker.onmessage = (e) => {
+             const { command, data } = e.data;
+         
+             if (command == "done") {
+                 const monthlyWithdrawal = data.results.monthlyWithdrawal;
+                 const spouse1SS = data.results.initialSpouse1SocialSecurity || 0;
+                 const spouse2SS = data.results.initialSpouse2SocialSecurity || 0;
+                 const totalSS = spouse1SS + spouse2SS;
+                 const otherIncome = data.results.otherIncome || 0;
+                 const totalPassiveIncome = totalSS + otherIncome;
+                 const neededFromInvestments = Math.max(0, monthlyWithdrawal - totalPassiveIncome);
+                 
+                 console.log("Initial Spending Rate for ", config.description, " is $", monthlyWithdrawal, " per month");
+                 // Clear the page and show the results, append to existing results
+                 resultDiv.append($('<h3>').text(config.description));
+                 resultDiv.append($('<p>').html(`<strong>Total Monthly Spend: $${monthlyWithdrawal.toLocaleString()}</strong>`));
+                 
+                 // Create breakdown table
+                 const table = $('<table>').css({
+                     borderCollapse: 'collapse',
+                     marginTop: '10px',
+                     width: '100%'
+                 });
+                 
+                 const addRow = (label, amount, isTotal = false) => {
+                     const row = $('<tr>').css({
+                         borderBottom: isTotal ? '2px solid black' : '1px solid #ddd'
+                     });
+                     row.append($('<td>').text(label).css({
+                         padding: '8px',
+                         fontWeight: isTotal ? 'bold' : 'normal',
+                         width: '70%'
+                     }));
+                     row.append($('<td>').text(`$${amount.toLocaleString()}`).css({
+                         padding: '8px',
+                         textAlign: 'right',
+                         fontWeight: isTotal ? 'bold' : 'normal'
+                     }));
+                     table.append(row);
+                 };
+                 
+                 if (totalSS > 0) {
+                     addRow('Social Security', totalSS);
+                 }
+                 if (otherIncome > 0) {
+                     addRow('Other Income', otherIncome);
+                 }
+                 addRow('Withdrawals from Stocks & Bonds', neededFromInvestments);
+                 addRow('Total', monthlyWithdrawal, true);
+                 
+                 resultDiv.append(table);
+                 $("#scenario_config").html(resultDiv);
+                 worker.terminate(); // Clean up the worker
+             }
+         };
 
-        worker.postMessage({
-            command:"calculateInitialWithdrawalRate",
-            data: {
-                config : config,
-                sp500Historical,
-                monthlyInflationHistorical,
-                monthlyTreasuryBondHistorical
-            }
-        });
-    }
-}
+         worker.postMessage({
+             command:"calculateInitialWithdrawalRate",
+             data: {
+                 config : config,
+                 sp500Historical,
+                 monthlyInflationHistorical,
+                 monthlyTreasuryBondHistorical
+             }
+         });
+     }
+ }
 
 function getFormData(formSelector) {
     const fieldValues = {};
