@@ -155,7 +155,7 @@ function createChart(config) {
     // Create a Chart.js chart
     const ctx = canvas[0].getContext("2d");
 
-    chart = new Chart(ctx, {
+    const chart = new Chart(ctx, {
         type: "line",
         data: {
             labels: [],

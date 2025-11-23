@@ -67,6 +67,10 @@ function startSimulation(self, data, runFullSimulation) {
   // Store initial (first year) social security amounts before inflation adjustments
   config.initialSpouse1SocialSecurity = config.spouse1SocialSecurity;
   config.initialSpouse2SocialSecurity = config.spouse2SocialSecurity;
+  if (config.spouse1CurrentAge < config.spouse1RetirementAge)
+    config.initialSpouse1SocialSecurity = 0;
+  if (config.spouse2CurrentAge < config.spouse2RetirementAge)
+    config.initialSpouse2SocialSecurity = 0;
 
   return config;
 }
