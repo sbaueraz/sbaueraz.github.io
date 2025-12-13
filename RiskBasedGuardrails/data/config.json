@@ -1,6 +1,10 @@
 {
-  "initialStockSavings": 700000,
-  "initialBondSavings": 300000,
+  "initialStockSavings": [
+    {"accountName": "Brokerage", "balance": 700000}
+  ],
+  "initialBondSavings": [
+    {"accountName": "Bonds", "balance": 300000}
+  ],
   "minimumBalance": 20000,
   "maximumWithdrawal": 20000,
   "historicalYear": 1930,

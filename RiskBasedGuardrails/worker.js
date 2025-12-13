@@ -30,7 +30,21 @@ self.onmessage = (e) => {
 
 function startSimulation(self, data, runFullSimulation) {
   const {config, sp500Historical, monthlyInflationHistorical, monthlyTreasuryBondHistorical} = data;
-  config.stockAllocation = config.initialStockSavings / (config.initialStockSavings + config.initialBondSavings);
+  
+  // Convert array format to single balance value
+  let initialStockSavings = config.initialStockSavings;
+  let initialBondSavings = config.initialBondSavings;
+  
+  if (Array.isArray(initialStockSavings)) {
+    initialStockSavings = initialStockSavings.reduce((sum, account) => sum + (account.balance || 0), 0);
+  }
+  if (Array.isArray(initialBondSavings)) {
+    initialBondSavings = initialBondSavings.reduce((sum, account) => sum + (account.balance || 0), 0);
+  }
+  
+  config.stockAllocation = initialStockSavings / (initialStockSavings + initialBondSavings);
+  config.initialStockSavings = initialStockSavings;
+  config.initialBondSavings = initialBondSavings;
   config.stockBondWithdrawalRatio /= 100;
   config.guardrailHigh /= 100;
   config.guardrailLow /= 100;

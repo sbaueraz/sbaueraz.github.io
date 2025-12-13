@@ -12,6 +12,14 @@
             margin: 0;
             padding: 0;
             height: 100%;
+            overflow: hidden;
+        }
+        #charts-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
         }
         #chart-container {
             display: flex;
@@ -39,9 +47,6 @@
         form {
             display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
-            height: 100%;
-            overflow-y: auto;
             gap: 10px;
         }        
         canvas {
@@ -66,6 +71,71 @@
             color: white;
             border: none;
             cursor: pointer;
+        }
+        .array-group {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #f5f5f5;
+        }
+        .array-group-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-left: 200px;
+        }
+        .array-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-left: 200px;
+            margin-bottom: 10px;
+        }
+        .array-grid-header {
+            display: flex;
+            gap: 10px;
+            margin-left: 200px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .array-grid-header > div:first-child {
+            flex: 1;
+            min-width: 0;
+        }
+        .array-grid-header > div:nth-child(2) {
+            width: 150px;
+        }
+        .array-grid-header > div:nth-child(3) {
+            width: auto;
+        }
+        .array-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .array-row .array-name-input {
+            padding: 5px;
+            flex: 1;
+            min-width: 0;
+            box-sizing: border-box;
+        }
+        .array-row .array-balance-input {
+            padding: 5px;
+            width: 150px;
+            box-sizing: border-box;
+            text-align: right;
+        }
+        .array-row button {
+            width: auto;
+            padding: 5px 10px;
+            background: #d9534f;
+            font-size: 12px;
+        }
+        .add-row-btn {
+            margin-left: 200px;
+            background: #5cb85c;
+            padding: 5px 10px;
+            font-size: 12px;
         }
     </style>
 </head>
@@ -114,6 +184,7 @@ async function loadData() {
         syncConfig(config, defaultConfiguration);
     }
 
+    console.log("Config before form creation:", config);
     createSimpleForm(config, '#scenario_config');
 
     console.log("All files fetched:", jsonData);
@@ -127,7 +198,41 @@ function syncConfig(obj1, obj2) {
     // Iterate over obj2 in order, adding elements to newObj
     for (let key in obj2) {
         if (key in obj1) {
-            newObj[key] = obj1[key]; // Keep existing value from obj1
+            let value = obj1[key];
+            // If the default is an array and stored value is a string, try to parse it or convert it
+            if (Array.isArray(obj2[key]) && typeof value === 'string') {
+                // First try to parse as JSON (new format with array of objects)
+                try {
+                    const parsed = JSON.parse(value);
+                    if (Array.isArray(parsed)) {
+                        value = parsed;
+                    } else {
+                        // If parsed as single number, convert to array
+                        const numValue = parseFloat(value);
+                        if (!isNaN(numValue)) {
+                            const accountName = key === 'initialStockSavings' ? 'Stocks' : 'Bonds';
+                            value = [{ accountName: accountName, balance: numValue }];
+                        } else {
+                            value = obj2[key];
+                        }
+                    }
+                } catch (e) {
+                    // If not valid JSON, treat as number string (old format)
+                    const numValue = parseFloat(value);
+                    if (!isNaN(numValue)) {
+                        const accountName = key === 'initialStockSavings' ? 'Stocks' : 'Bonds';
+                        value = [{ accountName: accountName, balance: numValue }];
+                    } else {
+                        value = obj2[key];
+                    }
+                }
+            }
+            // If the default is an array but the stored value is a number, convert it
+            else if (Array.isArray(obj2[key]) && typeof value === 'number') {
+                const accountName = key === 'initialStockSavings' ? 'Stocks' : 'Bonds';
+                value = [{ accountName: accountName, balance: value }];
+            }
+            newObj[key] = value; // Keep existing value from obj1
         } else {
             newObj[key] = obj2[key]; // Add missing value from obj2
         }
@@ -324,9 +429,6 @@ function createSimpleForm(jsonData, targetSelector) {
     const $form = $('<form>');
     
     for (let [key, value] of Object.entries(jsonData)) {
-        const $formGroup = $('<div>').addClass('form-group');
-        
-        // Create label from key (convert camelCase to normal text)
         const labelText = key
                 .replace(/([A-Z])/g, ' $1')  // Add space before uppercase letters
                 .replace(/(\d+)/g, ' $1')     // Add space before numbers
@@ -334,29 +436,123 @@ function createSimpleForm(jsonData, targetSelector) {
                 .replace(/\s+/g, ' ')         // Ensure single spaces
                 .trim();                      // Remove leading/trailing spaces
 
-        const $label = $('<label>').text(labelText).attr('for', key);
-        
-        // Determine input type based on value type
-        let $input;
-        if (typeof value === 'boolean' || value === 'true' || value === 'false') {
-            if (typeof value === 'string')
-                value = (value === 'true');
-            $input = $('<input>').attr({
-                type: 'checkbox',
-                id: key,
-                name: key
-            }).prop('checked', value);
-        } else {
-            $input = $('<input>').attr({
-                type: 'text',
-                id: key,
-                name: key,
-                value: value
+        // Handle arrays (like initialStockSavings and initialBondSavings)
+        if (Array.isArray(value)) {
+            const $arrayGroup = $('<div>').addClass('array-group');
+            const $title = $('<div>').addClass('array-group-title').text(labelText);
+            $arrayGroup.append($title);
+            
+            const $header = $('<div>').addClass('array-grid-header');
+            $header.append($('<div>').text('Account Name'));
+            $header.append($('<div>').text('Balance'));
+            $header.append($('<div>'));
+            $arrayGroup.append($header);
+            
+            const $grid = $('<div>').addClass('array-grid').attr('data-array-key', key);
+            
+            value.forEach((item, index) => {
+                const $row = $('<div>').addClass('array-row');
+                
+                const $nameInput = $('<input>').attr({
+                    type: 'text',
+                    class: 'array-name-input',
+                    value: item.accountName || '',
+                    placeholder: 'Account Name',
+                    'data-array-key': key,
+                    'data-array-index': index,
+                    'data-array-field': 'accountName'
+                });
+                
+                const $balanceInput = $('<input>').attr({
+                    type: 'text',
+                    class: 'array-balance-input',
+                    value: item.balance || '',
+                    placeholder: 'Balance',
+                    'data-array-key': key,
+                    'data-array-index': index,
+                    'data-array-field': 'balance'
+                });
+                
+                const $deleteBtn = $('<button>').attr({
+                    type: 'button',
+                    class: 'delete-row-btn'
+                }).text('Delete').on('click', function(e) {
+                    e.preventDefault();
+                    $row.remove();
+                });
+                
+                $row.append($nameInput, $balanceInput, $deleteBtn);
+                $grid.append($row);
             });
-        }
+            
+            $arrayGroup.append($grid);
+            
+            const $addBtn = $('<button>').attr({
+                type: 'button',
+                class: 'add-row-btn',
+                'data-array-key': key
+            }).text(`Add ${labelText}`).on('click', function(e) {
+                e.preventDefault();
+                const $newRow = $('<div>').addClass('array-row');
+                
+                const $nameInput = $('<input>').attr({
+                    type: 'text',
+                    class: 'array-name-input',
+                    placeholder: 'Account Name',
+                    'data-array-key': key,
+                    'data-array-index': 'new',
+                    'data-array-field': 'accountName'
+                });
+                
+                const $balanceInput = $('<input>').attr({
+                    type: 'text',
+                    class: 'array-balance-input',
+                    placeholder: 'Balance',
+                    'data-array-key': key,
+                    'data-array-index': 'new',
+                    'data-array-field': 'balance'
+                });
+                
+                const $deleteBtn = $('<button>').attr({
+                    type: 'button',
+                    class: 'delete-row-btn'
+                }).text('Delete').on('click', function(e) {
+                    e.preventDefault();
+                    $newRow.remove();
+                });
+                
+                $newRow.append($nameInput, $balanceInput, $deleteBtn);
+                $grid.append($newRow);
+            });
+            
+            $arrayGroup.append($addBtn);
+            $form.append($arrayGroup);
+        } else {
+            // Handle non-array fields
+            const $formGroup = $('<div>').addClass('form-group');
+            const $label = $('<label>').text(labelText).attr('for', key);
+            
+            let $input;
+            if (typeof value === 'boolean' || value === 'true' || value === 'false') {
+                if (typeof value === 'string')
+                    value = (value === 'true');
+                $input = $('<input>').attr({
+                    type: 'checkbox',
+                    id: key,
+                    name: key
+                }).prop('checked', value);
+            } else {
+                $input = $('<input>').attr({
+                    type: 'text',
+                    id: key,
+                    name: key,
+                    value: value
+                });
+            }
 
-        $formGroup.append($label, $input);
-        $form.append($formGroup);
+            $formGroup.append($label, $input);
+            $form.append($formGroup);
+        }
     }
     
     $form.append($('<button>').attr('type', 'submit').text('Run Simulation'));
@@ -502,6 +698,30 @@ function getFormData(formSelector) {
     const fieldValues = {};
     const formRepresentation = {}; // Will hold the raw text entered per field
 
+    // Handle array fields
+    $(formSelector).find('.array-group').each(function() {
+        const $grid = $(this).find('.array-grid');
+        const arrayKey = $grid.attr('data-array-key');
+        const arrayData = [];
+        
+        $(this).find('.array-row').each(function() {
+            const $nameInput = $(this).find('.array-name-input');
+            const $balanceInput = $(this).find('.array-balance-input');
+            
+            if ($nameInput.val() || $balanceInput.val()) {
+                const balance = parseFloat($balanceInput.val());
+                arrayData.push({
+                    accountName: $nameInput.val(),
+                    balance: isNaN(balance) ? 0 : balance
+                });
+            }
+        });
+        
+        fieldValues[arrayKey] = [arrayData];
+        formRepresentation[arrayKey] = JSON.stringify(arrayData);
+    });
+
+    // Handle regular form fields
     $(formSelector).find('.form-group').each(function() {
         const $input = $(this).find('input, select, textarea');
         const fieldName = $input.attr('name');
